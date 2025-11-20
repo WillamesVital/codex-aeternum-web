@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
-import { ScrollText, Shield, Sword, Search } from "lucide-react";
+import { ScrollText, Shield, Sword, Search, Book } from "lucide-react";
 import { useState } from "react";
 import { SearchModal } from "@/components/SearchModal";
 
@@ -27,6 +27,13 @@ export function Navbar() {
                         >
                             <ScrollText className="h-4 w-4" />
                             <span>Codex</span>
+                        </Link>
+                        <Link
+                            href="/grimoire"
+                            className="flex items-center space-x-1 text-sm font-medium text-muted-foreground hover:text-gold-500 transition-colors"
+                        >
+                            <Book className="h-4 w-4" />
+                            <span>Grimoire</span>
                         </Link>
                         <Link
                             href="/characters"

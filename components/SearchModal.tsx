@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { Search, X, Loader2, BookOpen } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import { cn } from "@/lib/utils";
 
 interface SearchResult {
     id: string;
@@ -133,7 +132,7 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                                         </div>
                                     ) : query.length >= 2 && !isLoading ? (
                                         <div className="p-8 text-center text-muted-foreground">
-                                            Nenhum resultado encontrado para "{query}".
+                                            Nenhum resultado encontrado para &quot;{query}&quot;.
                                         </div>
                                     ) : (
                                         <div className="p-8 text-center text-muted-foreground/50 text-sm">

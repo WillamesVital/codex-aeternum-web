@@ -7,6 +7,7 @@ import codexContent from "@/lib/codex-content.json";
 import { extractHeadings, injectHeadingIds, uniqueHeadings } from "@/lib/extract-headings";
 import { TableOfContents } from "@/components/TableOfContents";
 import { ScrollToTop } from "@/components/ScrollToTop";
+import { formatBlockquotes } from "@/lib/format-blockquotes";
 
 interface PageProps {
     params: Promise<{ slug: string }>;
@@ -25,33 +26,11 @@ export default async function ChapterPage({ params }: PageProps) {
     // Extrair headings e garantir IDs únicos
     const rawHeadings = contentHtml ? extractHeadings(contentHtml) : [];
     const headings = uniqueHeadings(rawHeadings);
-    let content = contentHtml ? injectHeadingIds(contentHtml, rawHeadings) : null;
+    let content = contentHtml ? injectHeadingIds(contentHtml, headings) : null;
 
     // Converter citações (parágrafo + lista) em blockquotes para estilização
     if (content) {
-        // Padrão 1: <p>...</p> seguido de <ul><li><em>Fonte</em></li></ul>
-        content = content.replace(
-            /<p>((?:[^<]|<br\s*\/?>|<\/?strong>|<\/?em>)*?)<\/p>\s*<ul>\s*<li>\s*<em>([^<]+)<\/em>\s*<\/li>\s*<\/ul>/gi,
-            '<blockquote><p>$1</p><ul><li><em>$2</em></li></ul></blockquote>'
-        );
-
-        // Padrão 2: <p>_"Citação"<br>_- <em>Fonte</em></p> (tudo em um único parágrafo)
-        content = content.replace(
-            /<p>(_)?(&quot;|")((?:[^<]|<br\s*\/?>)*?)(&quot;|")<br\s*\/?>\s*_?-\s*<em>([^<]+)<\/em><\/p>/gi,
-            (match, underscore, openQuote, quote, closeQuote, source) => {
-                return `<blockquote><p>${openQuote}${quote}${closeQuote}</p><ul><li><em>${source}</em></li></ul></blockquote>`;
-            }
-        );
-
-        // Padrão 3: <p>_"Citação com <br>"</p> seguido de <ul><li>_Fonte_</li></ul> (sem tags <em>)
-        content = content.replace(
-            /<p>_?(&quot;|")((?:[^<]|<br\s*\/?>)*?)(&quot;|")\s*<\/p>\s*<ul>\s*<li>\s*_([^<]+?)(?:<br\s*\/?>)?_?\s*<\/li>\s*<\/ul>/gi,
-            (match, openQuote, quote, closeQuote, source) => {
-                // Remove espaços extras e quebras de linha da fonte
-                const cleanSource = source.trim();
-                return `<blockquote><p>${openQuote}${quote}${closeQuote}</p><ul><li><em>${cleanSource}</em></li></ul></blockquote>`;
-            }
-        );
+        content = formatBlockquotes(content);
     }
 
     return (

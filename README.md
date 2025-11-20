@@ -298,13 +298,4 @@ Desenvolvido por **Willames Vital** - [GitHub](https://github.com/WillamesVital)
 
 ---
 
-## 🙏 Agradecimentos
-
-- **Next.js Team** - Framework excepcional
-- **Vercel** - Hosting e deploy seamless
-- **Tailwind CSS** - Sistema de design produtivo
-- **Framer Motion** - Animações de qualidade
-
----
-
 **✨ Que sua jornada em Aeternum seja épica! ✨**
