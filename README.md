@@ -66,9 +66,10 @@ codex-aeternum-web/
 │   ├── TableOfContents.tsx      # Índice lateral
 │   └── ScrollToTop.tsx          # Botão de voltar ao topo
 │
-├── lib/                         # Utilities e dados
-│   ├── codex-content.json       # Conteúdo HTML dos capítulos (20MB)
-│   ├── codex-data.ts            # Metadados dos capítulos
+├── lib/                         # Utilities e loaders de conteúdo
+│   ├── codex-loader.ts          # Loader dos capítulos do Codex (Markdown)
+│   ├── grimoire-loader.ts       # Loader dos capítulos do Grimoire
+│   ├── format-blockquotes.ts    # Normalização de citações entre Codex/Grimoire
 │   ├── extract-headings.ts      # Parser de headings para ToC
 │   └── utils.ts                 # Utilitários (cn, etc)
 │
@@ -86,14 +87,14 @@ codex-aeternum-web/
 
 ```mermaid
 graph TD
-    A[codex.md - 20MB] -->|Script de parse| B[codex-content.json]
-    B --> C[Next.js Build]
-    C --> D[Static Pages]
-    C --> E[Dynamic Routes /codex/slug]
-    E --> F[TableOfContents]
-    E --> G[Chapter Content]
-    H[SearchModal] -->|API Route| I[/api/search]
-    I -->|Full-text search| B
+   A[content/codex/*.md] --> B[codex-loader.ts]
+   B --> C[Next.js Build]
+   C --> D[Static Pages]
+   C --> E[Dynamic Routes /codex/slug]
+   E --> F[TableOfContents]
+   E --> G[Chapter Content]
+   H[SearchModal] -->|API Route| I[/api/search]
+   I -->|Full-text search| B
 ```
 
 ---

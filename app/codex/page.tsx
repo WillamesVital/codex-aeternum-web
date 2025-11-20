@@ -1,9 +1,11 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
-import { codexChapters } from "@/lib/codex-data";
+import { getCodexChaptersMeta } from "@/lib/codex-loader";
 import Link from "next/link";
 import { ScrollText } from "lucide-react";
 
 export default function CodexPage() {
+    const chapters = getCodexChaptersMeta();
+
     return (
         <div className="container mx-auto py-12 px-4">
             <div className="mb-8 text-center">
@@ -17,8 +19,8 @@ export default function CodexPage() {
             </div>
 
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                {codexChapters.map((chapter) => (
-                    <Link href={`/codex/${chapter.id}`} key={chapter.id}>
+                {chapters.map((chapter) => (
+                    <Link href={`/codex/${chapter.slug}`} key={chapter.slug}>
                         <Card className="h-full hover:border-gold-500 transition-colors cursor-pointer bg-background/50 backdrop-blur-sm">
                             <CardHeader>
                                 <CardTitle className="text-xl flex items-start gap-2">

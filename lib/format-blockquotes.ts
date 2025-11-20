@@ -1,5 +1,8 @@
 const doubleQuote = '&quot;';
 
+const QUOTE_OPEN = '(?:&quot;|&ldquo;|“|")';
+const QUOTE_CLOSE = '(?:&quot;|&rdquo;|”|")';
+
 function normalizeQuote(raw: string): string {
     return raw
         .replace(/^_+/, '')
@@ -28,13 +31,17 @@ function buildBlockquote(quote: string, source: string): string {
 }
 
 function replaceMatch(
-    _match: string,
+    original: string,
     _openBlockquote: string | undefined,
     quote: string,
     sourceEm: string | undefined,
     sourcePlain: string | undefined,
     _closeBlockquote: string | undefined
 ): string {
+    if (!quote || !/(&quot;|&ldquo;|&rdquo;|"|“|”)/.test(original)) {
+        return original;
+    }
+
     const source = sourceEm ?? sourcePlain ?? '';
     return buildBlockquote(quote, source);
 }
@@ -43,9 +50,9 @@ export function formatBlockquotes(html: string): string {
     let content = html;
 
     const patterns = [
-        /(<blockquote>\s*)?<p>\s*_?(?:&quot;|")([\s\S]*?)(?:&quot;|")_?\s*<br\s*\/?>\s*_?-?\s*(?:<em>([\s\S]*?)<\/em>|_?([\s\S]*?)_?)\s*<\/p>(\s*<\/blockquote>)?/gi,
-        /(<blockquote>\s*)?<p>\s*(?:&quot;|")([\s\S]*?)(?:&quot;|")\s*<\/p>\s*<ul>\s*<li>\s*(?:<em>([\s\S]*?)<\/em>|_?([\s\S]*?)_?)\s*<\/li>\s*<\/ul>(\s*<\/blockquote>)?/gi,
-        /(<blockquote>\s*)?<p>\s*(?:&quot;|")([\s\S]*?)(?:&quot;|")\s*<\/p>\s*<p>\s*(?:<em>([\s\S]*?)<\/em>|_?([\s\S]*?)_?)\s*<\/p>(\s*<\/blockquote>)?/gi,
+        new RegExp(`(<blockquote>\\s*)?<p>\\s*_?${QUOTE_OPEN}([\\s\\S]*?)${QUOTE_CLOSE}_?\\s*<br\\s*\\/?>\\s*_?-?\\s*(?:<em>([\\s\\S]*?)<\\/em>|_?([\\s\\S]*?)_?)\\s*<\\/p>(\\s*<\\/blockquote>)?`, 'gi'),
+        new RegExp(`(<blockquote>\\s*)?<p>\\s*_?${QUOTE_OPEN}([\\s\\S]*?)${QUOTE_CLOSE}_?\\s*<\\/p>\\s*<ul>\\s*<li>\\s*(?:<em>([\\s\\S]*?)<\\/em>|_?([\\s\\S]*?)_?)\\s*<\\/li>\\s*<\\/ul>(\\s*<\\/blockquote>)?`, 'gi'),
+        new RegExp(`(<blockquote>\\s*)?<p>\\s*_?${QUOTE_OPEN}([\\s\\S]*?)${QUOTE_CLOSE}_?\\s*<\\/p>\\s*<p>\\s*(?:<em>([\\s\\S]*?)<\\/em>|_?([\\s\\S]*?)_?)\\s*<\\/p>(\\s*<\\/blockquote>)?`, 'gi'),
     ];
 
     patterns.forEach((pattern) => {

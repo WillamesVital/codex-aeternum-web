@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server';
-import codexContent from '@/lib/codex-content.json';
-import { codexChapters } from '@/lib/codex-data';
+import { getCodexChapterBySlug, getCodexChaptersMeta } from '@/lib/codex-loader';
 
 // Helper simples para remover tags HTML e obter texto puro
 function stripHtml(html: string) {
@@ -37,23 +36,25 @@ export async function GET(request: Request) {
     const results = [];
     const lowerQuery = query.toLowerCase();
 
-    // Buscar em cada capítulo
-    for (const chapter of codexChapters) {
-        const contentHtml = (codexContent as Record<string, string>)[chapter.id];
-        if (!contentHtml) continue;
+    const chapters = getCodexChaptersMeta();
 
-        const plainText = stripHtml(contentHtml);
+    // Buscar em cada capítulo
+    for (const chapterMeta of chapters) {
+        const chapter = await getCodexChapterBySlug(chapterMeta.slug);
+        if (!chapter) continue;
+
+        const plainText = stripHtml(chapter.html);
 
         // Verificar se o termo existe no título ou no conteúdo
-        const titleMatch = chapter.title.toLowerCase().includes(lowerQuery);
+        const titleMatch = chapterMeta.title.toLowerCase().includes(lowerQuery);
         const contentMatch = plainText.toLowerCase().includes(lowerQuery);
 
         if (titleMatch || contentMatch) {
             results.push({
-                id: chapter.id,
-                title: chapter.title,
-                description: chapter.description,
-                snippet: contentMatch ? getSnippet(plainText, query) : chapter.description,
+                id: chapterMeta.slug,
+                title: chapterMeta.title,
+                description: chapterMeta.description,
+                snippet: contentMatch ? getSnippet(plainText, query) : chapterMeta.description,
                 matchType: titleMatch ? 'title' : 'content'
             });
         }
