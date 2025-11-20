@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import codexContent from "@/lib/codex-content.json";
 import { extractHeadings, injectHeadingIds, uniqueHeadings } from "@/lib/extract-headings";
 import { TableOfContents } from "@/components/TableOfContents";
+import { ScrollToTop } from "@/components/ScrollToTop";
 
 interface PageProps {
     params: Promise<{ slug: string }>;
@@ -89,6 +90,9 @@ export default async function ChapterPage({ params }: PageProps) {
                 {/* Table of Contents */}
                 <TableOfContents headings={headings} />
             </div>
+
+            {/* Scroll to Top Button */}
+            <ScrollToTop />
         </div>
     );
 }
