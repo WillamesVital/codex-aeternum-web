@@ -1,0 +1,162 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-background: #0F172A;
+  --color-foreground: #F5F5DC;
+
+  --color-gold-400: #E6C360;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #B5932B;
+
+  --color-parchment-100: #FDF6E3;
+  --color-parchment-200: #F5F5DC;
+  --color-parchment-300: #E8DCC0;
+
+  --font-cinzel: var(--font-cinzel);
+  --font-inter: var(--font-inter);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-inter), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-cinzel), serif;
+  color: var(--color-gold-500);
+}
+
+/* Custom Prose Styling for RPG Theme */
+.prose {
+  max-width: 90ch;
+  color: var(--color-foreground);
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  font-family: var(--font-cinzel), serif;
+  color: var(--color-gold-500);
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.prose p {
+  margin-bottom: 1.5em;
+  line-height: 1.8;
+}
+
+.prose strong {
+  color: var(--color-gold-400);
+  font-weight: 700;
+}
+
+.prose blockquote {
+  position: relative;
+  border-left: 3px solid var(--color-gold-500);
+  color: var(--color-parchment-200);
+  font-style: italic;
+  font-size: 1.1em;
+  background: linear-gradient(90deg, rgba(212, 175, 55, 0.15) 0%, rgba(212, 175, 55, 0.05) 100%);
+  padding: 2rem 2rem 2rem 3rem;
+  margin: 2rem 0;
+  border-radius: 0 0.5rem 0.5rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.prose blockquote::before {
+  content: '';
+  position: absolute;
+  left: 0.5rem;
+  top: -0.25rem;
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--color-gold-500);
+  opacity: 0.3;
+  font-family: Georgia, serif;
+}
+
+.prose blockquote p {
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.prose blockquote ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 0 0;
+}
+
+.prose blockquote ul li {
+  text-align: right;
+  color: var(--color-gold-400);
+  font-size: 0.9em;
+  font-style: normal;
+}
+
+.prose blockquote ul li::marker {
+  content: '';
+}
+
+
+.prose ul>li::marker {
+  color: var(--color-gold-500);
+}
+
+.prose a {
+  color: var(--color-gold-400);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-gold-600);
+  transition: all 0.2s;
+}
+
+.prose a:hover {
+  color: var(--color-gold-500);
+  border-bottom-color: var(--color-gold-400);
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+}
+
+.prose th {
+  color: var(--color-gold-500);
+  font-family: var(--font-cinzel), serif;
+  text-align: left;
+  border-bottom: 1px solid var(--color-gold-500);
+  padding: 0.5em;
+}
+
+.prose td {
+  padding: 0.5em;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+/* Scrollbar styling for that ancient feel */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold-600);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold-500);
+}
