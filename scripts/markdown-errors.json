@@ -1,0 +1,5959 @@
+{
+  "total": 992,
+  "bold": 602,
+  "italic": 390,
+  "details": [
+    {
+      "line": 3,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Codex Aeternum](#_rkm8law02nxl)",
+      "count": 1
+    },
+    {
+      "line": 5,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Capítulo 1 - O Mundo e Sua Eternidade Quebrada](#_d206uuqyuf3s)",
+      "count": 1
+    },
+    {
+      "line": 7,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Aeternum - O Mundo e Seu Significado](#_cgi4992tsjkc)",
+      "count": 1
+    },
+    {
+      "line": 9,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Ordem da Criação](#_99anrb7vpckq)",
+      "count": 1
+    },
+    {
+      "line": 11,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[As Eras de Aeternum](#_o65kpopgpnl0)",
+      "count": 1
+    },
+    {
+      "line": 13,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[I. A Era do Desígnio - A Criação](#_sdqtcteo4wwn)",
+      "count": 1
+    },
+    {
+      "line": 15,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[II. A Era da Queda - O Orgulho e a Corrupção](#_hrldrhyghbbr)",
+      "count": 1
+    },
+    {
+      "line": 17,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[III. A Era dos Reinos - A Glória Passageira](#_2vxndwwgyz5s)",
+      "count": 1
+    },
+    {
+      "line": 19,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[IV. A Era do Crepúsculo - O Tempo Presente](#_cygj87mkxnc)",
+      "count": 1
+    },
+    {
+      "line": 21,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Temas Centrais do Mundo](#_67euvksc1rv5)",
+      "count": 1
+    },
+    {
+      "line": 23,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Queda da Graça](#_thyr5o78dcx7)",
+      "count": 1
+    },
+    {
+      "line": 25,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Fé e o Silêncio do Mundo](#_k4pjuhxxgr12)",
+      "count": 1
+    },
+    {
+      "line": 27,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Magia e a Luz Corrompida](#_7lt7yzsfi0li)",
+      "count": 1
+    },
+    {
+      "line": 29,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Heroísmo Trágico](#_1epk54wkguxw)",
+      "count": 1
+    },
+    {
+      "line": 31,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Mundo em Ruínas](#_zfat3rrtwthx)",
+      "count": 1
+    },
+    {
+      "line": 33,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Síntese Teológica do Universo](#_ai4050kiyxeh)",
+      "count": 1
+    },
+    {
+      "line": 35,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Capítulo 2 - O Livro do Desígnio](#_27mxhe1q23x6)",
+      "count": 1
+    },
+    {
+      "line": 37,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Origem do Altíssimo](#_2hqc484y3cns)",
+      "count": 1
+    },
+    {
+      "line": 39,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Os Atributos do Altíssimo em Aeternum](#_o0jx3ptwwv7)",
+      "count": 1
+    },
+    {
+      "line": 41,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Propósito da Criação](#_6j5v0t2axj2s)",
+      "count": 1
+    },
+    {
+      "line": 43,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte I: Os Custódios - A Primeira Criação Viva](#_w4qbbxl6eqz3)",
+      "count": 1
+    },
+    {
+      "line": 45,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Natureza dos Custódios](#_v6kled8efi5j)",
+      "count": 1
+    },
+    {
+      "line": 47,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[As Três Ordens Celestiais](#_l4ge4uvnkqzo)",
+      "count": 1
+    },
+    {
+      "line": 49,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Função Teológica dos Custódios](#_62hz8ds0lvji)",
+      "count": 1
+    },
+    {
+      "line": 51,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Orgulho de Lethariel](#_f0quys55heg9)",
+      "count": 1
+    },
+    {
+      "line": 53,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Dualidade dos Custódios](#_dysg1psqzqs)",
+      "count": 1
+    },
+    {
+      "line": 55,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Reflexos no Mundo de Jogo](#_wgbk48eaac4a)",
+      "count": 1
+    },
+    {
+      "line": 57,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte II: A Queda e Suas Consequências](#_eck6dof49ic7)",
+      "count": 1
+    },
+    {
+      "line": 59,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Orgulho que Rasgou o Céu](#_87cde28nk6b9)",
+      "count": 1
+    },
+    {
+      "line": 61,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Tentação dos Primeiros](#_k8t33t5itenx)",
+      "count": 1
+    },
+    {
+      "line": 63,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Queda Completa](#_u2wsr6onmog9)",
+      "count": 1
+    },
+    {
+      "line": 65,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Legado da Queda](#_fvau343d1bgk)",
+      "count": 1
+    },
+    {
+      "line": 67,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Inferis - O Abismo de Luz Queimada](#_vdr9kzjj7rah)",
+      "count": 1
+    },
+    {
+      "line": 69,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Consequências da Queda](#_b9x4acveghi7)",
+      "count": 1
+    },
+    {
+      "line": 71,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Véu e a Separação dos Planos](#_n5m2bj2njli)",
+      "count": 1
+    },
+    {
+      "line": 73,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Efeitos em Aeternum](#_kynu8hnwyvis)",
+      "count": 1
+    },
+    {
+      "line": 75,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Implicações Espirituais e de Jogo](#_89la6jhxdgvl)",
+      "count": 1
+    },
+    {
+      "line": 77,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Capítulo 3 - Os Povos da Criação](#_6x2o09duhyl5)",
+      "count": 1
+    },
+    {
+      "line": 79,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Origem dos Povos](#_ya860el9pbiu)",
+      "count": 1
+    },
+    {
+      "line": 81,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Os Humanos - A Imagem e o Pó](#_q53jmhgcndu4)",
+      "count": 1
+    },
+    {
+      "line": 83,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[No Desígnio](#_y8h0qcnvc1bm)",
+      "count": 1
+    },
+    {
+      "line": 85,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Na Corrupção](#_305kskl569j0)",
+      "count": 1
+    },
+    {
+      "line": 87,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Vocação e Destino](#_vic0bpnu92rx)",
+      "count": 1
+    },
+    {
+      "line": 89,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Os Elenai - Os Guardiões da Memória](#_mrm0ivyfkg2x)",
+      "count": 1
+    },
+    {
+      "line": 91,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[No Desígnio](#_y88sipkpj5s5)",
+      "count": 1
+    },
+    {
+      "line": 93,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Na Corrupção](#_26ytuvqtfuth)",
+      "count": 1
+    },
+    {
+      "line": 95,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Vocação e Destino](#_8nkh17plzopk)",
+      "count": 1
+    },
+    {
+      "line": 97,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Os Ankarim - Os Forjadores do Abismo e da Luz](#_a7buhlrqo16d)",
+      "count": 1
+    },
+    {
+      "line": 99,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Origem e Propósito](#_ermmund4xc9)",
+      "count": 1
+    },
+    {
+      "line": 101,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Corrupção pela Queda](#_uotw8u41zmhw)",
+      "count": 1
+    },
+    {
+      "line": 103,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Coração e o Ferro](#_hlavlhmsqgw)",
+      "count": 1
+    },
+    {
+      "line": 105,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[No Desígnio](#_iv4lkmemn7gi)",
+      "count": 1
+    },
+    {
+      "line": 107,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Na Corrupção](#_deazphdcycqp)",
+      "count": 1
+    },
+    {
+      "line": 109,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Vocação e Destino](#_4b9gdumk1hod)",
+      "count": 1
+    },
+    {
+      "line": 111,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Os Nahari - Os Errantes da Promessa](#_gc4igg80zxo9)",
+      "count": 1
+    },
+    {
+      "line": 113,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Origem e Propósito](#_ivdedr2sz1zd)",
+      "count": 1
+    },
+    {
+      "line": 115,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Corrupção pela Queda](#_lwud3efj8p6y)",
+      "count": 1
+    },
+    {
+      "line": 117,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Sobrevivência da Fé](#_4vn9y2m4vwse)",
+      "count": 1
+    },
+    {
+      "line": 119,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[No Desígnio](#_gsgff2qqqzwo)",
+      "count": 1
+    },
+    {
+      "line": 121,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Na Corrupção](#_1h3m9kooxl3p)",
+      "count": 1
+    },
+    {
+      "line": 123,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Vocação e Destino](#_dvlbf8cj27pv)",
+      "count": 1
+    },
+    {
+      "line": 125,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Os Vayren - Os Filhos do Firmamento](#_hpzpe4c6os76)",
+      "count": 1
+    },
+    {
+      "line": 127,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Origem e Propósito](#_tjvrqu5hr7rj)",
+      "count": 1
+    },
+    {
+      "line": 129,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Corrupção pela Queda](#_cz70bfiw1r5)",
+      "count": 1
+    },
+    {
+      "line": 131,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Vida Entre os Véus](#_vufpz76hcg08)",
+      "count": 1
+    },
+    {
+      "line": 133,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[No Desígnio](#_jjf8ng2zgn4r)",
+      "count": 1
+    },
+    {
+      "line": 135,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Na Corrupção](#_l5c3iifxol76)",
+      "count": 1
+    },
+    {
+      "line": 137,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Vocação e Destino](#_z82eakcpncs9)",
+      "count": 1
+    },
+    {
+      "line": 139,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Os Auren - As Vozes do Silêncio](#_up5hgd4ljm4p)",
+      "count": 1
+    },
+    {
+      "line": 141,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Origem e Propósito](#_759mh0jkeqf8)",
+      "count": 1
+    },
+    {
+      "line": 143,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Corrupção pela Queda](#_r3ckomashd5r)",
+      "count": 1
+    },
+    {
+      "line": 145,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Som e a Heresia](#_xj731aafek2z)",
+      "count": 1
+    },
+    {
+      "line": 147,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[No Desígnio](#_fef3mt39zt2w)",
+      "count": 1
+    },
+    {
+      "line": 149,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Na Corrupção](#_qk06j0de0ahj)",
+      "count": 1
+    },
+    {
+      "line": 151,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Vocação e Destino](#_79tcm8e4ter2)",
+      "count": 1
+    },
+    {
+      "line": 153,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Os Caídos Terrenos - Ecos do Pecado](#_vtmt0mppblf1)",
+      "count": 1
+    },
+    {
+      "line": 155,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Origem da Corrupção Encarnada](#_pqvew9rlsrnf)",
+      "count": 1
+    },
+    {
+      "line": 157,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Natureza dos Caídos](#_hf5o7iajwjwq)",
+      "count": 1
+    },
+    {
+      "line": 159,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Primeira Profanação - Os Maculados](#_lt419cxcvd5u)",
+      "count": 1
+    },
+    {
+      "line": 161,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Segunda Profanação - Os Refeitos](#_4keqo11znc0q)",
+      "count": 1
+    },
+    {
+      "line": 163,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Terceira Profanação - Os Esvaziados](#_2g9lgzhgte7b)",
+      "count": 1
+    },
+    {
+      "line": 165,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Sentido Espiritual da Corrupção](#_lfr8sa8xtp7m)",
+      "count": 1
+    },
+    {
+      "line": 167,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Os Caídos na Cosmologia e no Jogo](#_6f02m0jmq8px)",
+      "count": 1
+    },
+    {
+      "line": 169,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Capítulo 4 - A Profecia dos Povos](#_9ysxwjjiyene)",
+      "count": 1
+    },
+    {
+      "line": 171,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Cântico que Não se Cala](#_ixha4vwdmg86)",
+      "count": 1
+    },
+    {
+      "line": 173,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Os Três Sinais da Restauração](#_797rmhatnufz)",
+      "count": 1
+    },
+    {
+      "line": 175,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Primeiro Sinal - O Fogo que se Purifica](#_fekm3dalkso1)",
+      "count": 1
+    },
+    {
+      "line": 177,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Segundo Sinal - A Lágrima que Desperta](#_l4ys1jb1zsuu)",
+      "count": 1
+    },
+    {
+      "line": 179,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Terceiro Sinal - A Aurora do Firmamento](#_rj6km5s9pde7)",
+      "count": 1
+    },
+    {
+      "line": 181,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Juízo e a Restauração](#_w3jv3asztbjm)",
+      "count": 1
+    },
+    {
+      "line": 183,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Papel dos Povos na Restauração](#_7koyj1b6nu9k)",
+      "count": 1
+    },
+    {
+      "line": 185,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Novo Aeternum](#_fh4q99k1rm5y)",
+      "count": 1
+    },
+    {
+      "line": 187,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Destino de Inferis](#_4d38zblfq1rm)",
+      "count": 1
+    },
+    {
+      "line": 189,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Eternidade Restaurada](#_7sy8vla954d6)",
+      "count": 1
+    },
+    {
+      "line": 191,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Capítulo 5 - O Livro das Ordens e da Vigília](#_kwleosqqtbtx)",
+      "count": 1
+    },
+    {
+      "line": 193,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte I - As Ordens da Luz](#_l0sy6lj53voj)",
+      "count": 1
+    },
+    {
+      "line": 195,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[1) Ordem do Círio Eterno - A Igreja do Fogo que Não Consome](#_k0mfcycfprr1)",
+      "count": 1
+    },
+    {
+      "line": 197,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[2) Vigilantes do Véu - Os Guardas das Fronteiras Invisíveis](#_hhtbhh9a47xm)",
+      "count": 1
+    },
+    {
+      "line": 199,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[3) Portadores da Memória - A Ordem Élfica do Ramo Vivo](#_m33ob8huwfha)",
+      "count": 1
+    },
+    {
+      "line": 201,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[4) Confraria da Bigorna Branca - A Forja que Canta](#_1y2g3e4nvoay)",
+      "count": 1
+    },
+    {
+      "line": 203,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[5) Peregrinos da Lágrima - Os Nahari do Poço Vivo](#_n9nd97pt8lj1)",
+      "count": 1
+    },
+    {
+      "line": 205,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[6) Capelania dos Vayren Errantes - Pontes Vivas](#_l44i58ll5ekw)",
+      "count": 1
+    },
+    {
+      "line": 207,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Apêndice Litúrgico - Orações em Vigília](#_du8vx4m69cgx)",
+      "count": 1
+    },
+    {
+      "line": 209,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte II - As Ordens da Cinza](#_h6l7rftfaajx)",
+      "count": 1
+    },
+    {
+      "line": 211,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[1) Cartógrafos das Fendas - A Geografia do Invisível](#_kgy3g0yxh8gq)",
+      "count": 1
+    },
+    {
+      "line": 213,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[2) Conservatório de Lumen - A Ciência da Luz](#_8qs3ttc7mukq)",
+      "count": 1
+    },
+    {
+      "line": 215,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[3) Círculo das Sete Chaves - A Fraternidade do Conhecimento Selado](#_n2kk6kl77ol2)",
+      "count": 1
+    },
+    {
+      "line": 217,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[4) Mercadores de Areia - A Fé como Moeda](#_o57ot17eqiqe)",
+      "count": 1
+    },
+    {
+      "line": 219,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[5) Colégio dos Vozes Silentes - A Ordem dos Sonhos](#_3urjqgm2v2x3)",
+      "count": 1
+    },
+    {
+      "line": 221,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte III - As Ordens da Sombra](#_5jz9mhs4f0hi)",
+      "count": 1
+    },
+    {
+      "line": 223,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[1) O Silêncio Dourado - A Inquisição que fala em nome do Orgulho](#_etagjo3mqel9)",
+      "count": 1
+    },
+    {
+      "line": 225,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[2) Os Ferreiros Negros - A Forja do Orgulho](#_8o4xs0kcrmlc)",
+      "count": 1
+    },
+    {
+      "line": 227,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[3) O Cisma de Aerindel - Os Elenai que Julgam o Criador](#_yh99bfnoslif)",
+      "count": 1
+    },
+    {
+      "line": 229,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[4) Os Sibilantes de Lethariel - A Voz do Orgulhoso](#_sazlt64ay7ed)",
+      "count": 1
+    },
+    {
+      "line": 231,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[5) O Culto do Reflexo - A Heresia da Semelhança](#_ygh8jirfu3br)",
+      "count": 1
+    },
+    {
+      "line": 233,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Capítulo 6 - O Livro das Eras e das Nações](#_ppzpcqai1oi3)",
+      "count": 1
+    },
+    {
+      "line": 235,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte I - As Cinco Vigílias do Mundo](#_8hjqnahojnc)",
+      "count": 1
+    },
+    {
+      "line": 237,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[I. A Vigília da Criação - A Aurora Perfeita](#_50unci7pfig2)",
+      "count": 1
+    },
+    {
+      "line": 239,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[II. A Vigília da Queda - O Crepúsculo Dourado](#_420tsivpmgfp)",
+      "count": 1
+    },
+    {
+      "line": 241,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[III. A Vigília da Cinza - O Tempo do Esquecimento](#_i5lodjay9wlv)",
+      "count": 1
+    },
+    {
+      "line": 243,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[IV. A Vigília do Fogo - A Era das Guerras Santas](#_bxqvrajzzawk)",
+      "count": 1
+    },
+    {
+      "line": 245,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[V. A Vigília do Véu - O Crepúsculo Vivo](#_2qh0cpz6wg77)",
+      "count": 1
+    },
+    {
+      "line": 247,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte II - As Nações da Vigília do Véu](#_kb8l9c9491zn)",
+      "count": 1
+    },
+    {
+      "line": 249,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Elandor - O Reino do Círio Eterno](#_pw2kdxjehwr2)",
+      "count": 1
+    },
+    {
+      "line": 251,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Thalvorn - O Reino das Montanhas Forjadas](#_rpw0jmcwux38)",
+      "count": 1
+    },
+    {
+      "line": 253,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Eirenia - O Refúgio dos Elenai](#_suzn8fxgu76x)",
+      "count": 1
+    },
+    {
+      "line": 255,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Ashmaar - O Deserto das Lágrimas](#_pwnowxyfb12o)",
+      "count": 1
+    },
+    {
+      "line": 257,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Caer Velis - A Cidade do Véu](#_kannwbt0kv4d)",
+      "count": 1
+    },
+    {
+      "line": 259,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Khal Daran - O Reino da Luz Racional](#_oigiwz6o96rc)",
+      "count": 1
+    },
+    {
+      "line": 261,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Norte Silente - As Ruínas do Som Que Morreu](#_b07le5l4zel)",
+      "count": 1
+    },
+    {
+      "line": 263,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Epílogo - As Sete Luzes do Véu](#_6x3231cp3fam)",
+      "count": 1
+    },
+    {
+      "line": 265,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Capítulo 7 - O Livro das Relíquias e das Fendas](#_pj1doehjlpfa)",
+      "count": 1
+    },
+    {
+      "line": 267,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte I - As Relíquias da Luz Queimada](#_ptva8wcrp4wx)",
+      "count": 1
+    },
+    {
+      "line": 269,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[I. Relíquias Primordiais - Ecos da Aurora](#_1cy04zm68ar7)",
+      "count": 1
+    },
+    {
+      "line": 271,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[II. Relíquias Corrompidas - Cinzas do Orgulho](#_s90h59oblgm5)",
+      "count": 1
+    },
+    {
+      "line": 273,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[III. Relíquias Ambíguas - Instrumentos da Dúvida](#_retcr1ymsvjr)",
+      "count": 1
+    },
+    {
+      "line": 275,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte II - As Fendas do Lamento](#_hpcejhyfhsfn)",
+      "count": 1
+    },
+    {
+      "line": 277,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[I. Natureza das Fendas](#_8jil46pm8ipr)",
+      "count": 1
+    },
+    {
+      "line": 279,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[II. Efeitos das Fendas](#_awzr6f4qf7b)",
+      "count": 1
+    },
+    {
+      "line": 281,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[III. Fendas Conhecidas em Aeternum](#_mkq3u3cd2loq)",
+      "count": 1
+    },
+    {
+      "line": 283,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[IV. Ordens e a Vigília das Fendas](#_ygamsf4spt8m)",
+      "count": 1
+    },
+    {
+      "line": 285,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Epílogo - O Mundo em Fraturas](#_i8xcv5y07r6i)",
+      "count": 1
+    },
+    {
+      "line": 287,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Capítulo 8 - O Livro dos Ecos e das Profecias](#_cr2drj35gj3a)",
+      "count": 1
+    },
+    {
+      "line": 289,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte I - Os Ecos do Firmamentum](#_u6cnppftjyn)",
+      "count": 1
+    },
+    {
+      "line": 291,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[I. Tipos de Ecos](#_yonxjphwbig5)",
+      "count": 1
+    },
+    {
+      "line": 293,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[II. Natureza Espiritual dos Ecos](#_axur8bk1iygo)",
+      "count": 1
+    },
+    {
+      "line": 295,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte II - As Profecias](#_c7lc23hd8rwp)",
+      "count": 1
+    },
+    {
+      "line": 297,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[I. A Profecia da Restauração](#_p6xqhamfuhdx)",
+      "count": 1
+    },
+    {
+      "line": 299,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[II. As Falsas Profecias](#_4b2oa7r75w0x)",
+      "count": 1
+    },
+    {
+      "line": 301,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[III. A Voz e o Silêncio](#_4gpt30lhhg35)",
+      "count": 1
+    },
+    {
+      "line": 303,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte III - Os Sonhos, os Sinais e os Escolhidos](#_u5ctl7vfxrfw)",
+      "count": 1
+    },
+    {
+      "line": 305,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[I. Os Sonhos do Véu](#_9yblpeqhnbl)",
+      "count": 1
+    },
+    {
+      "line": 307,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[II. Os Sinais do Firmamentum](#_9gfnkyf4ruu)",
+      "count": 1
+    },
+    {
+      "line": 309,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[III. Os Escolhidos](#_9y5smvb0nlwj)",
+      "count": 1
+    },
+    {
+      "line": 311,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Epílogo - O Último Eco](#_coz191bknj7w)",
+      "count": 1
+    },
+    {
+      "line": 313,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Capítulo 9 - O Livro dos Povos e Linhagens](#_kx6rw8bm65xw)",
+      "count": 1
+    },
+    {
+      "line": 315,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Elenai - Os Filhos da Canção](#_sifqvr11iozu)",
+      "count": 1
+    },
+    {
+      "line": 317,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Síntese Atual](#_juc1p6v3ijuk)",
+      "count": 1
+    },
+    {
+      "line": 319,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Herança Espiritual](#_md5k41j4bq70)",
+      "count": 1
+    },
+    {
+      "line": 321,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Cultura e Sociedade](#_de4uc8nlgw0v)",
+      "count": 1
+    },
+    {
+      "line": 323,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Dons e Maldições](#_btnj9cm9pdqi)",
+      "count": 1
+    },
+    {
+      "line": 325,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Arquétipos de Alma](#_cyim6qfqco0g)",
+      "count": 1
+    },
+    {
+      "line": 327,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Ganchos de Criação de Personagem](#_i7cw5fmciqnp)",
+      "count": 1
+    },
+    {
+      "line": 329,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Ankarim - Os Forjados da Rocha](#_w8as7s3wep7c)",
+      "count": 1
+    },
+    {
+      "line": 331,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Síntese Atual](#_u6k4j68q3z3h)",
+      "count": 1
+    },
+    {
+      "line": 333,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Herança Espiritual](#_6z4y6ie1wav2)",
+      "count": 1
+    },
+    {
+      "line": 335,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Cultura e Sociedade](#_b1nupcjx6ptu)",
+      "count": 1
+    },
+    {
+      "line": 337,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Dons e Maldições](#_l41ifbpt40my)",
+      "count": 1
+    },
+    {
+      "line": 339,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Arquétipos de Alma](#_t37ynasn6k04)",
+      "count": 1
+    },
+    {
+      "line": 341,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Ganchos de Criação de Personagem](#_742r5ij08dou)",
+      "count": 1
+    },
+    {
+      "line": 343,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Nahari - Os Peregrinos do Deserto](#_fw3d7ktfqslt)",
+      "count": 1
+    },
+    {
+      "line": 345,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Síntese Atual](#_asztboid89zb)",
+      "count": 1
+    },
+    {
+      "line": 347,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Herança Espiritual](#_twdj9dj1na68)",
+      "count": 1
+    },
+    {
+      "line": 349,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Cultura e Sociedade](#_fmyoj527lgs3)",
+      "count": 1
+    },
+    {
+      "line": 351,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Dons e Maldições](#_jhj4184la249)",
+      "count": 1
+    },
+    {
+      "line": 353,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Arquétipos de Alma](#_c40nxh4l4ocj)",
+      "count": 1
+    },
+    {
+      "line": 355,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Ganchos de Criação de Personagem](#_nm3pr69sudbk)",
+      "count": 1
+    },
+    {
+      "line": 357,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Vayren - Os Errantes do Firmamentum](#_uz9jgnmv6lti)",
+      "count": 1
+    },
+    {
+      "line": 359,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Síntese Atual](#_3h9inxy18rf8)",
+      "count": 1
+    },
+    {
+      "line": 361,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Herança Espiritual](#_273b5ov1sfqw)",
+      "count": 1
+    },
+    {
+      "line": 363,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Cultura e Sociedade](#_xedhhnonurgr)",
+      "count": 1
+    },
+    {
+      "line": 365,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Dons e Maldições](#_b5mor28qgegy)",
+      "count": 1
+    },
+    {
+      "line": 367,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Arquétipos de Alma](#_p5omvwagg58r)",
+      "count": 1
+    },
+    {
+      "line": 369,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Ganchos de Criação de Personagem](#_cwqbpazao6ye)",
+      "count": 1
+    },
+    {
+      "line": 371,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Humanos - Os Portadores da Cinza](#_6snam0csqard)",
+      "count": 1
+    },
+    {
+      "line": 373,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Síntese Atual](#_psrdvus48n8w)",
+      "count": 1
+    },
+    {
+      "line": 375,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Herança Espiritual](#_ez0szrh49glh)",
+      "count": 1
+    },
+    {
+      "line": 377,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Cultura e Sociedade](#_gh5czwac3cvt)",
+      "count": 1
+    },
+    {
+      "line": 379,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Dons e Maldições](#_eyn53cd0vroc)",
+      "count": 1
+    },
+    {
+      "line": 381,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Arquétipos de Alma](#_i8qnea1o5ytx)",
+      "count": 1
+    },
+    {
+      "line": 383,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Ganchos de Criação de Personagem](#_fpyf19jd5rgu)",
+      "count": 1
+    },
+    {
+      "line": 385,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Híbridos e Linhagens Raras](#_hyiaqroa9aps)",
+      "count": 1
+    },
+    {
+      "line": 387,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Exemplos de Linhagens](#_6km1261cq14b)",
+      "count": 1
+    },
+    {
+      "line": 389,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Epílogo - O Sangue e a Canção](#_knfpbsyhv0f)",
+      "count": 1
+    },
+    {
+      "line": 391,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Capítulo 10 - O Livro das Virtudes e Pecados](#_oehah0d1g9rh)",
+      "count": 1
+    },
+    {
+      "line": 393,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte I - A Natureza da Alma](#_2t41s616zquj)",
+      "count": 1
+    },
+    {
+      "line": 395,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte II - As Virtudes](#_4kpqute17dh)",
+      "count": 1
+    },
+    {
+      "line": 397,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[I. Fé](#_af0yh5bawrg4)",
+      "count": 1
+    },
+    {
+      "line": 399,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[II. Esperança](#_lvoatsukiz6y)",
+      "count": 1
+    },
+    {
+      "line": 401,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[III. Amor](#_x19enslrsbc2)",
+      "count": 1
+    },
+    {
+      "line": 403,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[IV. Justiça](#_cxjkl21h07wj)",
+      "count": 1
+    },
+    {
+      "line": 405,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[V. Coragem](#_dbbgkt8ig4xb)",
+      "count": 1
+    },
+    {
+      "line": 407,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[VI. Temperança](#_h2284chmixlq)",
+      "count": 1
+    },
+    {
+      "line": 409,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[VII. Humildade](#_q6tz8pxssi51)",
+      "count": 1
+    },
+    {
+      "line": 411,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte III - Os Pecados](#_u05rj8edv3cc)",
+      "count": 1
+    },
+    {
+      "line": 413,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[I. A Corrupção da Alma](#_3540ndw1jt06)",
+      "count": 1
+    },
+    {
+      "line": 415,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[II. O Processo da Queda](#_4nf85db3w41z)",
+      "count": 1
+    },
+    {
+      "line": 417,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[III. A Redenção](#_mek5f94nnikh)",
+      "count": 1
+    },
+    {
+      "line": 419,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte IV - O Equilíbrio da Vigília](#_5u1ks6hle1ai)",
+      "count": 1
+    },
+    {
+      "line": 421,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Epílogo - O Julgamento Interior](#_y60f8p9dy0t7)",
+      "count": 1
+    },
+    {
+      "line": 423,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Capítulo 11 - O Livro das Almas e Caminhos](#_1o682qh7gybx)",
+      "count": 1
+    },
+    {
+      "line": 425,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Prólogo: A Segunda Metade do Codex](#_scmt7gazn8kn)",
+      "count": 1
+    },
+    {
+      "line": 427,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte I - A Estrutura da Alma](#_65zfwvufwdpc)",
+      "count": 1
+    },
+    {
+      "line": 429,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[I. O Corpo (Corpus)](#_nyjoori319nw)",
+      "count": 1
+    },
+    {
+      "line": 431,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[II. A Alma (Anima)](#_i25vf0b1krrp)",
+      "count": 1
+    },
+    {
+      "line": 433,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[III. O Espírito (Spiramen)](#_2s1agp2jbu6q)",
+      "count": 1
+    },
+    {
+      "line": 435,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte II - A Harmonia das Três Partes](#_w7189aoiiwt2)",
+      "count": 1
+    },
+    {
+      "line": 437,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte III - O Véu Interior](#_6xfbnlrdag6j)",
+      "count": 1
+    },
+    {
+      "line": 439,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Epílogo - O Homem Tripartido](#_jsy556ye7xac)",
+      "count": 1
+    },
+    {
+      "line": 441,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Capítulo 12 - O Livro dos Caminhos e Vocação](#_k1gkx5l915fc)",
+      "count": 1
+    },
+    {
+      "line": 443,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Prólogo: A Chama e o Caminho](#_22d0x3qv14dz)",
+      "count": 1
+    },
+    {
+      "line": 445,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte I - A Natureza da Vocação](#_yn4yjagdlugc)",
+      "count": 1
+    },
+    {
+      "line": 447,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte II - Os Sete Caminhos](#_c8o7xz9q6r0r)",
+      "count": 1
+    },
+    {
+      "line": 449,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[I. O Guardião](#_ppqtl3qxs9b2)",
+      "count": 1
+    },
+    {
+      "line": 451,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[II. O Portador da Luz](#_qwhszu6exky9)",
+      "count": 1
+    },
+    {
+      "line": 453,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[III. O Penitente](#_w0x8w09n6ze6)",
+      "count": 1
+    },
+    {
+      "line": 455,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[IV. O Cronista](#_s9omvwx70xw0)",
+      "count": 1
+    },
+    {
+      "line": 457,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[V. O Curador](#_4n2vk52w8ea9)",
+      "count": 1
+    },
+    {
+      "line": 459,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[VI. O Peregrino](#_9mohyq80mjce)",
+      "count": 1
+    },
+    {
+      "line": 461,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[VII. O Visionário](#_ij84ah25rgfi)",
+      "count": 1
+    },
+    {
+      "line": 463,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte III - A Queda dos Caminhos](#_dbg14cwte70a)",
+      "count": 1
+    },
+    {
+      "line": 465,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Epílogo - O Chamado e a Vigília](#_hrt76d5e8xzd)",
+      "count": 1
+    },
+    {
+      "line": 467,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Capítulo 13 - O Livro das Virtudes Ativas](#_xrrxkly40a94)",
+      "count": 1
+    },
+    {
+      "line": 469,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Prólogo: A Graça que Age](#_phms7lkq6rk4)",
+      "count": 1
+    },
+    {
+      "line": 471,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte I - A Natureza da Virtude Viva](#_qdlv24orgwnh)",
+      "count": 1
+    },
+    {
+      "line": 473,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte II - As Sete Virtudes em Ação](#_11gzua416md)",
+      "count": 1
+    },
+    {
+      "line": 475,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[I. Fé - O Verbo que Sustenta](#_wy00lmxvdc5o)",
+      "count": 1
+    },
+    {
+      "line": 477,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[II. Esperança - O Caminho que Não se Rompe](#_xh0e9imlgene)",
+      "count": 1
+    },
+    {
+      "line": 479,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[III. Amor - O Fogo que Cura](#_hs5a7gp91ipa)",
+      "count": 1
+    },
+    {
+      "line": 481,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[IV. Justiça - A Lâmina de Equilíbrio](#_jkkx5owiz7cq)",
+      "count": 1
+    },
+    {
+      "line": 483,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[V. Coragem - O Passo sobre o Abismo](#_6aa8n6am0q10)",
+      "count": 1
+    },
+    {
+      "line": 485,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[VI. Temperança - O Silêncio que Domina](#_d1keebqev8za)",
+      "count": 1
+    },
+    {
+      "line": 487,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[VII. Humildade - A Chave dos Céus](#_ot6ti31c7zc)",
+      "count": 1
+    },
+    {
+      "line": 489,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte III - A Corrupção das Virtudes](#_gwj98wmy4u2l)",
+      "count": 1
+    },
+    {
+      "line": 491,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte IV - A Graça e o Custo](#_kblqbxiav7eg)",
+      "count": 1
+    },
+    {
+      "line": 493,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Epílogo - O Som da Graça](#_4b61oh4jv8ht)",
+      "count": 1
+    },
+    {
+      "line": 495,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Capítulo 14 - O Livro da Vigília da Alma](#_xh4vive5ah9v)",
+      "count": 1
+    },
+    {
+      "line": 497,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Prólogo: A Luz que Não Dorme](#_jl2h9vfmbvco)",
+      "count": 1
+    },
+    {
+      "line": 499,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte I - A Vigília e o Sono da Alma](#_eamlpsuh2w4t)",
+      "count": 1
+    },
+    {
+      "line": 501,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte II - O Eixo da Luz e da Sombra](#_mz1atbfcfsq6)",
+      "count": 1
+    },
+    {
+      "line": 503,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte III - Os Selos da Corrupção](#_ffibm6s0axb5)",
+      "count": 1
+    },
+    {
+      "line": 505,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte IV - A Purificação e o Fardo](#_rdznq8btx14s)",
+      "count": 1
+    },
+    {
+      "line": 507,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte V - A Vigília Perpétua](#_p3wodrf2cnvk)",
+      "count": 1
+    },
+    {
+      "line": 509,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Epílogo - O Círculo da Vigília](#_y0wfjtn0x4ml)",
+      "count": 1
+    },
+    {
+      "line": 511,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Capítulo 15 - O Livro dos Dons e Sinais](#_qpbronpwt56c)",
+      "count": 1
+    },
+    {
+      "line": 513,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Prólogo: As Vozes Visíveis](#_welj7althrhn)",
+      "count": 1
+    },
+    {
+      "line": 515,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte I - A Origem dos Dons](#_187ij0aovkvy)",
+      "count": 1
+    },
+    {
+      "line": 517,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte II - Os Dons Maiores](#_6ao61kuw0655)",
+      "count": 1
+    },
+    {
+      "line": 519,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte III - Os Dons Menores](#_geb3w54ezqjc)",
+      "count": 1
+    },
+    {
+      "line": 521,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte IV - Os Sinais do Firmamentum](#_rloxl2jaiqt2)",
+      "count": 1
+    },
+    {
+      "line": 523,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte V - Os Sinais do Inferis](#_mu23hehb5anp)",
+      "count": 1
+    },
+    {
+      "line": 525,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte VI - O Selo da Presença](#_nwp2d6om8w85)",
+      "count": 1
+    },
+    {
+      "line": 527,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Epílogo - O Milagre e o Silêncio](#_e7vx5yldgicb)",
+      "count": 1
+    },
+    {
+      "line": 529,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Capítulo 16 - O Livro das Armas e Relíquias](#_60n6zg39i4r4)",
+      "count": 1
+    },
+    {
+      "line": 531,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Prólogo: O Firmamento e a Ferramenta](#_teknq75jj24j)",
+      "count": 1
+    },
+    {
+      "line": 533,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte I - A Forja das Armas Sagradas](#_u2ri70tic4zu)",
+      "count": 1
+    },
+    {
+      "line": 535,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte II - As Relíquias da Criação](#_q1sw4anp1g73)",
+      "count": 1
+    },
+    {
+      "line": 537,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte III - As Relíquias Corrompidas](#_nhggv9dzj7v6)",
+      "count": 1
+    },
+    {
+      "line": 539,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte IV - A Purificação das Relíquias](#_pf1j379znk4p)",
+      "count": 1
+    },
+    {
+      "line": 541,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte V - As Armas e Relíquias da Queda](#_y2juya7kkugl)",
+      "count": 1
+    },
+    {
+      "line": 543,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Epílogo - O Último Golpe](#_nqpc1jo5e0iz)",
+      "count": 1
+    },
+    {
+      "line": 545,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Capítulo 16 - O Livro da Guerra e da Glória](#_urkdi2dmmtdt)",
+      "count": 1
+    },
+    {
+      "line": 547,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Prólogo: A Guerra Invisível](#_9edyj0b4nk7p)",
+      "count": 1
+    },
+    {
+      "line": 549,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte I - O Conflito Sagrado e Profano](#_q46d7j7fbni5)",
+      "count": 1
+    },
+    {
+      "line": 551,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Conflito Sagrado](#_3hw1lq3vch8)",
+      "count": 1
+    },
+    {
+      "line": 553,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[O Conflito Profano](#_xxfauw1oaqsi)",
+      "count": 1
+    },
+    {
+      "line": 555,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte II - As Batalhas do Firmamentum](#_we3h0hmbhlpf)",
+      "count": 1
+    },
+    {
+      "line": 557,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Batalha Pela Ordem](#_zablfrb5nsdk)",
+      "count": 1
+    },
+    {
+      "line": 559,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Batalha Pela Destruição](#_y5meug2gz8pc)",
+      "count": 1
+    },
+    {
+      "line": 561,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte III - A Glória e a Vingança](#_bgx4cl5e3mdp)",
+      "count": 1
+    },
+    {
+      "line": 563,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Glória Divina](#_abvf0uysl7ni)",
+      "count": 1
+    },
+    {
+      "line": 565,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[A Vingança Profana](#_xrkuk3qmzrfk)",
+      "count": 1
+    },
+    {
+      "line": 567,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte IV - O Custo da Guerra](#_1uqnym8trhqw)",
+      "count": 1
+    },
+    {
+      "line": 569,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Epílogo - A Guerra Eterna](#_99er9cvl1dyt)",
+      "count": 1
+    },
+    {
+      "line": 571,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Epílogo: O Juízo Final e a Restauração de Aeternum](#_bgbud2z9r2pm)",
+      "count": 1
+    },
+    {
+      "line": 573,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte I - O Propósito do Juízo](#_lj5i2vhigmj3)",
+      "count": 1
+    },
+    {
+      "line": 575,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Em Jogo:](#_zko42cycnqp)",
+      "count": 1
+    },
+    {
+      "line": 577,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte II - O Destino dos Eleitos e Rejeitados](#_lv2vjrkabbr8)",
+      "count": 1
+    },
+    {
+      "line": 579,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Em Jogo:](#_jul9ioa688jn)",
+      "count": 1
+    },
+    {
+      "line": 581,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte III - A Incerteza do Tempo e a Urgência da Vigilância](#_zftipdjxwl4)",
+      "count": 1
+    },
+    {
+      "line": 583,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Em Jogo:](#_dm2wvou6gudf)",
+      "count": 1
+    },
+    {
+      "line": 585,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Parte IV - O Retorno do Altíssimo e a Restauração](#_tp935xy3lvct)",
+      "count": 1
+    },
+    {
+      "line": 587,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Em Jogo:](#_1iqeophuq8v9)",
+      "count": 1
+    },
+    {
+      "line": 589,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "[Epílogo - A Última Palavra](#_stgek5dwdz5d)",
+      "count": 1
+    },
+    {
+      "line": 599,
+      "type": "BOLD_INCOMPLETO",
+      "content": "O nome **Aeternum, vindo do antigo idioma sagrado, significa **\"aquilo que é eterno, imutável, sem começo nem fim\"**.",
+      "count": 3
+    },
+    {
+      "line": 601,
+      "type": "BOLD_INCOMPLETO",
+      "content": "O mundo criado para ser eterno, perfeito e ordenado sob a vontade do Altíssimo, tornou-se um reflexo quebrado do que já foi - **um eco distante da perfeição perdida.",
+      "count": 1
+    },
+    {
+      "line": 603,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Os sábios dizem que Aeternum ainda carrega o sopro divino em suas montanhas, mares e ventos, mas ele está **ofuscado pela corrupção que habita o coração dos homens e anjos caídos.",
+      "count": 1
+    },
+    {
+      "line": 604,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A eternidade não desapareceu - apenas foi **corrompida.",
+      "count": 1
+    },
+    {
+      "line": 611,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Foram criados os **Custódios, seres de luz designados para guardar e instruir as raças do mundo: homens, elfos, anões e os povos esquecidos.",
+      "count": 1
+    },
+    {
+      "line": 614,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Um dos Custódios, **Lethariel, desejou ser como o Altíssimo.",
+      "count": 1
+    },
+    {
+      "line": 619,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Assim nasceu a **Primeira Queda.",
+      "count": 1
+    },
+    {
+      "line": 636,
+      "type": "BOLD_INCOMPLETO",
+      "content": "O poder, antes dom de serviço, tornou-se **instrumento de domínio e idolatria.",
+      "count": 1
+    },
+    {
+      "line": 649,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Os templos estão em silêncio, não porque o Altíssimo se calou - mas porque **os corações se fecharam para ouvi-Lo.",
+      "count": 1
+    },
+    {
+      "line": 675,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Ela é **rara, instável e espiritual, e **a pureza do coração** pode definir seu sucesso ou ruína.",
+      "count": 3
+    },
+    {
+      "line": 682,
+      "type": "BOLD_INCOMPLETO",
+      "content": "porque **agir com fé em meio à ruína é, em si, uma forma de redenção.",
+      "count": 1
+    },
+    {
+      "line": 690,
+      "type": "BOLD_INCOMPLETO",
+      "content": "de que **um dia, o que foi corrompido será restaurado.",
+      "count": 1
+    },
+    {
+      "line": 691,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Não neste mundo talvez, mas **na eternidade que o inspirou.",
+      "count": 1
+    },
+    {
+      "line": 697,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- O mal não é oposto de Altíssimo , mas **a distorção da vontade que deveria adorá-Lo;",
+      "count": 1
+    },
+    {
+      "line": 699,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- Lethariel e os Custódios Caídos existem, mas agem apenas sob **permissão e limites;",
+      "count": 1
+    },
+    {
+      "line": 701,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- Aeternum sofre não por abandono, mas por **autodestruição espiritual;",
+      "count": 1
+    },
+    {
+      "line": 703,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- A esperança, ainda que improvável, **nunca é impossível.",
+      "count": 1
+    },
+    {
+      "line": 715,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Ele **é o Ser absoluto, completo em si mesmo, sem necessidade de criação, luz ou louvor.",
+      "count": 1
+    },
+    {
+      "line": 718,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Não há princípio em Sua existência, pois **Ele é o princípio de todos os princípios.",
+      "count": 1
+    },
+    {
+      "line": 719,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Não há fim em Sua glória, pois **a eternidade é o véu de Sua presença.",
+      "count": 1
+    },
+    {
+      "line": 727,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Essas três pessoas não são três Altíssimo es, mas **um só Altíssimo , eterno e indivisível,",
+      "count": 1
+    },
+    {
+      "line": 729,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Não há mudança n'Ele, pois **Seu querer é ato, e Seu ato é eterno.",
+      "count": 1
+    },
+    {
+      "line": 733,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Criar foi um gesto de amor - **amor que transborda.",
+      "count": 1
+    },
+    {
+      "line": 753,
+      "type": "BOLD_INCOMPLETO",
+      "content": "| **Onisciente** | Nada Lhe é oculto; conhece o que foi, é e será**. | O destino é apenas o registro de Seu conhecimento perfeito. |",
+      "count": 3
+    },
+    {
+      "line": 764,
+      "type": "BOLD_INCOMPLETO",
+      "content": "O mundo de Aeternum foi criado para **manifestar a glória do Altíssimo** e para que Suas criaturas **O conhecessem e se alegrassem n'Ele.",
+      "count": 3
+    },
+    {
+      "line": 765,
+      "type": "BOLD_INCOMPLETO",
+      "content": "O propósito da existência não é ascender acima de Altíssimo , mas **participar de Sua eternidade.",
+      "count": 1
+    },
+    {
+      "line": 767,
+      "type": "BOLD_INCOMPLETO",
+      "content": "não por imposição, mas porque **a verdadeira liberdade é servir ao Bem supremo.",
+      "count": 1
+    },
+    {
+      "line": 772,
+      "type": "BOLD_INCOMPLETO",
+      "content": "mas agora, **em tensão entre o que é e o que deveria ser.",
+      "count": 1
+    },
+    {
+      "line": 777,
+      "type": "BOLD_INCOMPLETO",
+      "content": "lembrando aos que creem que **a eternidade ainda respira.",
+      "count": 1
+    },
+    {
+      "line": 779,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "_\"E o Altíssimo contemplou o que fez, e viu que era bom.",
+      "count": 1
+    },
+    {
+      "line": 796,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Eles foram criados **puros, imortais e poderosos, dotados de razão e vontade, capazes de adorar e servir.",
+      "count": 1
+    },
+    {
+      "line": 806,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Inspirado no princípio da hierarquia e serviço (Catecismo, perguntas 16 e 19), os Custódios foram divididos em **Três Coros, cada um refletindo um atributo do Altíssimo.",
+      "count": 1
+    },
+    {
+      "line": 819,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Os Custódios não eram Altíssimo es, mas **reflexos** da glória do Altíssimo, criados \"para executar Seus mandamentos e louvar Seu nome\"**.",
+      "count": 3
+    },
+    {
+      "line": 820,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Eram mediadores entre o Firmamento e o Plano Terrenal, **mensageiros, guardiões e executores da providência divina.",
+      "count": 1
+    },
+    {
+      "line": 823,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Por meio deles, **a vontade do Altíssimo era executada nas obras da criação e da providência.",
+      "count": 1
+    },
+    {
+      "line": 837,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Com isso, **Lethariel desafiou a ordem, e muitos o seguiram.",
+      "count": 1
+    },
+    {
+      "line": 839,
+      "type": "BOLD_INCOMPLETO",
+      "content": "E assim nasceram os **Caídos, que se transformaram em sombras do que foram, consumidos por um fogo que não ilumina.",
+      "count": 1
+    },
+    {
+      "line": 854,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ambos, porém, estão sob a soberania do Altíssimo.",
+      "count": 1
+    },
+    {
+      "line": 856,
+      "type": "BOLD_INCOMPLETO",
+      "content": "_**_Pois até o mal, em sua fúria, serve para manifestar a justiça e a santidade Daquele que reina sobre todas as coisas._",
+      "count": 1
+    },
+    {
+      "line": 856,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "_**_Pois até o mal, em sua fúria, serve para manifestar a justiça e a santidade Daquele que reina sobre todas as coisas._",
+      "count": 3
+    },
+    {
+      "line": 872,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- A corrupção espiritual pode se manifestar como **doença, loucura ou poder impuro, criando dilemas morais em vez de simples batalhas.",
+      "count": 1
+    },
+    {
+      "line": 874,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "_\"Uns ardem em adoração, outros ardem em ódio -",
+      "count": 1
+    },
+    {
+      "line": 890,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Lethariel, o Luz Primeva, o mais radiante dos Custódios, contemplou sua própria glória e se enamorou dela.",
+      "count": 1
+    },
+    {
+      "line": 900,
+      "type": "BOLD_INCOMPLETO",
+      "content": "pois **Lethariel falava com a eloquência da própria luz.",
+      "count": 1
+    },
+    {
+      "line": 904,
+      "type": "BOLD_INCOMPLETO",
+      "content": "O Altíssimo não respondeu com trovões nem com espada, mas com **juízo e retirada:",
+      "count": 1
+    },
+    {
+      "line": 906,
+      "type": "BOLD_INCOMPLETO",
+      "content": "e sem a luz do Criador, **sua própria luz queimou a si mesma.",
+      "count": 1
+    },
+    {
+      "line": 913,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Antes de ser lançado ao Abismo, **Lethariel voltou seus olhos ao Plano Terrenal.",
+      "count": 1
+    },
+    {
+      "line": 914,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Lá habitavam os **Primeiros, as criaturas imortais criadas à imagem da harmonia divina, que andavam em comunhão direta com o Altíssimo.",
+      "count": 1
+    },
+    {
+      "line": 917,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Mas o Orgulhoso os encontrou, e **sussurrou-lhes entre o vento:",
+      "count": 1
+    },
+    {
+      "line": 926,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Assim, **a Queda não foi apenas do Céu, mas também da Terra.",
+      "count": 1
+    },
+    {
+      "line": 928,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A eternidade foi rompida, e **a morte entrou como sombra no fôlego da vida.",
+      "count": 1
+    },
+    {
+      "line": 938,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Caíram através do Véu, e o espaço entre luz e treva **deu origem ao Inferis, o abismo de fogo que julga sem destruir.",
+      "count": 1
+    },
+    {
+      "line": 942,
+      "type": "BOLD_INCOMPLETO",
+      "content": "O canto da criação se transformou em grito - e **a primeira aurora terminou em silêncio.",
+      "count": 1
+    },
+    {
+      "line": 949,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A Queda não foi apenas o exílio dos rebeldes, mas a **herança de toda a criação.",
+      "count": 1
+    },
+    {
+      "line": 955,
+      "type": "BOLD_INCOMPLETO",
+      "content": "E sobre ambas, paira a promessa do **Juízo Final,",
+      "count": 1
+    },
+    {
+      "line": 965,
+      "type": "BOLD_INCOMPLETO",
+      "content": "O **Inferis** não foi criado: ele **nasceu da ausência.",
+      "count": 3
+    },
+    {
+      "line": 974,
+      "type": "BOLD_INCOMPLETO",
+      "content": "é o testemunho de que **nenhum poder separado da vontade divina pode perdurar.",
+      "count": 1
+    },
+    {
+      "line": 984,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A Queda de Lethariel feriu o Firmamento, mas **foi a desobediência dos Primeiros que feriu o mundo.",
+      "count": 1
+    },
+    {
+      "line": 998,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Essas relíquias são **tentações disfarçadas de milagres.",
+      "count": 1
+    },
+    {
+      "line": 1008,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Para conter a expansão da corrupção, o Altíssimo **ergueu o Véu,",
+      "count": 1
+    },
+    {
+      "line": 1013,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Assim nasceram os **Três Reinos da Existência:",
+      "count": 1
+    },
+    {
+      "line": 1021,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Onde o Véu se enfraquece, surgem **as Fendas do Lamento,",
+      "count": 1
+    },
+    {
+      "line": 1031,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Desde então, **a criação geme sob o peso da separação.",
+      "count": 1
+    },
+    {
+      "line": 1038,
+      "type": "BOLD_INCOMPLETO",
+      "content": "trazendo o **Dia da Restauração, quando toda criação será julgada e refeita.",
+      "count": 1
+    },
+    {
+      "line": 1057,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "_\"E quando o Véu cair, toda luz e toda sombra se curvarão.",
+      "count": 1
+    },
+    {
+      "line": 1074,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Quando o Altíssimo estendeu o Verbo sobre o vazio e Aeternum nasceu, Ele não criou apenas montanhas, mares e ventos - criou **seres que O refletissem.",
+      "count": 1
+    },
+    {
+      "line": 1076,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Assim, o mundo seria **um coro de muitas vozes, e cada raça, um instrumento na sinfonia do Desígnio.",
+      "count": 1
+    },
+    {
+      "line": 1092,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Foram dotados de **livre vontade, não como direito, mas como chamada: escolher servir era seu mais alto ato de adoração.",
+      "count": 1
+    },
+    {
+      "line": 1099,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Os humanos são, portanto, o povo **mais frágil e o mais temido** - frágeis, porque o tempo os consome; temidos, porque mesmo feridos, **ainda carregam o eco mais puro da imagem divina.",
+      "count": 3
+    },
+    {
+      "line": 1106,
+      "type": "BOLD_INCOMPLETO",
+      "content": "e alguns, tocados pela fé, reacendem brevemente essa luz, tornando-se **instrumentos de graça em meio às ruínas.",
+      "count": 1
+    },
+    {
+      "line": 1124,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Na profecia do Juízo Final, os humanos são descritos como **o povo do meio:",
+      "count": 1
+    },
+    {
+      "line": 1125,
+      "type": "BOLD_INCOMPLETO",
+      "content": "nem celestiais, nem abissais - mas **ponte entre ambos, a chave para o reerguimento do Desígnio.",
+      "count": 1
+    },
+    {
+      "line": 1136,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Criados do entrelaçar da luz e da vida, sua função era **preservar o que fora criado, manter a ordem e o ritmo da natureza conforme o Desígnio.",
+      "count": 1
+    },
+    {
+      "line": 1149,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Refletem o atributo da **Sabedoria e da Beleza Ordenada.",
+      "count": 1
+    },
+    {
+      "line": 1163,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A esperança dos Elenai está em recordar não apenas o que perderam, mas **por Quem foi perdido.",
+      "count": 1
+    },
+    {
+      "line": 1164,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Alguns, tocados pela fé, tornaram-se peregrinos silenciosos - os **Portadores da Memória,",
+      "count": 1
+    },
+    {
+      "line": 1176,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Foram criados para **serem as mãos que sustentam a criação,",
+      "count": 1
+    },
+    {
+      "line": 1201,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Cavaram mais fundo, buscando a centelha original da criação - e encontraram **a luz que queima, não a que ilumina.",
+      "count": 1
+    },
+    {
+      "line": 1203,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Nas entranhas da terra descobriram fragmentos das **Relíquias da Luz Queimada,",
+      "count": 1
+    },
+    {
+      "line": 1206,
+      "type": "BOLD_INCOMPLETO",
+      "content": "mas também **atraíram a corrupção do Inferis, que passou a infiltrar-se pelas fundições e minas.",
+      "count": 1
+    },
+    {
+      "line": 1208,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Assim surgiram as **Forjas Profanas,",
+      "count": 1
+    },
+    {
+      "line": 1226,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Dizem os monges que, nas minas mais profundas, **o som dos martelos ecoa em intervalos irregulares,",
+      "count": 1
+    },
+    {
+      "line": 1233,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Foram criados para lembrar a todos os povos que **a matéria é boa, pois foi o Altíssimo quem a fez.",
+      "count": 1
+    },
+    {
+      "line": 1241,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Os Ankarim que se entregaram à cobiça das Relíquias tornaram-se os **Ferreiros Negros,",
+      "count": 1
+    },
+    {
+      "line": 1249,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Os monges das montanhas dizem que **cada martelada verdadeira é uma confissão.",
+      "count": 1
+    },
+    {
+      "line": 1252,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Na profecia da Restauração, está escrito que **os portões do novo mundo serão erguidos pelas mãos de um Ankarim.",
+      "count": 1
+    },
+    {
+      "line": 1272,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Quando o Altíssimo estabeleceu o Desígnio, entregou-lhes a missão de guardar as **alianças sagradas, os pactos feitos entre o Céu e a Terra.",
+      "count": 1
+    },
+    {
+      "line": 1286,
+      "type": "BOLD_INCOMPLETO",
+      "content": "para que se lembrassem de que a verdadeira morada não está sob o sol, mas **sob a graça.",
+      "count": 1
+    },
+    {
+      "line": 1298,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Muitos caíram nas tentações dos **Ecos do Abismo, falsas luzes que surgem nas tempestades de areia e se apresentam como anjos.",
+      "count": 1
+    },
+    {
+      "line": 1299,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Seguindo essas aparições, caravanas inteiras desapareceram, fundindo-se ao deserto e tornando-se **os Esquecidos, espíritos que ainda vagam entre as dunas.",
+      "count": 1
+    },
+    {
+      "line": 1302,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Chamaram-no de _Aquele que Fere para Ensinar_, mas não percebiam que adoravam **a voz invertida de Lethariel, o Orgulhoso disfarçado de mestre.",
+      "count": 1
+    },
+    {
+      "line": 1310,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Mesmo após séculos de silêncio, **os Nahari fiéis mantiveram viva a esperança.",
+      "count": 1
+    },
+    {
+      "line": 1311,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Eles desenvolveram uma tradição oral conhecida como **As Canções da Espera,",
+      "count": 1
+    },
+    {
+      "line": 1316,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Para eles, o deserto não é punição, mas **o ventre do recomeço.",
+      "count": 1
+    },
+    {
+      "line": 1326,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Foram criados para lembrar ao mundo que o Altíssimo **nunca se retira, mesmo quando o homem já não O ouve.",
+      "count": 1
+    },
+    {
+      "line": 1334,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Desses nasceram os **Mercadores de Areia, que negociam relíquias sagradas por ouro e poder.",
+      "count": 1
+    },
+    {
+      "line": 1336,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Há também os **Errantes Sombrios, descendentes dos que seguiram os Ecos do Abismo -",
+      "count": 1
+    },
+    {
+      "line": 1364,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Antes que o homem respirasse e antes que as árvores cantassem, o Altíssimo moldou os **Vayren, os primeiros seres a cruzar livremente o Véu.",
+      "count": 1
+    },
+    {
+      "line": 1366,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Foram criados para **interceder, ensinar e servir como mensageiros, lembrando aos povos que a criação não estava separada do Criador.",
+      "count": 1
+    },
+    {
+      "line": 1383,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Quando Lethariel se rebelou, **os Vayren ouviram primeiro.",
+      "count": 1
+    },
+    {
+      "line": 1397,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Os rebeldes foram lançados ao Inferis, onde se tornaram os **Serafins Queimados,",
+      "count": 1
+    },
+    {
+      "line": 1402,
+      "type": "BOLD_INCOMPLETO",
+      "content": "São conhecidos como **os Vayren Errantes,",
+      "count": 1
+    },
+    {
+      "line": 1413,
+      "type": "BOLD_INCOMPLETO",
+      "content": "e que suas almas ouvem, mesmo em silêncio, **o eco do Firmamento chorando por aquilo que perdeu.",
+      "count": 1
+    },
+    {
+      "line": 1429,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Os Vayren refletem o atributo do **Mistério e da Comunicação Divina.",
+      "count": 1
+    },
+    {
+      "line": 1431,
+      "type": "BOLD_INCOMPLETO",
+      "content": "para ser o **elo consciente entre a vontade do Altíssimo e as criaturas.",
+      "count": 1
+    },
+    {
+      "line": 1443,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A corrupção dos Vayren manifesta-se pela **sede de compreender o incompreensível.",
+      "count": 1
+    },
+    {
+      "line": 1449,
+      "type": "BOLD_INCOMPLETO",
+      "content": "São chamados **os Sibilantes,",
+      "count": 1
+    },
+    {
+      "line": 1462,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Os que permanecem fiéis tornaram-se **sentinelas do Véu,",
+      "count": 1
+    },
+    {
+      "line": 1465,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Nas profecias da Restauração, é dito que **um Vayren renascerá em carne mortal,",
+      "count": 1
+    },
+    {
+      "line": 1488,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Ali, construíram os **Mosteiros do Vento, templos suspensos sobre abismos, onde o som das orações é levado para o céu.",
+      "count": 1
+    },
+    {
+      "line": 1495,
+      "type": "BOLD_INCOMPLETO",
+      "content": "No Desígnio, os Auren foram criados para **traduzir o invisível.",
+      "count": 1
+    },
+    {
+      "line": 1516,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Assim nasceram as **Ordens do Silêncio Dourado,",
+      "count": 1
+    },
+    {
+      "line": 1527,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Com o passar das eras, muitos Auren se afastaram das montanhas e tornaram-se **mestres e oradores, levando a palavra da fé pelos reinos.",
+      "count": 1
+    },
+    {
+      "line": 1530,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Dizem os antigos que, em cada era, **um Auren se levanta para corrigir os erros de sua ordem, e que a cada um deles é dado um sinal:",
+      "count": 1
+    },
+    {
+      "line": 1531,
+      "type": "BOLD_INCOMPLETO",
+      "content": "quando sua voz ecoa pura, **os sinos das montanhas soam sozinhos.",
+      "count": 1
+    },
+    {
+      "line": 1540,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Os Auren refletem o atributo da **Santidade e Comunhão Espiritual.",
+      "count": 1
+    },
+    {
+      "line": 1541,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Foram criados para ensinar que a fé verdadeira **não nasce do ruído, mas da escuta.",
+      "count": 1
+    },
+    {
+      "line": 1560,
+      "type": "BOLD_INCOMPLETO",
+      "content": "que dizem permitir ouvir a vontade divina, mas que na verdade ecoam **o sussurro de Lethariel.",
+      "count": 1
+    },
+    {
+      "line": 1576,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Na profecia final, está escrito que **quando o Cântico Original for restaurado,",
+      "count": 1
+    },
+    {
+      "line": 1612,
+      "type": "BOLD_INCOMPLETO",
+      "content": "São **pontes quebradas entre o ser e o não ser,",
+      "count": 1
+    },
+    {
+      "line": 1615,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Existem em três graus de corrupção, conhecidos como as **Três Profanações:",
+      "count": 1
+    },
+    {
+      "line": 1634,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Outros tornam-se fanáticos, acreditando serem escolhidos do Altíssimo, quando na verdade **são marionetes do Orgulhoso.",
+      "count": 1
+    },
+    {
+      "line": 1637,
+      "type": "BOLD_INCOMPLETO",
+      "content": "não fogo verdadeiro, mas **a memória da luz que os abandonou.",
+      "count": 1
+    },
+    {
+      "line": 1648,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Tornaram-se **máquinas vivas, fundindo carne, ferro e espírito.",
+      "count": 1
+    },
+    {
+      "line": 1674,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Suas ações são **imitações do que um dia foi humano: rezam, choram, sorriem - mas sem alma.",
+      "count": 1
+    },
+    {
+      "line": 1687,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Os monges do Véu ensinam que **nenhum Caído Terreno é inteiramente irredimível,",
+      "count": 1
+    },
+    {
+      "line": 1691,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Os Caídos são, portanto, **sermões ambulantes da Queda.",
+      "count": 1
+    },
+    {
+      "line": 1725,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Os sábios antigos ensinaram que **tudo o que o Altíssimo criou, Ele criou com propósito,",
+      "count": 1
+    },
+    {
+      "line": 1756,
+      "type": "BOLD_INCOMPLETO",
+      "content": "surgirá o **Fogo Puro, uma chama que não consome, mas revela.",
+      "count": 1
+    },
+    {
+      "line": 1757,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Ela acenderá nas forjas dos **Ankarim, e deles nascerá o primeiro sinal:",
+      "count": 1
+    },
+    {
+      "line": 1777,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Essa fonte será chamada **Lágrima do Firmamento,",
+      "count": 1
+    },
+    {
+      "line": 1778,
+      "type": "BOLD_INCOMPLETO",
+      "content": "e dizem que suas águas não curam o corpo, mas **purificam a alma dos arrependidos.",
+      "count": 1
+    },
+    {
+      "line": 1794,
+      "type": "BOLD_INCOMPLETO",
+      "content": "E no centro dessa luz surgirá **o Filho do Firmamento,",
+      "count": 1
+    },
+    {
+      "line": 1820,
+      "type": "BOLD_INCOMPLETO",
+      "content": "não como canção, mas como **ato criador.",
+      "count": 1
+    },
+    {
+      "line": 1835,
+      "type": "BOLD_INCOMPLETO",
+      "content": "| **Ankarim** | Forjarão o novo altar do mundo, fundindo ferro e fé**. | Firmeza. | _Códice da Restauração, Verso II._ |",
+      "count": 3
+    },
+    {
+      "line": 1853,
+      "type": "BOLD_INCOMPLETO",
+      "content": "a luz não virá de astros, mas **emanará da própria presença do Altíssimo.",
+      "count": 1
+    },
+    {
+      "line": 1869,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Enquanto o Novo Aeternum floresce, o **Inferis permanecerá selado.",
+      "count": 1
+    },
+    {
+      "line": 1870,
+      "type": "BOLD_INCOMPLETO",
+      "content": "O fogo que um dia queimava o mundo será agora **seu próprio cárcere.",
+      "count": 1
+    },
+    {
+      "line": 1886,
+      "type": "BOLD_INCOMPLETO",
+      "content": "mas **a consumação do propósito que nele foi semeado.",
+      "count": 1
+    },
+    {
+      "line": 1914,
+      "type": "BOLD_INCOMPLETO",
+      "content": "As Ordens da Luz preservam a doutrina antiga, protegem os fracos, fortalecem o Véu e combatem a corrupção sem confundir justiça com glória. São lâmpadas que ardem **para** o Altíssimo, não **para si.",
+      "count": 3
+    },
+    {
+      "line": 1923,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Origem.",
+      "count": 1
+    },
+    {
+      "line": 1927,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Doutrina.",
+      "count": 1
+    },
+    {
+      "line": 1928,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Culto central ao Altíssimo; fidelidade ao _Códice do Desígnio_ e à _Profecia dos Povos_.",
+      "count": 1
+    },
+    {
+      "line": 1929,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Rejeitam a magia impura, mas aceitam as **Artes de Lumen** como instrumentos da fé**.",
+      "count": 3
+    },
+    {
+      "line": 1931,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Estrutura.",
+      "count": 1
+    },
+    {
+      "line": 1941,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Rituais.",
+      "count": 1
+    },
+    {
+      "line": 1949,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Relações.",
+      "count": 1
+    },
+    {
+      "line": 1951,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Desconfiam dos **Cartógrafos das Fendas** e combatem o **Silêncio Dourado.",
+      "count": 3
+    },
+    {
+      "line": 1953,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Personalidade.",
+      "count": 1
+    },
+    {
+      "line": 1961,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 1969,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 1985,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Origem.",
+      "count": 1
+    },
+    {
+      "line": 1986,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Formados após as primeiras Fendas do Lamento, unindo humanos, Vayren e Auren sob um mesmo voto.",
+      "count": 1
+    },
+    {
+      "line": 1989,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Doutrina.",
+      "count": 1
+    },
+    {
+      "line": 1990,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**O Véu é graça e juízo.",
+      "count": 1
+    },
+    {
+      "line": 1993,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Estrutura.",
+      "count": 1
+    },
+    {
+      "line": 2001,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Rituais.",
+      "count": 1
+    },
+    {
+      "line": 2009,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Relações.",
+      "count": 1
+    },
+    {
+      "line": 2012,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Personalidade.",
+      "count": 1
+    },
+    {
+      "line": 2020,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 2028,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 2044,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Origem. Elenai penitentes que romperam com o isolacionismo, jurando replantar vida onde a Queda queimou.",
+      "count": 1
+    },
+    {
+      "line": 2046,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Doutrina. A verdadeira memória é devocional: lembrar o Criador no que se planta, colhe, cura e canta.",
+      "count": 1
+    },
+    {
+      "line": 2048,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Estrutura.",
+      "count": 1
+    },
+    {
+      "line": 2050,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Semeadores-Primazes** (definem rotas de restauração)**.",
+      "count": 3
+    },
+    {
+      "line": 2052,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Aedos de Seiva** (poetas-curadores; usam canto para \"endireitar\" o lugar)**.",
+      "count": 3
+    },
+    {
+      "line": 2054,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Ramos-Vigias** (patrulhas de floresta)**.",
+      "count": 3
+    },
+    {
+      "line": 2060,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Personalidade.",
+      "count": 1
+    },
+    {
+      "line": 2068,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 2076,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 2092,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Origem. Ankarim convertidos das Forjas Profanas (Cap. III). Reconsagraram fornos com lume puro e aboliram toda relíquia \"viva\".",
+      "count": 1
+    },
+    {
+      "line": 2094,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Doutrina. A matéria é boa quando servida ao Bem. O labor purifica o artesão.",
+      "count": 1
+    },
+    {
+      "line": 2096,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Estrutura.",
+      "count": 1
+    },
+    {
+      "line": 2098,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Mestres-Brasa** (jurisdição de forjas)**.",
+      "count": 3
+    },
+    {
+      "line": 2100,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Guardas do Cadinho** (auditores de pureza)**.",
+      "count": 3
+    },
+    {
+      "line": 2102,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Oficiais do Canto** (ensinam o \"ritmo orante\" da marretada)**.",
+      "count": 3
+    },
+    {
+      "line": 2108,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Personalidade.",
+      "count": 1
+    },
+    {
+      "line": 2116,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 2122,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Complicação:** a tentação de criar algo \"perfeito demais\"**.",
+      "count": 3
+    },
+    {
+      "line": 2124,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 2140,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Origem. Irmandade nahari que guarda fontes raras chamadas **Lágrimas do Firmamentum** (Cap. IV - Segundo Sinal).",
+      "count": 3
+    },
+    {
+      "line": 2142,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Doutrina. A peregrinação é obediência em movimento; a água não cura o corpo, mas acorda a alma para o arrependimento.",
+      "count": 1
+    },
+    {
+      "line": 2144,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Estrutura.",
+      "count": 1
+    },
+    {
+      "line": 2146,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Custódios do Poço** (zelam por nascentes)**.",
+      "count": 3
+    },
+    {
+      "line": 2148,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Guias de Duna** (conduzem caravanas penitenciais)**.",
+      "count": 3
+    },
+    {
+      "line": 2150,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Leitores do Sal** (discernimento e intercessão)**.",
+      "count": 3
+    },
+    {
+      "line": 2156,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Personalidade.",
+      "count": 1
+    },
+    {
+      "line": 2164,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 2172,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 2188,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Origem. Vayren que permaneceram em Aeternum após a Queda (Cap. III). Servem como intérpretes de sinais e guardiões de fronteiras espirituais.",
+      "count": 1
+    },
+    {
+      "line": 2190,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Doutrina. Intercessão ativa, humildade do mensageiro, vigilância do coração.",
+      "count": 1
+    },
+    {
+      "line": 2192,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Estrutura.",
+      "count": 1
+    },
+    {
+      "line": 2194,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Custódios de Cruzamento** (postos em regiões-limite)**.",
+      "count": 3
+    },
+    {
+      "line": 2196,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Leitores de Aurora** (discernem presságios)**.",
+      "count": 3
+    },
+    {
+      "line": 2198,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Porta-voz** (raríssimos; autorizados a proclamar avisos em nome da Capelania)**.",
+      "count": 3
+    },
+    {
+      "line": 2204,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Personalidade.",
+      "count": 1
+    },
+    {
+      "line": 2212,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 2220,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 2232,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- **Coleta do Círio:** \"Faze de nós pavios, não fachos.\" - _Cântico da Restauração, IV",
+      "count": 1
+    },
+    {
+      "line": 2235,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- **Toque dos Vigilantes:** \"Três notas para fechar a fenda, três lágrimas para lembrar a graça.\" - _Livro dos Vigilantes, VII",
+      "count": 1
+    },
+    {
+      "line": 2238,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- **Litania do Ramo:** \"Que a memória seja ponte, não trono.\" - _Canção dos Ramos Eternos, XI",
+      "count": 1
+    },
+    {
+      "line": 2241,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- **Confissão da Bigorna:** \"Purifica o braço e o braseiro.\" - _Códice dos Fundamentos, II",
+      "count": 1
+    },
+    {
+      "line": 2244,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- **Salmo da Duna:** \"Ensina à sede a esperança.\" - _Canções da Espera, XII",
+      "count": 1
+    },
+    {
+      "line": 2247,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- **Verso do Véu:** \"Se falarmos, que seja por Ti; se calarmos, que seja Contigo.\" - _Cântico do Firmamento, V",
+      "count": 1
+    },
+    {
+      "line": 2277,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Foram os primeiros a mapear as **Fendas do Lamento, registrando padrões espirituais, áreas de risco e variações temporais.",
+      "count": 1
+    },
+    {
+      "line": 2279,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Doutrina. A verdade está nas margens.",
+      "count": 1
+    },
+    {
+      "line": 2281,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Eles acreditam que **conhecer o mal é compreender o limite da graça.",
+      "count": 1
+    },
+    {
+      "line": 2283,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Estrutura.",
+      "count": 1
+    },
+    {
+      "line": 2285,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Mestres do Traço** (chefe de cada região cartográfica)**.",
+      "count": 3
+    },
+    {
+      "line": 2286,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Ecos** (aprendizes que viajam e coletam dados)**.",
+      "count": 3
+    },
+    {
+      "line": 2287,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Arcontes de Véu** (místicos que interpretam mapas como profecias)**.",
+      "count": 3
+    },
+    {
+      "line": 2289,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Rituais.",
+      "count": 1
+    },
+    {
+      "line": 2295,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Relações. Mantêm relação tensa com o Círio Eterno (acusados de heresia científica), mas respeitados pelos Vigilantes e pelos Vayren Errantes.",
+      "count": 1
+    },
+    {
+      "line": 2297,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Personalidade.",
+      "count": 1
+    },
+    {
+      "line": 2303,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 2309,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 2328,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Origem. Fundado por estudiosos Auren e humanos que buscavam unir fé e razão.",
+      "count": 1
+    },
+    {
+      "line": 2332,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Doutrina. A luz é verdade quando compreendida, heresia quando manipulada.",
+      "count": 1
+    },
+    {
+      "line": 2335,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Estrutura.",
+      "count": 1
+    },
+    {
+      "line": 2337,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Arcanos de Halo** (mestres de espectro)**.",
+      "count": 3
+    },
+    {
+      "line": 2338,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Discípulos do Prisma** (aprendizes viajantes)**.",
+      "count": 3
+    },
+    {
+      "line": 2339,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Guardiões de Refração** (zelam por relíquias óticas)**.",
+      "count": 3
+    },
+    {
+      "line": 2341,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Rituais.",
+      "count": 1
+    },
+    {
+      "line": 2349,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Personalidade.",
+      "count": 1
+    },
+    {
+      "line": 2357,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 2365,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 2384,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Doutrina. O saber deve ser protegido, não exibido.",
+      "count": 1
+    },
+    {
+      "line": 2387,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Estrutura.",
+      "count": 1
+    },
+    {
+      "line": 2389,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Chave-Mestra** (grão-curador dos manuscritos)**.",
+      "count": 3
+    },
+    {
+      "line": 2390,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Portadores de Tomo** (monges copistas)**.",
+      "count": 3
+    },
+    {
+      "line": 2391,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Custódios da Sétima** (monges guerreiros; juramento de silêncio)**.",
+      "count": 3
+    },
+    {
+      "line": 2393,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Rituais.",
+      "count": 1
+    },
+    {
+      "line": 2398,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Relações. Mantêm o equilíbrio entre todas as ordens.",
+      "count": 1
+    },
+    {
+      "line": 2401,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Personalidade.",
+      "count": 1
+    },
+    {
+      "line": 2409,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 2417,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 2433,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Origem. Derivados dos Nahari que perderam a fé e transformaram a peregrinação em comércio.",
+      "count": 1
+    },
+    {
+      "line": 2437,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Doutrina. A graça é abundante - logo, deve ser negociada, não escondida.",
+      "count": 1
+    },
+    {
+      "line": 2439,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Estrutura.",
+      "count": 1
+    },
+    {
+      "line": 2441,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Senhores da Duna** (chefes de caravanas)**.",
+      "count": 3
+    },
+    {
+      "line": 2442,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Pregadores de Ouro** (usam sermões como marketing)**.",
+      "count": 3
+    },
+    {
+      "line": 2443,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Cobradores do Pó** (mercadores místicos; vendem \"perdões\")**.",
+      "count": 3
+    },
+    {
+      "line": 2445,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Rituais.",
+      "count": 1
+    },
+    {
+      "line": 2453,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Personalidade.",
+      "count": 1
+    },
+    {
+      "line": 2461,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 2469,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 2485,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Origem. Fundado por místicos Auren e humanos capazes de ouvir vozes durante o sono -",
+      "count": 1
+    },
+    {
+      "line": 2489,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Doutrina. Sonhar é ouvir o invisível.",
+      "count": 1
+    },
+    {
+      "line": 2492,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Estrutura.",
+      "count": 1
+    },
+    {
+      "line": 2494,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Sonhadores Primordiais** (interpretam visões coletivas)**.",
+      "count": 3
+    },
+    {
+      "line": 2496,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Guardiões de Transe** (mantêm monges em estado entre vigília e sono)**.",
+      "count": 3
+    },
+    {
+      "line": 2498,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Mensageiros de Névoa** (viajam para relatar sonhos ao Colégio)**.",
+      "count": 3
+    },
+    {
+      "line": 2500,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Rituais.",
+      "count": 1
+    },
+    {
+      "line": 2512,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 2520,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 2556,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Origem. Nascida como um ramo zeloso dos Auren durante a Era das Dissidências, esta ordem cresceu até tornar-se **o braço inquisitorial do Círio Eterno** - antes de ser excomungada.",
+      "count": 3
+    },
+    {
+      "line": 2557,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Eles acreditam que a voz do Altíssimo se manifesta **apenas através da pureza absoluta, e que tudo o que fala fora de sua autoridade deve ser silenciado.",
+      "count": 1
+    },
+    {
+      "line": 2559,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Doutrina. O som é corrupção; a fé perfeita é muda.",
+      "count": 1
+    },
+    {
+      "line": 2562,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Estrutura.",
+      "count": 1
+    },
+    {
+      "line": 2564,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Sumo-Silente** (líder encapuzado que nunca fala, apenas escreve com cinzas)**.",
+      "count": 3
+    },
+    {
+      "line": 2565,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Confessores de Ouro** (juízes inquisidores)**.",
+      "count": 3
+    },
+    {
+      "line": 2566,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Discípulos do Vazio** (acólitos mutilados da voz)**.",
+      "count": 3
+    },
+    {
+      "line": 2568,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Rituais.",
+      "count": 1
+    },
+    {
+      "line": 2573,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Relações. Inimigos de todas as ordens da Luz.",
+      "count": 1
+    },
+    {
+      "line": 2577,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Personalidade.",
+      "count": 1
+    },
+    {
+      "line": 2585,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 2589,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Missões:** purificar templos, silenciar profetas, erradicar \"vozes impuras\"**.",
+      "count": 3
+    },
+    {
+      "line": 2593,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 2610,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Origem. Ankarim que rejeitaram o arrependimento da Bigorna Branca.",
+      "count": 1
+    },
+    {
+      "line": 2611,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Continuaram a fundir relíquias impuras com metais vivos, acreditando que poderiam recriar a glória do Firmamentum **com as próprias mãos.",
+      "count": 1
+    },
+    {
+      "line": 2613,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Doutrina. A criação não precisa de Criador.",
+      "count": 1
+    },
+    {
+      "line": 2616,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Estrutura.",
+      "count": 1
+    },
+    {
+      "line": 2618,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Mestres de Cinza** (fundidores principais)**.",
+      "count": 3
+    },
+    {
+      "line": 2619,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Portadores de Brasa** (mercadores e intermediários)**.",
+      "count": 3
+    },
+    {
+      "line": 2620,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Servos de Aço** (autômatos criados para vigiar as forjas)**.",
+      "count": 3
+    },
+    {
+      "line": 2622,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Rituais.",
+      "count": 1
+    },
+    {
+      "line": 2627,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Relações. Hostis à Confraria da Bigorna Branca e ao Círio Eterno.",
+      "count": 1
+    },
+    {
+      "line": 2630,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Personalidade.",
+      "count": 1
+    },
+    {
+      "line": 2638,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 2646,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 2663,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Origem. Movimento entre Elenai após a Grande Marcha do Silêncio.",
+      "count": 1
+    },
+    {
+      "line": 2666,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Doutrina. A fé é fraqueza; a memória é força.",
+      "count": 1
+    },
+    {
+      "line": 2667,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Eles buscam recriar o Éden pela ciência e magia natural, purificando a criação **sem intervenção divina.",
+      "count": 1
+    },
+    {
+      "line": 2669,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Estrutura.",
+      "count": 1
+    },
+    {
+      "line": 2671,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Senhores de Raiz** (místicos que manipulam flora viva)**.",
+      "count": 3
+    },
+    {
+      "line": 2673,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Arquivistas de Seiva** (guardam memórias genéticas)**.",
+      "count": 3
+    },
+    {
+      "line": 2675,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Cantores de Outono** (emissários diplomáticos)**.",
+      "count": 3
+    },
+    {
+      "line": 2677,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Rituais.",
+      "count": 1
+    },
+    {
+      "line": 2682,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Relações. Inimigos jurados dos Portadores da Memória; aliados ocasionais dos Cartógrafos das Fendas.",
+      "count": 1
+    },
+    {
+      "line": 2684,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Personalidade.",
+      "count": 1
+    },
+    {
+      "line": 2690,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Dilema:** criar o paraíso - ou repeti-lo sem Altíssimo **.",
+      "count": 3
+    },
+    {
+      "line": 2692,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 2700,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 2717,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Origem. Formados a partir de Vayren corrompidos.",
+      "count": 1
+    },
+    {
+      "line": 2721,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Doutrina. Todo ser que fala é criador.",
+      "count": 1
+    },
+    {
+      "line": 2724,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Estrutura.",
+      "count": 1
+    },
+    {
+      "line": 2726,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Ecos-Maiores** (profetas invisíveis; falam em vozes múltiplas)**.",
+      "count": 3
+    },
+    {
+      "line": 2727,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Tons Menores** (pregadores itinerantes)**.",
+      "count": 3
+    },
+    {
+      "line": 2728,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Bocas do Fogo** (assassinos e infiltradores)**.",
+      "count": 3
+    },
+    {
+      "line": 2730,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Rituais.",
+      "count": 1
+    },
+    {
+      "line": 2735,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Relações. Perseguidos por todas as Ordens da Luz e Cinza.",
+      "count": 1
+    },
+    {
+      "line": 2738,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Personalidade.",
+      "count": 1
+    },
+    {
+      "line": 2746,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 2754,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 2771,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Origem. Nasceu entre filósofos humanos após o desaparecimento de antigos reinos.",
+      "count": 1
+    },
+    {
+      "line": 2774,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Doutrina. A salvação é autodeificação.",
+      "count": 1
+    },
+    {
+      "line": 2777,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Estrutura.",
+      "count": 1
+    },
+    {
+      "line": 2779,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Espelhos-Maiores** (mestres ocultos)**.",
+      "count": 3
+    },
+    {
+      "line": 2780,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Refletidos** (iniciados que tentam despertar a \"centelha divina\")**.",
+      "count": 3
+    },
+    {
+      "line": 2781,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Sombras** (sicários e falsos profetas)**.",
+      "count": 3
+    },
+    {
+      "line": 2783,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Rituais.",
+      "count": 1
+    },
+    {
+      "line": 2788,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Relações. Heresia absoluta aos olhos de todas as Ordens da Luz.",
+      "count": 1
+    },
+    {
+      "line": 2805,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Filósofo arrependido que tenta desfazer sua heresia.",
+      "count": 1
+    },
+    {
+      "line": 2808,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Sacerdote que descobre que a \"voz divina\" é apenas a sua.",
+      "count": 1
+    },
+    {
+      "line": 2811,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Espadachim que luta contra o reflexo assassino no espelho.",
+      "count": 1
+    },
+    {
+      "line": 2815,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "_\"Assim termina o livro das sombras.",
+      "count": 1
+    },
+    {
+      "line": 2821,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- Códice das Sombras, Verso XX_",
+      "count": 1
+    },
+    {
+      "line": 2835,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice do Desígnio, Verso XXXIII",
+      "count": 1
+    },
+    {
+      "line": 2848,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Cântico dos Primogênitos, Verso I",
+      "count": 1
+    },
+    {
+      "line": 2857,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Legado na Era Atual.",
+      "count": 1
+    },
+    {
+      "line": 2858,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ruínas de templos-luz e relíquias que ainda cantam.",
+      "count": 1
+    },
+    {
+      "line": 2861,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Temas de Interpretação.",
+      "count": 1
+    },
+    {
+      "line": 2862,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Criação como culto; a beleza como reflexo da santidade; o propósito perdido da imortalidade.",
+      "count": 1
+    },
+    {
+      "line": 2868,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice das Sombras, Verso II",
+      "count": 1
+    },
+    {
+      "line": 2877,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Legado na Era Atual.",
+      "count": 1
+    },
+    {
+      "line": 2878,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**As **Fendas do Lamento** são suas cicatrizes, lugares onde o Céu e a Terra ainda se tocam.",
+      "count": 3
+    },
+    {
+      "line": 2881,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Temas de Interpretação.",
+      "count": 1
+    },
+    {
+      "line": 2882,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**O orgulho como raiz da ruína; a morte como misericórdia; o silêncio divino como promessa.",
+      "count": 1
+    },
+    {
+      "line": 2888,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola dos Luminares, Verso III",
+      "count": 1
+    },
+    {
+      "line": 2897,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Legado na Era Atual.",
+      "count": 1
+    },
+    {
+      "line": 2901,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Temas de Interpretação.",
+      "count": 1
+    },
+    {
+      "line": 2902,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**O esquecimento como castigo; a humildade como início da restauração; a beleza do arrependimento.",
+      "count": 1
+    },
+    {
+      "line": 2908,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Livro das Guerras Santas, Verso I",
+      "count": 1
+    },
+    {
+      "line": 2917,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Legado na Era Atual.",
+      "count": 1
+    },
+    {
+      "line": 2918,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**As Ordens eclesiásticas de hoje têm suas raízes nesta Vigília.",
+      "count": 1
+    },
+    {
+      "line": 2921,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Temas de Interpretação.",
+      "count": 1
+    },
+    {
+      "line": 2922,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**O heroísmo trágico; o fogo que purifica e destrói; a luz que se torna arma.",
+      "count": 1
+    },
+    {
+      "line": 2928,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice da Esperança, Verso XV",
+      "count": 1
+    },
+    {
+      "line": 2937,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Legado na Era Atual.",
+      "count": 1
+    },
+    {
+      "line": 2938,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Tudo o que existe - fé, ruína, esperança e silêncio - é fruto desta Vigília.",
+      "count": 1
+    },
+    {
+      "line": 2940,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Temas de Interpretação.",
+      "count": 1
+    },
+    {
+      "line": 2941,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A fé testada pela dúvida; a vigilância como adoração; a esperança que sobrevive às ruínas.",
+      "count": 1
+    },
+    {
+      "line": 2952,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola dos Luminares, Verso IX",
+      "count": 1
+    },
+    {
+      "line": 2957,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Na Vigília do Véu, o mundo é dividido em **sete nações vivas, herdeiras das Eras passadas.",
+      "count": 1
+    },
+    {
+      "line": 2964,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Cântico da Restauração, Verso XII",
+      "count": 1
+    },
+    {
+      "line": 2969,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese Histórica.",
+      "count": 1
+    },
+    {
+      "line": 2970,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Fundada após a Queda de Aurion, Elandor ergueu-se como a capital da fé humana.",
+      "count": 1
+    },
+    {
+      "line": 2973,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Cultura e Religião.",
+      "count": 1
+    },
+    {
+      "line": 2974,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Cada lar guarda um lume consagrado.",
+      "count": 1
+    },
+    {
+      "line": 2978,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Política e Sociedade.",
+      "count": 1
+    },
+    {
+      "line": 2980,
+      "type": "BOLD_INCOMPLETO",
+      "content": "O **Silêncio Dourado, ainda que excomungado, atua nas sombras.",
+      "count": 1
+    },
+    {
+      "line": 2982,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 2990,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 3002,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice dos Fundamentos, Verso VI",
+      "count": 1
+    },
+    {
+      "line": 3007,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese Histórica.",
+      "count": 1
+    },
+    {
+      "line": 3008,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Após a purificação das forjas profanas, os Ankarim ergueram Thalvorn sobre o coração das montanhas.",
+      "count": 1
+    },
+    {
+      "line": 3011,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Cultura e Religião.",
+      "count": 1
+    },
+    {
+      "line": 3012,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**O trabalho é adoração.",
+      "count": 1
+    },
+    {
+      "line": 3015,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Política e Sociedade.",
+      "count": 1
+    },
+    {
+      "line": 3016,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Dividido em **Casas de Brasa, cada uma comandada por um **Mestre-Brasa.",
+      "count": 3
+    },
+    {
+      "line": 3019,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 3025,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Complicação:** pressão para criar armas \"em nome da fé\"**.",
+      "count": 3
+    },
+    {
+      "line": 3027,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 3039,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Canção dos Ramos Eternos, Verso XI",
+      "count": 1
+    },
+    {
+      "line": 3044,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese Histórica.",
+      "count": 1
+    },
+    {
+      "line": 3045,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Após séculos de isolamento, os Elenai fiéis fundaram Eirenia - um reino onde a beleza é culto e a memória, sacramento.",
+      "count": 1
+    },
+    {
+      "line": 3047,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Cultura e Religião.",
+      "count": 1
+    },
+    {
+      "line": 3048,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Cada lar abriga um Jardim da Memória.",
+      "count": 1
+    },
+    {
+      "line": 3051,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Política e Sociedade.",
+      "count": 1
+    },
+    {
+      "line": 3053,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Perseguem os seguidores do **Cisma de Aerindel.",
+      "count": 1
+    },
+    {
+      "line": 3055,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 3063,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 3075,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Canções da Espera, Verso XII",
+      "count": 1
+    },
+    {
+      "line": 3080,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese Histórica.",
+      "count": 1
+    },
+    {
+      "line": 3081,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Nascida das caravanas penitentes, Ashmaar é o reino do silêncio e da fé que resiste à secura do mundo.",
+      "count": 1
+    },
+    {
+      "line": 3083,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Cultura e Religião.",
+      "count": 1
+    },
+    {
+      "line": 3084,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A peregrinação é oração.",
+      "count": 1
+    },
+    {
+      "line": 3087,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Política e Sociedade.",
+      "count": 1
+    },
+    {
+      "line": 3090,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 3098,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 3110,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Cântico do Firmamentum, Verso V",
+      "count": 1
+    },
+    {
+      "line": 3115,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese Histórica.",
+      "count": 1
+    },
+    {
+      "line": 3118,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Cultura e Religião.",
+      "count": 1
+    },
+    {
+      "line": 3119,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A fé é silêncio e vento.",
+      "count": 1
+    },
+    {
+      "line": 3122,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Política e Sociedade.",
+      "count": 1
+    },
+    {
+      "line": 3125,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 3133,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 3145,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola dos Luminares, Verso X",
+      "count": 1
+    },
+    {
+      "line": 3150,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese Histórica.",
+      "count": 1
+    },
+    {
+      "line": 3151,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Erguido das ruínas do Conservatório de Lumen, Khal Daran é o farol do conhecimento.",
+      "count": 1
+    },
+    {
+      "line": 3154,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Cultura e Religião.",
+      "count": 1
+    },
+    {
+      "line": 3155,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Os sermões são tratados científicos.",
+      "count": 1
+    },
+    {
+      "line": 3158,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Política e Sociedade.",
+      "count": 1
+    },
+    {
+      "line": 3162,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 3168,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Complicação:** o saber ameaça substituir a fé**.",
+      "count": 3
+    },
+    {
+      "line": 3170,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 3182,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Livro dos Vigilantes, Verso XIII",
+      "count": 1
+    },
+    {
+      "line": 3187,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese Histórica.",
+      "count": 1
+    },
+    {
+      "line": 3188,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Antigo lar de uma civilização perdida, onde o Cântico Original ecoou pela última vez.",
+      "count": 1
+    },
+    {
+      "line": 3191,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Cultura e Religião.",
+      "count": 1
+    },
+    {
+      "line": 3192,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Não há templos, apenas ruínas.",
+      "count": 1
+    },
+    {
+      "line": 3195,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Política e Sociedade.",
+      "count": 1
+    },
+    {
+      "line": 3196,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Não há rei nem conselho.",
+      "count": 1
+    },
+    {
+      "line": 3199,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese de Jogo.",
+      "count": 1
+    },
+    {
+      "line": 3207,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ganchos de Criação de Personagem.",
+      "count": 1
+    },
+    {
+      "line": 3248,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola dos Luminares, Verso XVI",
+      "count": 1
+    },
+    {
+      "line": 3263,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Essas relíquias vêm da **Vigília da Criação.",
+      "count": 1
+    },
+    {
+      "line": 3280,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Complicação:",
+      "count": 1
+    },
+    {
+      "line": 3281,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A pureza dessas relíquias atrai as Sombras. Onde elas repousam, as Fendas tentam nascer.",
+      "count": 1
+    },
+    {
+      "line": 3305,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Complicação:",
+      "count": 1
+    },
+    {
+      "line": 3332,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Complicação:",
+      "count": 1
+    },
+    {
+      "line": 3333,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Toda relíquia ambígua escolhe seu portador - e cobra um preço.",
+      "count": 1
+    },
+    {
+      "line": 3339,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola dos Luminares, Verso XVIII",
+      "count": 1
+    },
+    {
+      "line": 3370,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Complicação:",
+      "count": 1
+    },
+    {
+      "line": 3371,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Unir as sete é impossível sem causar novo cataclismo.",
+      "count": 1
+    },
+    {
+      "line": 3377,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Livro das Rupturas, Verso I",
+      "count": 1
+    },
+    {
+      "line": 3394,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Graus de Corrupção:",
+      "count": 1
+    },
+    {
+      "line": 3422,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Complicação:",
+      "count": 1
+    },
+    {
+      "line": 3423,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Cada selo é temporário. O mundo inteiro é uma Fenda que o Altíssimo ainda sutura.",
+      "count": 1
+    },
+    {
+      "line": 3460,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice das Sombras Ardentes, Verso XXII",
+      "count": 1
+    },
+    {
+      "line": 3479,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice do Desígnio, Verso LII",
+      "count": 1
+    },
+    {
+      "line": 3494,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola dos Vigilantes, Verso XV",
+      "count": 1
+    },
+    {
+      "line": 3522,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Ecos são neutros, mas sua recepção depende da alma de quem os ouve.",
+      "count": 1
+    },
+    {
+      "line": 3540,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola dos Luminares, Verso XIX",
+      "count": 1
+    },
+    {
+      "line": 3559,
+      "type": "BOLD_INCOMPLETO",
+      "content": "e que um **Escolhido, conhecido como o _Portador da Sétima Nota_, abrirá o último selo.",
+      "count": 1
+    },
+    {
+      "line": 3594,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Círio Eterno, por meio dos Irmãos do Pavio.",
+      "count": 1
+    },
+    {
+      "line": 3596,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Vigilantes do Véu, que rastreiam falsos messias.",
+      "count": 1
+    },
+    {
+      "line": 3609,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola de Aurion, Verso III",
+      "count": 1
+    },
+    {
+      "line": 3616,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Mas os sábios ensinam: **o silêncio de Altíssimo é também Sua palavra - apenas em tom mais grave.",
+      "count": 1
+    },
+    {
+      "line": 3635,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Cântico dos Visionários, Verso V",
+      "count": 1
+    },
+    {
+      "line": 3703,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Cântico Final do Desígnio, Verso VI",
+      "count": 1
+    },
+    {
+      "line": 3723,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola dos Luminares, Verso XXVIII",
+      "count": 1
+    },
+    {
+      "line": 3741,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Canção dos Ramos Eternos, Verso VIII",
+      "count": 1
+    },
+    {
+      "line": 3749,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Na Vigília do Véu, habitam as florestas douradas de **Eirenia, guardando a memória da Criação.",
+      "count": 1
+    },
+    {
+      "line": 3786,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice dos Fundamentos, Verso IX",
+      "count": 1
+    },
+    {
+      "line": 3805,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Vivem em **Casas de Brasa, clãs familiares dedicados a um juramento ou relíquia.",
+      "count": 1
+    },
+    {
+      "line": 3833,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Canções da Espera, Verso VII",
+      "count": 1
+    },
+    {
+      "line": 3853,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Vivem em tribos nômades chamadas **Caravanas de Luz, unidas por juramentos de proteção mútua.",
+      "count": 1
+    },
+    {
+      "line": 3884,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Cântico do Firmamentum, Verso IV",
+      "count": 1
+    },
+    {
+      "line": 3892,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Vivem em **Caer Velis, a Cidade do Véu, onde o Firmamentum ainda toca o mundo.",
+      "count": 1
+    },
+    {
+      "line": 3937,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola dos Custódios, Verso IX",
+      "count": 1
+    },
+    {
+      "line": 3989,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice dos Sangues Mistos, Verso I",
+      "count": 1
+    },
+    {
+      "line": 4007,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Em Jogo:",
+      "count": 1
+    },
+    {
+      "line": 4008,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Essas linhagens não são raças separadas, mas variações espirituais - cada uma com um preço e uma promessa.",
+      "count": 1
+    },
+    {
+      "line": 4015,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice da Esperança, Verso XXV",
+      "count": 1
+    },
+    {
+      "line": 4032,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola dos Custódios, Verso XX",
+      "count": 1
+    },
+    {
+      "line": 4038,
+      "type": "BOLD_INCOMPLETO",
+      "content": "O **Firmamentum** sussurra pela pureza; o **Inferis, pelo desejo.",
+      "count": 3
+    },
+    {
+      "line": 4048,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice do Desígnio, Verso LVIII",
+      "count": 1
+    },
+    {
+      "line": 4068,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Cântico das Sete Chamas, Verso I",
+      "count": 1
+    },
+    {
+      "line": 4093,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Risco Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4094,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A fé sem discernimento torna-se fanatismo.",
+      "count": 1
+    },
+    {
+      "line": 4111,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Risco Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4112,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A esperança sem ação degenera em ilusão.",
+      "count": 1
+    },
+    {
+      "line": 4129,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Risco Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4130,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Amor sem verdade torna-se idolatria.",
+      "count": 1
+    },
+    {
+      "line": 4147,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Risco Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4148,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A justiça sem humildade torna-se tirania.",
+      "count": 1
+    },
+    {
+      "line": 4165,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Risco Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4166,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A coragem sem sabedoria se torna imprudência.",
+      "count": 1
+    },
+    {
+      "line": 4183,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Risco Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4184,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A temperança sem compaixão gera indiferença.",
+      "count": 1
+    },
+    {
+      "line": 4201,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Risco Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4202,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A falsa humildade é orgulho disfarçado.",
+      "count": 1
+    },
+    {
+      "line": 4208,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice do Desígnio, Verso LXI",
+      "count": 1
+    },
+    {
+      "line": 4291,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- Virtudes e pecados podem funcionar como **pontos espirituais: quando um aumenta, o outro diminui.",
+      "count": 1
+    },
+    {
+      "line": 4299,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice das Sombras Ardentes, Verso XXIX",
+      "count": 1
+    },
+    {
+      "line": 4314,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice dos Vigilantes, Verso I",
+      "count": 1
+    },
+    {
+      "line": 4322,
+      "type": "BOLD_INCOMPLETO",
+      "content": "a parte voltada ao **sistema e à criação de personagens.",
+      "count": 1
+    },
+    {
+      "line": 4324,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Se os primeiros livros revelaram o **mundo, os povos e o desígnio do Altíssimo,",
+      "count": 1
+    },
+    {
+      "line": 4325,
+      "type": "BOLD_INCOMPLETO",
+      "content": "a partir deste ponto o foco volta-se ao **homem, àquilo que nele reflete a Criação e também a Queda.",
+      "count": 1
+    },
+    {
+      "line": 4338,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola dos Custódios, Verso XXIII",
+      "count": 1
+    },
+    {
+      "line": 4345,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Em _Aeternum_, toda criatura é composta de **três camadas espirituais:",
+      "count": 1
+    },
+    {
+      "line": 4359,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Aspecto Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4360,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**O Corpo representa a Cinza - a lembrança da Queda.",
+      "count": 1
+    },
+    {
+      "line": 4363,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Em Jogo:",
+      "count": 1
+    },
+    {
+      "line": 4364,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**O Corpo define os atributos físicos e vitais do personagem -",
+      "count": 1
+    },
+    {
+      "line": 4368,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Risco:",
+      "count": 1
+    },
+    {
+      "line": 4369,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**O excesso de confiança na carne conduz à idolatria de si mesmo -",
+      "count": 1
+    },
+    {
+      "line": 4382,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Aspecto Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4383,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A Alma é o Véu interior, o campo de batalha entre luz e treva.",
+      "count": 1
+    },
+    {
+      "line": 4387,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Em Jogo:",
+      "count": 1
+    },
+    {
+      "line": 4388,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A Alma define os atributos de conduta e convicção -",
+      "count": 1
+    },
+    {
+      "line": 4389,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Fé**, **Vontade** e **Pureza.",
+      "count": 5
+    },
+    {
+      "line": 4392,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Risco:",
+      "count": 1
+    },
+    {
+      "line": 4393,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A alma é instável. O desespero, a arrogância ou o orgulho espiritual a desequilibram.",
+      "count": 1
+    },
+    {
+      "line": 4404,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Aspecto Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4405,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**O Espírito é incorruptível em essência, mas pode ser obscurecido.",
+      "count": 1
+    },
+    {
+      "line": 4409,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Em Jogo:",
+      "count": 1
+    },
+    {
+      "line": 4410,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**O Espírito define os atributos transcendentes -",
+      "count": 1
+    },
+    {
+      "line": 4414,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Risco:",
+      "count": 1
+    },
+    {
+      "line": 4415,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**O Espírito altivo cai na presunção: o desejo de ser o Altíssimo em vez de servi-Lo.",
+      "count": 1
+    },
+    {
+      "line": 4421,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Cântico das Três Vozes, Verso II",
+      "count": 1
+    },
+    {
+      "line": 4426,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Cada personagem é o reflexo de um **equilíbrio espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4446,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola dos Vigilantes, Verso XVII",
+      "count": 1
+    },
+    {
+      "line": 4455,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- Quando o Véu se torna **translúcido, o personagem sente o Firmamentum.",
+      "count": 1
+    },
+    {
+      "line": 4457,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- Quando o Véu se torna **opaco, o Inferis começa a ecoar.",
+      "count": 1
+    },
+    {
+      "line": 4459,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Assim, o Véu é também o **marcador da alma, servindo como indicador de pureza ou corrupção.",
+      "count": 1
+    },
+    {
+      "line": 4461,
+      "type": "BOLD_INCOMPLETO",
+      "content": "a **Vigília da Alma, onde cada ato reforça ou enfraquece a luz interior.",
+      "count": 1
+    },
+    {
+      "line": 4484,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola dos Luminares, Verso XXV",
+      "count": 1
+    },
+    {
+      "line": 4491,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Com este livro, o _Codex Aeternum_ adentra o domínio do **propósito.",
+      "count": 1
+    },
+    {
+      "line": 4492,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Se nos capítulos anteriores conhecemos **o mundo** e **a alma, agora compreendemos **o movimento da alma no mundo** -",
+      "count": 5
+    },
+    {
+      "line": 4497,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Mas todas se resumem a uma única busca: **restaurar a harmonia perdida da Criação.",
+      "count": 1
+    },
+    {
+      "line": 4507,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Cântico dos Peregrinos, Verso I",
+      "count": 1
+    },
+    {
+      "line": 4518,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Toda vocação em _Aeternum_ nasce do **equilíbrio entre Corpo, Alma e Espírito,",
+      "count": 1
+    },
+    {
+      "line": 4525,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice da Esperança, Verso X",
+      "count": 1
+    },
+    {
+      "line": 4541,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4542,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**O Guardião vive para proteger.",
+      "count": 1
+    },
+    {
+      "line": 4557,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Risco Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4558,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A Justiça sem misericórdia torna-se tirania.",
+      "count": 1
+    },
+    {
+      "line": 4574,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4575,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Mensageiros e místicos, os Portadores da Luz carregam fragmentos do Firmamentum.",
+      "count": 1
+    },
+    {
+      "line": 4578,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Virtude Central:** Fé**.",
+      "count": 3
+    },
+    {
+      "line": 4587,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Risco Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4588,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Transformar a luz em arma; confundir zelo com poder.",
+      "count": 1
+    },
+    {
+      "line": 4604,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4605,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Os Penitentes vivem a fé como expiação.",
+      "count": 1
+    },
+    {
+      "line": 4617,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Risco Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4618,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Transformar o sofrimento em orgulho disfarçado.",
+      "count": 1
+    },
+    {
+      "line": 4634,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4635,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Os Cronistas acreditam que lembrar é forma de adorar.",
+      "count": 1
+    },
+    {
+      "line": 4647,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Risco Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4648,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Transformar a sabedoria em vaidade.",
+      "count": 1
+    },
+    {
+      "line": 4664,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4665,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Os Curadores são guardiões da vida e da harmonia.",
+      "count": 1
+    },
+    {
+      "line": 4678,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Risco Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4679,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Amar o ato de curar mais do que o doador da cura.",
+      "count": 1
+    },
+    {
+      "line": 4695,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4696,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Os Peregrinos vivem em movimento.",
+      "count": 1
+    },
+    {
+      "line": 4709,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Risco Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4710,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Confundir jornada com fuga.",
+      "count": 1
+    },
+    {
+      "line": 4726,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4727,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Os Visionários são tocados pelo Firmamentum.",
+      "count": 1
+    },
+    {
+      "line": 4739,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Risco Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4740,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Ver tanto o divino quanto o infernal - e não distinguir um do outro.",
+      "count": 1
+    },
+    {
+      "line": 4754,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Livro das Cinzas, Verso XV",
+      "count": 1
+    },
+    {
+      "line": 4779,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice do Desígnio, Verso LXVIII",
+      "count": 1
+    },
+    {
+      "line": 4795,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola dos Custódios, Verso XXXI",
+      "count": 1
+    },
+    {
+      "line": 4803,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Até aqui, as Virtudes eram **conceitos espirituais;",
+      "count": 1
+    },
+    {
+      "line": 4804,
+      "type": "BOLD_INCOMPLETO",
+      "content": "agora, tornam-se **forças vivas, capazes de agir no mundo através daqueles que as acolhem.",
+      "count": 1
+    },
+    {
+      "line": 4817,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice do Desígnio, Verso LXXI",
+      "count": 1
+    },
+    {
+      "line": 4828,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **A Graça não é possuída. Ela visita, e pode partir.",
+      "count": 1
+    },
+    {
+      "line": 4829,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **O Milagre é consequência, não objetivo.",
+      "count": 1
+    },
+    {
+      "line": 4830,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Toda Virtude exige Custo. A luz sempre consome algo para brilhar.",
+      "count": 1
+    },
+    {
+      "line": 4836,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Cântico das Sete Vozes, Verso III",
+      "count": 1
+    },
+    {
+      "line": 4847,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese:",
+      "count": 1
+    },
+    {
+      "line": 4848,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A fé é a força que ancora o Firmamentum no mundo.",
+      "count": 1
+    },
+    {
+      "line": 4857,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Custo Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4858,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Cada ato de fé diminui temporariamente a vitalidade física; o corpo cede para que o espírito aja.",
+      "count": 1
+    },
+    {
+      "line": 4866,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese:",
+      "count": 1
+    },
+    {
+      "line": 4867,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A esperança sustenta o tempo; impede que o desespero se torne lei.",
+      "count": 1
+    },
+    {
+      "line": 4873,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Eco do Amanhã:** concede a um aliado uma ação antecipada - um vislumbre do que virá**.",
+      "count": 3
+    },
+    {
+      "line": 4877,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Custo Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4878,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A esperança consome memória: cada uso prolongado apaga lembranças antigas.",
+      "count": 1
+    },
+    {
+      "line": 4886,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese:",
+      "count": 1
+    },
+    {
+      "line": 4887,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**O amor é força criadora e regeneradora; transforma dor em vida.",
+      "count": 1
+    },
+    {
+      "line": 4897,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Custo Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4898,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Cada cura deixa uma marca: o curador absorve parte da dor curada.",
+      "count": 1
+    },
+    {
+      "line": 4906,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese:",
+      "count": 1
+    },
+    {
+      "line": 4907,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A justiça é a virtude do discernimento - punir sem ódio, proteger sem favoritismo.",
+      "count": 1
+    },
+    {
+      "line": 4917,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Custo Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4918,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Toda aplicação de justiça rouba parte da misericórdia; o coração torna-se mais duro a cada julgamento.",
+      "count": 1
+    },
+    {
+      "line": 4926,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese:",
+      "count": 1
+    },
+    {
+      "line": 4927,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A coragem é o poder de agir quando o terror é absoluto.",
+      "count": 1
+    },
+    {
+      "line": 4937,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Custo Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4938,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Cada ato de coragem aproxima a morte. Muitos morrem sem perceber que já ultrapassaram o limite.",
+      "count": 1
+    },
+    {
+      "line": 4946,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese:",
+      "count": 1
+    },
+    {
+      "line": 4947,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A temperança concede domínio sobre o corpo e o desejo.",
+      "count": 1
+    },
+    {
+      "line": 4958,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Custo Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4959,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**O excesso de domínio pode congelar o coração - a alma perde a capacidade de se comover.",
+      "count": 1
+    },
+    {
+      "line": 4967,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Síntese:",
+      "count": 1
+    },
+    {
+      "line": 4968,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A humildade é o segredo dos santos.",
+      "count": 1
+    },
+    {
+      "line": 4979,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Custo Espiritual:",
+      "count": 1
+    },
+    {
+      "line": 4986,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice das Sombras Ardentes, Verso XXV",
+      "count": 1
+    },
+    {
+      "line": 4993,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Assim surgem as **Virtudes Queimadas, distorções sagradas da graça.",
+      "count": 1
+    },
+    {
+      "line": 5026,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- Cada Virtude tem um **Nível de Ressonância, que aumenta com ações puras.",
+      "count": 1
+    },
+    {
+      "line": 5030,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- O uso incorreto gera **Dissonância, marcando a alma com traços de corrupção.",
+      "count": 1
+    },
+    {
+      "line": 5032,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Quando a Dissonância ultrapassa a Ressonância, o personagem começa a ouvir o **Eco do Inferis** - vozes que imitam o Firmamentum e distorcem a fé**.",
+      "count": 3
+    },
+    {
+      "line": 5039,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Cântico Final do Desígnio, Verso IX",
+      "count": 1
+    },
+    {
+      "line": 5057,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola dos Vigilantes, Verso XXII",
+      "count": 1
+    },
+    {
+      "line": 5070,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A Vigília é a medição da alma - o **termômetro da pureza** e o **ritmo da queda.",
+      "count": 3
+    },
+    {
+      "line": 5080,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Cântico das Sombras Ardentes, Verso XIX",
+      "count": 1
+    },
+    {
+      "line": 5085,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A alma de todo ser humano alterna entre dois estados fundamentais: **Vigília** e **Sono.",
+      "count": 3
+    },
+    {
+      "line": 5105,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice do Desígnio, Verso LXXIII",
+      "count": 1
+    },
+    {
+      "line": 5128,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Livro das Sombras Ardentes, Verso XXV",
+      "count": 1
+    },
+    {
+      "line": 5133,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A corrupção espiritual manifesta-se através dos **Selos, marcas invisíveis que crescem na alma conforme a dissonância entre virtude e intenção aumenta.",
+      "count": 1
+    },
+    {
+      "line": 5162,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Cântico dos Mártires, Verso II",
+      "count": 1
+    },
+    {
+      "line": 5185,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola dos Custódios, Verso XXXV",
+      "count": 1
+    },
+    {
+      "line": 5207,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice do Desígnio, Verso LXXV",
+      "count": 1
+    },
+    {
+      "line": 5227,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola dos Luminares, Verso XXXII",
+      "count": 1
+    },
+    {
+      "line": 5235,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Agora, neste livro, contemplamos o terceiro movimento da graça: **a manifestação.",
+      "count": 1
+    },
+    {
+      "line": 5239,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Não se tratam de magia nem de encantamento, mas da **interferência direta da luz divina no mundo físico.",
+      "count": 1
+    },
+    {
+      "line": 5241,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Os **Sinais, por sua vez, são os vestígios perceptíveis da presença ou ausência do Altíssimo: milagres, coincidências sagradas, presságios e manifestações naturais que carregam intenção espiritual.",
+      "count": 1
+    },
+    {
+      "line": 5250,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice da Esperança, Verso XXVIII",
+      "count": 1
+    },
+    {
+      "line": 5269,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Cântico das Sete Vozes, Verso IX",
+      "count": 1
+    },
+    {
+      "line": 5287,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Cada Dom Maior é um **milagre único: raramente dois personagens possuirão o mesmo.",
+      "count": 1
+    },
+    {
+      "line": 5298,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Cântico dos Ramos Eternos, Verso VII",
+      "count": 1
+    },
+    {
+      "line": 5325,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- O uso abusivo sem fé real gera **Dissonância, manchando a alma.",
+      "count": 1
+    },
+    {
+      "line": 5331,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Livro dos Sinais, Verso I",
+      "count": 1
+    },
+    {
+      "line": 5367,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice das Sombras Ardentes, Verso XXXIV",
+      "count": 1
+    },
+    {
+      "line": 5398,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice da Esperança, Verso XXXI",
+      "count": 1
+    },
+    {
+      "line": 5427,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Cântico Final do Desígnio, Verso XII",
+      "count": 1
+    },
+    {
+      "line": 5449,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice dos Fundamentos, Verso XXXIII",
+      "count": 1
+    },
+    {
+      "line": 5458,
+      "type": "BOLD_INCOMPLETO",
+      "content": "são **extensões da alma e da vontade divina.",
+      "count": 1
+    },
+    {
+      "line": 5463,
+      "type": "BOLD_INCOMPLETO",
+      "content": "E cada artefato corrompido traz consigo o **peso da Queda.",
+      "count": 1
+    },
+    {
+      "line": 5472,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice dos Fundamentos, Verso XIII",
+      "count": 1
+    },
+    {
+      "line": 5479,
+      "type": "BOLD_INCOMPLETO",
+      "content": "geralmente por aqueles que buscam, não a vitória material, mas a **restauração da Criação.",
+      "count": 1
+    },
+    {
+      "line": 5487,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **A Lâmina de Altharion: Espada de fogo puro, criada para destruir o Coração de Lethariel.",
+      "count": 1
+    },
+    {
+      "line": 5489,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **A Lança de Resplendor: Empunhada pelos Custódios, usada para perfurar a corrupção em corações e almas.",
+      "count": 1
+    },
+    {
+      "line": 5491,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **A Espada da Luz Perpétua: Relíquia ligada ao Círio Eterno, capaz de banir sombras por toda a eternidade.",
+      "count": 1
+    },
+    {
+      "line": 5503,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice dos Custódios, Verso XLVII",
+      "count": 1
+    },
+    {
+      "line": 5517,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **O Cálice de Altharion: Uma taça dourada que transmite a pureza da alma ao ser tocada.",
+      "count": 1
+    },
+    {
+      "line": 5519,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **O Olho de Eirenia: Uma pedra cintilante que pode curar corações partidos e restaurar a esperança.",
+      "count": 1
+    },
+    {
+      "line": 5521,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **As Pedras do Fôlego: Cristais que podem ressuscitar os mortos, mas a um grande custo.",
+      "count": 1
+    },
+    {
+      "line": 5527,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- O portador de uma Relíquia da Criação pode atrair a **atenção divina** ou ser **transformado espiritualmente** (por exemplo, visões, sonhos proféticos)**.",
+      "count": 5
+    },
+    {
+      "line": 5533,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice das Sombras, Verso XV",
+      "count": 1
+    },
+    {
+      "line": 5543,
+      "type": "BOLD_INCOMPLETO",
+      "content": "usá-las é caminhar na corda bamba entre a **redenção** e a **perdição.",
+      "count": 3
+    },
+    {
+      "line": 5547,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **A Coroa de Lethariel: Uma coroa dourada que concede poder absoluto, mas consome a alma do portador.",
+      "count": 1
+    },
+    {
+      "line": 5549,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **O Coração de Ferro: Uma fornalha viva que infunde força imensa, mas suga a humanidade do usuário.",
+      "count": 1
+    },
+    {
+      "line": 5551,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **As Lágrimas de Névoa: Pequenas garrafas que curam, mas também apagam as memórias da vítima.",
+      "count": 1
+    },
+    {
+      "line": 5557,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- O uso contínuo de uma Relíquia Corrompida pode levar o personagem à **dissonância espiritual** e à **perda de controle sobre a própria alma.",
+      "count": 3
+    },
+    {
+      "line": 5563,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice do Desígnio, Verso LXIV",
+      "count": 1
+    },
+    {
+      "line": 5568,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Embora a corrupção seja forte, há sempre a possibilidade de **purificação.",
+      "count": 1
+    },
+    {
+      "line": 5569,
+      "type": "BOLD_INCOMPLETO",
+      "content": "As Relíquias - sejam da Criação ou Corrompidas - podem ser purificadas por **rituais de fé** e **sacrifício.",
+      "count": 3
+    },
+    {
+      "line": 5576,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Ritual da Lâmina Purificada: Usada para limpar Relíquias Corrompidas, mas exige o sacrifício de uma alma pura.",
+      "count": 1
+    },
+    {
+      "line": 5578,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **Oração do Fogo Sagrado: Purifica Relíquias da Criação que se tornaram inoperantes, mas requer a oblação de um grande sacrifício.",
+      "count": 1
+    },
+    {
+      "line": 5582,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- A purificação de uma Relíquia pode **restaurar seu poder** e até **libertar almas presas dentro dela.",
+      "count": 3
+    },
+    {
+      "line": 5590,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice das Sombras, Verso XX",
+      "count": 1
+    },
+    {
+      "line": 5602,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **A Lança de Dagon: Uma lança que consome a energia do usuário, mas permite o controle de mentes fracas.",
+      "count": 1
+    },
+    {
+      "line": 5604,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **O Olho de Lethariel: Um cristal que vê as fraquezas da alma e as devora, fortalecendo o possuidor.",
+      "count": 1
+    },
+    {
+      "line": 5606,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- **A Corrente das Sombras: Uma corrente negra que prende a alma do condenado, mas também distorce seu corpo em uma arma de corrupção.",
+      "count": 1
+    },
+    {
+      "line": 5612,
+      "type": "BOLD_INCOMPLETO",
+      "content": "- Muitas dessas Relíquias possuem **efeitos destrutivos, mas o maior preço é sempre espiritual.",
+      "count": 1
+    },
+    {
+      "line": 5618,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice das Sombras, Verso XXXV",
+      "count": 1
+    },
+    {
+      "line": 5624,
+      "type": "BOLD_INCOMPLETO",
+      "content": "algumas em relíquias de **luz;",
+      "count": 1
+    },
+    {
+      "line": 5625,
+      "type": "BOLD_INCOMPLETO",
+      "content": "outras, em relíquias de **sombra.",
+      "count": 1
+    },
+    {
+      "line": 5626,
+      "type": "BOLD_INCOMPLETO",
+      "content": "E algumas, quando forjadas com pureza ou corrompidas com orgulho, **nunca se apagam.",
+      "count": 1
+    },
+    {
+      "line": 5639,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice dos Custódios, Verso LIX",
+      "count": 1
+    },
+    {
+      "line": 5649,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Sua tentativa de desviar a criação é, ao contrário, um dos instrumentos que **Altíssimo usa para manifestar Sua glória** e para **restaurar a perfeição** no **final dos tempos.",
+      "count": 5
+    },
+    {
+      "line": 5652,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Isso ocorre **dentro do plano soberano de Altíssimo** - **sem que Altíssimo seja o autor do pecado, mas permitindo que as criaturas sigam suas próprias escolhas, dentro do livre arbítrio que Ele mesmo concedeu.",
+      "count": 3
+    },
+    {
+      "line": 5655,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Altíssimo já conhece os resultados da guerra; Lethariel e os Caídos Terrenos, por sua vez, agem com a **ilusão de liberdade, tentando corromper os filhos de Altíssimo para afastá-los do Seu propósito.",
+      "count": 1
+    },
+    {
+      "line": 5659,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A guerra espiritual não é **uma guerra perdida ou já decidida** - ela é **parte de um plano divino, um plano que revela **a majestade de Altíssimo** e Sua soberania em restaurar a criação.",
+      "count": 5
+    },
+    {
+      "line": 5664,
+      "type": "BOLD_INCOMPLETO",
+      "content": "O **Firmamentum** é governado pela ordem divina e a harmonia eterna, e a luta espiritual é **a luta pela verdade.",
+      "count": 3
+    },
+    {
+      "line": 5665,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Cada batalha travada no **mundo material** reflete a luta entre **luz e sombra, **fé e dúvida, **verdade e mentira.",
+      "count": 5
+    },
+    {
+      "line": 5668,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Em Jogo:",
+      "count": 1
+    },
+    {
+      "line": 5675,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Esse conflito, embora intenso, **não altera o decreto divino; o plano de Altíssimo permanece imutável.",
+      "count": 1
+    },
+    {
+      "line": 5677,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Em Jogo:",
+      "count": 1
+    },
+    {
+      "line": 5678,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Personagens corrompidos pelo **Inferis** buscam poder e controle, mas suas ações **distorcem sua própria alma, afastando-os cada vez mais da **verdadeira luz.",
+      "count": 5
+    },
+    {
+      "line": 5688,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A verdadeira guerra espiritual é contra as forças de **opressão e desespero, que procuram destruir o propósito divino da humanidade.",
+      "count": 1
+    },
+    {
+      "line": 5690,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Em Jogo:",
+      "count": 1
+    },
+    {
+      "line": 5692,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Eles combatem contra as **sombras da corrupção** que tentam subverter a pureza do **Firmamentum.",
+      "count": 3
+    },
+    {
+      "line": 5697,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A batalha é para **subverter a criação** e criar algo novo, onde **o mal reine absoluto.",
+      "count": 3
+    },
+    {
+      "line": 5700,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Em Jogo:",
+      "count": 1
+    },
+    {
+      "line": 5701,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A batalha espiritual no **Inferis** corrompe, e personagens corrompidos pelas forças do mal podem cair em tentação, sendo levados a **perder a fé** e **distorcer o propósito divino** em suas ações.",
+      "count": 7
+    },
+    {
+      "line": 5706,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A vingança do **Inferis** é movida por uma **falsa glória, onde o mal tenta se apresentar como luz.",
+      "count": 3
+    },
+    {
+      "line": 5710,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A **glória de Altíssimo** não é uma recompensa material, mas a **restauração do equilíbrio divino.",
+      "count": 3
+    },
+    {
+      "line": 5711,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Ela se manifesta na **fé** e na **misericórdia, não em força bruta.",
+      "count": 3
+    },
+    {
+      "line": 5712,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A glória verdadeira se revela no momento em que a **luz vence a escuridão, e a criação é restaurada à sua origem.",
+      "count": 1
+    },
+    {
+      "line": 5714,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Em Jogo:",
+      "count": 1
+    },
+    {
+      "line": 5721,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A vingança do **Inferis** é a tentativa de **forçar um caminho tortuoso, onde o mal triunfa temporariamente sobre a justiça divina.",
+      "count": 3
+    },
+    {
+      "line": 5723,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Em Jogo:",
+      "count": 1
+    },
+    {
+      "line": 5724,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**A vingança leva à **dissonância espiritual** e pode corromper permanentemente o portador. **Sombra e trevas se espalham** por todo aquele que busca a vingança em nome próprio.",
+      "count": 5
+    },
+    {
+      "line": 5728,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A guerra em _Aeternum_ - seja espiritual ou física - tem um custo, e este custo é sempre **espiritual.",
+      "count": 1
+    },
+    {
+      "line": 5729,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Cada batalha travada não é apenas uma luta contra o mal, mas uma luta **pela pureza da alma.",
+      "count": 1
+    },
+    {
+      "line": 5731,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Em Jogo:",
+      "count": 1
+    },
+    {
+      "line": 5732,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**Cada conflito, seja interno ou externo, diminui ou aumenta a pureza do personagem,",
+      "count": 1
+    },
+    {
+      "line": 5740,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice do Desígnio, Verso LV",
+      "count": 1
+    },
+    {
+      "line": 5754,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice do Desígnio, Verso XXXIX",
+      "count": 1
+    },
+    {
+      "line": 5760,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Ele criou o **Firmamentum** e o **Terranum** como reflexos de Sua glória, mas a Queda trouxe a corrupção ao mundo. No entanto, tudo isso se encontra sob o **plano eterno de restauração.",
+      "count": 5
+    },
+    {
+      "line": 5763,
+      "type": "BOLD_INCOMPLETO",
+      "content": "O **Juízo Final** será o clímax da história de _Aeternum_ - um dia quando todas as coisas, visíveis e invisíveis, serão restauradas à sua ordem original, e os que caminharam em fé e verdade serão **recompensados** com **glória eterna.",
+      "count": 5
+    },
+    {
+      "line": 5769,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice dos Custódios, Verso XLII",
+      "count": 1
+    },
+    {
+      "line": 5774,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**O Altíssimo decretou um dia em que Ele julgará todas as coisas, incluindo os **anjos caídos, **os ímpios** e **os justos.",
+      "count": 5
+    },
+    {
+      "line": 5775,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Esse **Juízo Final** é parte do plano eterno de Altíssimo para **manifestar a glória de Sua justiça** e a **glória de Sua misericórdia.",
+      "count": 5
+    },
+    {
+      "line": 5778,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Este dia não é apenas um ato de **justiça divina, mas de **restauração completa. Pois o Senhor fará **novos céus e novas terras, onde a justiça habitará eternamente.",
+      "count": 3
+    },
+    {
+      "line": 5782,
+      "type": "BOLD_INCOMPLETO",
+      "content": "O Juízo Final é mais do que uma história de condenação; é um **evento cósmico de restauração. Toda a criação, incluindo os próprios personagens, deverá prestar contas de suas escolhas e ações.",
+      "count": 1
+    },
+    {
+      "line": 5788,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice dos Custódios, Verso XLV",
+      "count": 1
+    },
+    {
+      "line": 5793,
+      "type": "BOLD_INCOMPLETO",
+      "content": "O **Destinado para a Vida Eterna** será aquele que, por **graça, respondeu ao **chamado divino** de fé, abraçando o propósito do Altíssimo em sua vida.",
+      "count": 5
+    },
+    {
+      "line": 5794,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Os **eleitos, predestinados desde a fundação do mundo, alcançarão a **salvação eterna. Eles viverão em paz no **Novo Aeternum, desfrutando da **glória divina** ao lado do Altíssimo.",
+      "count": 5
+    },
+    {
+      "line": 5797,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A separação entre **os justos e os ímpios** será **definitiva** e **irrevogável.",
+      "count": 5
+    },
+    {
+      "line": 5801,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Este julgamento será o **marco final da jornada espiritual.",
+      "count": 1
+    },
+    {
+      "line": 5802,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Jogadores podem se ver confrontados com os resultados de suas escolhas de virtude ou corrupção. Ao escolherem o caminho da justiça ou da vingança, **eles preparam seu destino eterno.",
+      "count": 1
+    },
+    {
+      "line": 5808,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Epístola de Aurion, Verso XXI",
+      "count": 1
+    },
+    {
+      "line": 5813,
+      "type": "BOLD_INCOMPLETO",
+      "content": "**O Altíssimo, em Sua misericórdia, não revela o dia do Juízo Final,",
+      "count": 1
+    },
+    {
+      "line": 5815,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Ele mantém o dia em segredo para que os **mortais não vivam em complacência, mas sempre **atentos** à sua condição espiritual.",
+      "count": 3
+    },
+    {
+      "line": 5816,
+      "type": "BOLD_INCOMPLETO",
+      "content": "A incerteza da hora do Juízo é uma bênção, pois nos **chama ao arrependimento e à vigilância constante.",
+      "count": 1
+    },
+    {
+      "line": 5824,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Será sua motivação para **crescer em virtude, resistir ao pecado, ou se perder nas tentações do Inferis?",
+      "count": 1
+    },
+    {
+      "line": 5825,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Este tema proporciona uma profunda **dinâmica de escolha e consequências espirituais, onde o retorno do Altíssimo sempre paira no horizonte.",
+      "count": 1
+    },
+    {
+      "line": 5831,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice do Desígnio, Verso LXXXII",
+      "count": 1
+    },
+    {
+      "line": 5836,
+      "type": "BOLD_INCOMPLETO",
+      "content": "No **fim dos tempos, **o Altíssimo** retornará em glória.",
+      "count": 3
+    },
+    {
+      "line": 5838,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Haverá uma **nova criação, onde **novos céus** e **nova terra** serão formados, e a humanidade redimida viverá em perfeita comunhão com o Criador.",
+      "count": 5
+    },
+    {
+      "line": 5839,
+      "type": "BOLD_INCOMPLETO",
+      "content": "O **Inferis será banido, e a **maldade será extirpada** para sempre.",
+      "count": 3
+    },
+    {
+      "line": 5841,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Essa restauração será **total e definitiva. Não haverá mais separação entre o céu e a terra, e a harmonia que o Altíssimo planejou desde o início será restaurada.",
+      "count": 1
+    },
+    {
+      "line": 5842,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Este será o **Novo Aeternum** - um lugar onde a paz, a luz e a justiça de Altíssimo **reinarão para sempre.",
+      "count": 3
+    },
+    {
+      "line": 5846,
+      "type": "BOLD_INCOMPLETO",
+      "content": "O Juízo Final **não é o fim, mas o início de uma nova era.",
+      "count": 1
+    },
+    {
+      "line": 5847,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Os personagens podem escolher **se preparar para este futuro** - vivendo em luz e alinhamento com a vontade divina - ou **se perder nos desvios espirituais, condenando-se à destruição.",
+      "count": 3
+    },
+    {
+      "line": 5853,
+      "type": "ITALICO_INCOMPLETO",
+      "content": "- _Códice da Restauração, Verso XXVII",
+      "count": 1
+    },
+    {
+      "line": 5858,
+      "type": "BOLD_INCOMPLETO",
+      "content": "O **Juízo Final** será o evento que **revela o fim da história** e a **início da verdadeira eternidade.",
+      "count": 5
+    },
+    {
+      "line": 5860,
+      "type": "BOLD_INCOMPLETO",
+      "content": "para os outros, será o **final da separação, com o sofrimento eterno de quem recusou a graça divina.",
+      "count": 1
+    },
+    {
+      "line": 5862,
+      "type": "BOLD_INCOMPLETO",
+      "content": "E, enquanto o Juízo não vem, todos os filhos de Aeternum devem **viver sob vigilância.",
+      "count": 1
+    },
+    {
+      "line": 5863,
+      "type": "BOLD_INCOMPLETO",
+      "content": "Pois, **quando o último eco cessar, será a última oportunidade de transformar a alma, redimir a queda e alcançar a glória eterna.",
+      "count": 1
+    }
+  ]
+}

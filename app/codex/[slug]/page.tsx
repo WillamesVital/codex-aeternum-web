@@ -41,6 +41,16 @@ export default async function ChapterPage({ params }: PageProps) {
                 return `<blockquote><p>${openQuote}${quote}${closeQuote}</p><ul><li><em>${source}</em></li></ul></blockquote>`;
             }
         );
+
+        // Padrão 3: <p>_"Citação com <br>"</p> seguido de <ul><li>_Fonte_</li></ul> (sem tags <em>)
+        content = content.replace(
+            /<p>_?(&quot;|")((?:[^<]|<br\s*\/?>)*?)(&quot;|")\s*<\/p>\s*<ul>\s*<li>\s*_([^<]+?)(?:<br\s*\/?>)?_?\s*<\/li>\s*<\/ul>/gi,
+            (match, openQuote, quote, closeQuote, source) => {
+                // Remove espaços extras e quebras de linha da fonte
+                const cleanSource = source.trim();
+                return `<blockquote><p>${openQuote}${quote}${closeQuote}</p><ul><li><em>${cleanSource}</em></li></ul></blockquote>`;
+            }
+        );
     }
 
     return (
