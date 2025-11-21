@@ -49,7 +49,7 @@ export function injectHeadingIds(html: string, headings: Heading[]): string {
     headings.forEach((heading) => {
         // Escapa caracteres especiais de regex no texto do heading
         const escapedText = heading.text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        const regex = new RegExp(`<h${heading.level}>([^<]*${escapedText}[^<]*)</h${heading.level}>`, 'i');
+        const regex = new RegExp(`<h${heading.level}>([\\s\\S]*?${escapedText}[\\s\\S]*?)</h${heading.level}>`, 'i');
         modifiedHtml = modifiedHtml.replace(regex, `<h${heading.level} id="${heading.id}">$1</h${heading.level}>`);
     });
 
