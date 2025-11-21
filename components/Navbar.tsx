@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/Button";
 import { ScrollText, Shield, Sword, Search, Book, Palette } from "lucide-react";
 import { useState } from "react";
 import { SearchModal } from "@/components/SearchModal";
+import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 
 export function Navbar() {
     const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -61,11 +62,26 @@ export function Navbar() {
                         >
                             <Search className="h-5 w-5" />
                         </Button>
-                        <div className="hidden sm:flex space-x-4">
-                            <Button variant="outline" size="sm">
-                                Entrar
-                            </Button>
-                            <Button size="sm">Cadastrar</Button>
+                        <div className="hidden sm:flex space-x-4 items-center">
+                            <SignedOut>
+                                <Link href="/sign-in">
+                                    <Button variant="outline" size="sm">
+                                        Entrar
+                                    </Button>
+                                </Link>
+                                <Link href="/sign-up">
+                                    <Button size="sm">Cadastrar</Button>
+                                </Link>
+                            </SignedOut>
+                            <SignedIn>
+                                <UserButton
+                                    appearance={{
+                                        elements: {
+                                            avatarBox: "w-9 h-9"
+                                        }
+                                    }}
+                                />
+                            </SignedIn>
                         </div>
                     </div>
                 </div>
