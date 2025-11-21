@@ -9,7 +9,7 @@ import { formatBlockquotes } from "@/lib/format-blockquotes";
 import { getCodexChapterBySlug, getCodexSlugs } from "@/lib/codex-loader";
 
 export async function generateStaticParams() {
-    const slugs = getCodexSlugs();
+    const slugs = getCodexSlugs().filter((slug) => slug !== "chapter-2");
     return slugs.map((slug) => ({ slug }));
 }
 
