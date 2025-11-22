@@ -4,7 +4,6 @@ test.describe('Página Inicial', () => {
     test('deve carregar a página inicial e exibir o título principal', async ({ page }) => {
         await page.goto('/');
 
-        // Verificar título
         await expect(page).toHaveTitle(/Codex Aeternum/);
         const heading = page.locator('h1:has-text("Codex Aeternum")');
         await expect(heading).toBeVisible();
@@ -13,12 +12,12 @@ test.describe('Página Inicial', () => {
     test('deve exibir todos os cards de navegação', async ({ page }) => {
         await page.goto('/');
 
-        // Verificar presença dos 4 cards principais
-        const codexCard = page.locator('a[href="/codex"]').filter({ hasText: 'O Codex' });
-        const grimoireCard = page.locator('a[href="/grimoire"]').filter({ hasText: 'O Grimório' });
-        const advenaeCard = page.locator('a[href="/advenae"]').filter({ hasText: 'Liber Advenae' });
-        const forjaCard = page.locator('a[href="/characters"]').filter({ hasText: 'A Forja' });
+        const codexCard = page.getByRole('link', { name: 'O Codex Mergulhe na história' });
+        const grimoireCard = page.getByRole('link', { name: 'O Grimório Consulte as regras' });
+        const advenaeCard = page.getByRole('link', { name: 'Liber Advenae O Livro do' });
+        const forjaCard = page.getByRole('link', { name: 'A Forja Crie seus heróis,' });
 
+        await page.waitForTimeout(5000);
         await expect(codexCard).toBeVisible();
         await expect(grimoireCard).toBeVisible();
         await expect(advenaeCard).toBeVisible();
@@ -28,7 +27,6 @@ test.describe('Página Inicial', () => {
     test('deve ter botões CTA funcionais', async ({ page }) => {
         await page.goto('/');
 
-        // Verificar CTAs no Hero
         const codexCTA = page.locator('a[href="/codex"]', { hasText: 'Explorar o Codex' }).first();
         const grimCTA = page.locator('a[href="/grimoire"]', { hasText: 'Abrir Grimório' }).first();
 

@@ -42,7 +42,7 @@ test.describe('Navegação do Grimório', () => {
         const firstChapter = page.locator('a[href^="/grimoire/"]').first();
         await firstChapter.click();
 
-        const content = page.locator('.codex-content, article');
+        const content = page.locator('.codex-content, article').first();
         await expect(content).toBeVisible();
     });
 
@@ -55,7 +55,8 @@ test.describe('Navegação do Grimório', () => {
         if (chapterCount > 1) {
             await chapters.nth(1).click();
 
-            const hasNavigation = page.locator('a:has-text("Anterior"), a:has-text("Próximo")');
+            const hasNavigation = page.locator('a:has-text("Anterior"), a:has-text("Próximo")').first();
+            await hasNavigation.scrollIntoViewIfNeeded();
             expect(await hasNavigation.count()).toBeGreaterThan(0);
         }
     });
