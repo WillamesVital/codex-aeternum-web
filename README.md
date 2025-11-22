@@ -44,43 +44,52 @@ Uma plataforma web interativa para o universo de RPG **Aeternum**, apresentando 
 - **[Vercel](https://vercel.com)** - Hosting e CI/CD
 - **Webpack** - Bundler (configurado via `--webpack` flag)
 
+#### Auth & Security
+- **[Clerk](https://clerk.com)** - Autenticação e Gestão de Usuários
+
+#### Quality Assurance
+- **[Playwright](https://playwright.dev)** - Testes End-to-End (E2E)
+
 ### Estrutura de Pastas
 
 ```
 codex-aeternum-web/
 ├── app/                          # Next.js App Router
+│   ├── (auth)/                   # Rotas de autenticação (Clerk)
 │   ├── api/                      # API Routes
-│   │   └── search/              # Endpoint de busca
-│   ├── characters/              # Página de criação de personagens
-│   ├── codex/                   # Páginas do Codex
-│   │   ├── [slug]/              # Páginas dinâmicas de capítulos
-│   │   └── page.tsx             # Lista de capítulos
-│   ├── globals.css              # Estilos globais e tema
-│   ├── layout.tsx               # Layout raiz
-│   └── page.tsx                 # Homepage
+│   ├── advenae/                  # Liber Advenae (Guia do Jogador)
+│   ├── characters/               # A Forja (Criação de Personagens)
+│   ├── codex/                    # O Codex (Lore)
+│   ├── grimoire/                 # Grimoire Magistrum (Regras)
+│   ├── globals.css               # Estilos globais e tema
+│   ├── layout.tsx                # Layout raiz
+│   └── page.tsx                  # Homepage
 │
 ├── components/                   # Componentes React
-│   ├── ui/                      # Componentes base (Button, Card)
-│   ├── Navbar.tsx               # Barra de navegação
-│   ├── SearchModal.tsx          # Modal de busca
-│   ├── TableOfContents.tsx      # Índice lateral
-│   └── ScrollToTop.tsx          # Botão de voltar ao topo
+│   ├── ui/                       # Componentes base (Button, Card)
+│   ├── features/                 # Componentes de funcionalidades
+│   ├── layout/                   # Componentes de layout (Navbar, Footer)
+│   └── ...
 │
-├── lib/                         # Utilities e loaders de conteúdo
-│   ├── codex-loader.ts          # Loader dos capítulos do Codex (Markdown)
-│   ├── grimoire-loader.ts       # Loader dos capítulos do Grimoire
-│   ├── format-blockquotes.ts    # Normalização de citações entre Codex/Grimoire
-│   ├── extract-headings.ts      # Parser de headings para ToC
-│   └── utils.ts                 # Utilitários (cn, etc)
+├── content/                      # Conteúdo Markdown (Fonte de Verdade)
+│   ├── codex/                    # Capítulos do Codex
+│   ├── grimoire/                 # Capítulos do Grimoire
+│   └── ...
 │
-├── public/                      # Assets estáticos
+├── e2e/                          # Testes E2E (Playwright)
 │
-├── scripts/                     # Scripts de build/processamento
+├── lib/                          # Utilities e loaders de conteúdo
 │
-├── tailwind.config.ts           # Configuração Tailwind
-├── next.config.ts               # Configuração Next.js
-├── vercel.json                  # Configuração Vercel (webpack flag)
-└── package.json                 # Dependências
+├── public/                       # Assets estáticos
+│
+├── scripts/                      # Scripts de build/processamento
+│
+├── middleware.ts                 # Middleware (Clerk Auth)
+├── playwright.config.ts          # Configuração Playwright
+├── tailwind.config.ts            # Configuração Tailwind
+├── next.config.ts                # Configuração Next.js
+├── vercel.json                   # Configuração Vercel
+└── package.json                  # Dependências
 ```
 
 ### Fluxo de Dados
@@ -177,6 +186,8 @@ O projeto utiliza um sistema de cores customizado inspirado em pergaminho antigo
 | `npm run build` | Cria build de produção |
 | `npm run start` | Inicia servidor de produção |
 | `npm run lint` | Executa ESLint |
+| `npm run test:e2e` | Executa testes E2E com Playwright |
+| `npm run test:e2e:ui` | Executa testes E2E com interface visual |
 
 ### Build de Produção
 
@@ -217,18 +228,24 @@ O projeto está configurado para deploy automático na Vercel:
 
 ### ✅ Implementadas
 
-- [x] 📖 **Navegação de Capítulos** - Browse completo pela lore
-- [x] 🔎 **Busca Full-Text** - Encontre qualquer conteúdo rapidamente
+
+
+- [x] 📖 **O Codex** - Navegação completa pela lore do mundo
+- [x] 📜 **Grimoire Magistrum** - Regras e mecânicas para Mestres
+- [x] 📘 **Liber Advenae** - Guia introdutório para Jogadores
+- [x] 🔐 **Autenticação** - Login seguro com Clerk
+- [x] 🔎 **Busca Full-Text** - Encontre conteúdo em todos os livros
 - [x] 📑 **Table of Contents** - Navegação interna de capítulos
 - [x] ⬆️ **Scroll to Top** - Botão flutuante para voltar ao topo
 - [x] 🎨 **Design Responsivo** - Mobile, tablet e desktop
 - [x] ✨ **Animações Suaves** - Framer Motion em modais e transições
 - [x] 🌙 **Dark Theme** - Esquema de cores escuro por padrão
+- [x] 🧪 **Testes E2E** - Cobertura de testes com Playwright
 - [x] ♿ **Acessibilidade** - ARIA labels e navegação por teclado
 
 ### 🚧 Roadmap
 
-- [ ] 🧙 **Sistema de Criação de Personagens** - Interface completa
+- [ ] ⚒️ **A Forja** - Sistema completo de criação de personagens (Em Progresso)
 - [ ] 💾 **Salvamento Local** - LocalStorage para personagens
 - [ ] 🎲 **Rolador de Dados** - Integração com mecânicas
 - [ ] 📱 **PWA** - Instalação como app mobile
