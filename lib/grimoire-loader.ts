@@ -82,3 +82,20 @@ export async function getGrimoireChapterBySlug(slug: string): Promise<GrimoireCh
 export function getGrimoireSlugs(): string[] {
     return getGrimoireChaptersMeta().map((chapter) => chapter.slug);
 }
+
+export function getGrimoireAdjacentChapters(slug: string) {
+    const chapters = getGrimoireChaptersMeta();
+    const currentIndex = chapters.findIndex((chapter) => chapter.slug === slug);
+
+    if (currentIndex === -1) {
+        return { prev: null, next: null };
+    }
+
+    const prev = currentIndex > 0 ? chapters[currentIndex - 1] : null;
+    const next = currentIndex < chapters.length - 1 ? chapters[currentIndex + 1] : null;
+
+    return {
+        prev: prev ? { slug: prev.slug, title: prev.title } : null,
+        next: next ? { slug: next.slug, title: next.title } : null,
+    };
+}

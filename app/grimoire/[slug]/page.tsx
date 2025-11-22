@@ -5,8 +5,10 @@ import { TableOfContents } from '@/components/TableOfContents';
 import { ScrollToTop } from '@/components/ScrollToTop';
 import { extractHeadings, injectHeadingIds, uniqueHeadings } from '@/lib/extract-headings';
 import { Button } from "@/components/ui/Button";
-import { getGrimoireChapterBySlug, getGrimoireSlugs } from '@/lib/grimoire-loader';
+import { getGrimoireChapterBySlug, getGrimoireSlugs, getGrimoireAdjacentChapters } from '@/lib/grimoire-loader';
 import { formatBlockquotes } from '@/lib/format-blockquotes';
+import { ChapterNavigation } from "@/components/ChapterNavigation";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 // Forçar geração estática para todos os capítulos conhecidos
 export async function generateStaticParams() {
@@ -17,6 +19,7 @@ export async function generateStaticParams() {
 export default async function GrimoireChapter({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params;
     const chapter = await getGrimoireChapterBySlug(slug);
+    const adjacent = getGrimoireAdjacentChapters(slug);
 
     if (!chapter) {
         notFound();
@@ -37,6 +40,12 @@ export default async function GrimoireChapter({ params }: { params: Promise<{ sl
 
     return (
         <div className="container mx-auto py-12 px-6 lg:px-12 max-w-[1600px]">
+            <Breadcrumbs
+                items={[
+                    { label: "Grimório", href: "/grimoire" },
+                    { label: chapterMeta.title }
+                ]}
+            />
             <Link href="/grimoire">
                 <Button variant="ghost" className="mb-6 pl-0 hover:pl-2 transition-all">
                     <ArrowLeft className="mr-2 h-4 w-4" />
@@ -66,6 +75,12 @@ export default async function GrimoireChapter({ params }: { params: Promise<{ sl
                             </p>
                         </div>
                     )}
+
+                    <ChapterNavigation
+                        prev={adjacent.prev}
+                        next={adjacent.next}
+                        basePath="/grimoire"
+                    />
                 </article>
 
                 {/* Table of Contents */}

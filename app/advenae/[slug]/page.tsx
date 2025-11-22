@@ -1,34 +1,31 @@
+import { notFound } from 'next/navigation';
+import Link from 'next/link';
+import { ArrowLeft } from 'lucide-react';
+import { TableOfContents } from '@/components/TableOfContents';
+import { ScrollToTop } from '@/components/ScrollToTop';
+import { extractHeadings, injectHeadingIds, uniqueHeadings } from '@/lib/extract-headings';
 import { Button } from "@/components/ui/Button";
-import { ArrowLeft } from "lucide-react";
-import Link from "next/link";
-import { notFound } from "next/navigation";
-import { extractHeadings, injectHeadingIds, uniqueHeadings } from "@/lib/extract-headings";
-import { TableOfContents } from "@/components/TableOfContents";
-import { ScrollToTop } from "@/components/ScrollToTop";
-import { formatBlockquotes } from "@/lib/format-blockquotes";
-import { getCodexChapterBySlug, getCodexSlugs, getCodexAdjacentChapters } from "@/lib/codex-loader";
+import { getAdvenaeChapterBySlug, getAdvenaeSlugs, getAdvenaeAdjacentChapters } from '@/lib/advenae-loader';
+import { formatBlockquotes } from '@/lib/format-blockquotes';
 import { ChapterNavigation } from "@/components/ChapterNavigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
+// Forçar geração estática para todos os capítulos conhecidos
 export async function generateStaticParams() {
-    const slugs = getCodexSlugs().filter((slug) => slug !== "chapter-2");
+    const slugs = getAdvenaeSlugs();
     return slugs.map((slug) => ({ slug }));
 }
 
-interface PageProps {
-    params: Promise<{ slug: string }>;
-}
-
-export default async function ChapterPage({ params }: PageProps) {
+export default async function AdvenaeChapter({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params;
-    const chapter = await getCodexChapterBySlug(slug);
-    const adjacent = getCodexAdjacentChapters(slug);
+    const chapter = await getAdvenaeChapterBySlug(slug);
+    const adjacent = getAdvenaeAdjacentChapters(slug);
 
     if (!chapter) {
         notFound();
     }
 
-    const { meta } = chapter;
+    const { meta: chapterMeta } = chapter;
     const contentHtml = chapter.html;
 
     // Extrair headings e garantir IDs únicos
@@ -45,14 +42,14 @@ export default async function ChapterPage({ params }: PageProps) {
         <div className="container mx-auto py-12 px-6 lg:px-12 max-w-[1600px]">
             <Breadcrumbs
                 items={[
-                    { label: "Codex", href: "/codex" },
-                    { label: meta.title }
+                    { label: "Liber Advenae", href: "/advenae" },
+                    { label: chapterMeta.title }
                 ]}
             />
-            <Link href="/codex">
+            <Link href="/advenae">
                 <Button variant="ghost" className="mb-6 pl-0 hover:pl-2 transition-all">
                     <ArrowLeft className="mr-2 h-4 w-4" />
-                    Voltar ao Codex
+                    Voltar ao Liber Advenae
                 </Button>
             </Link>
 
@@ -60,10 +57,10 @@ export default async function ChapterPage({ params }: PageProps) {
                 {/* Conteúdo Principal */}
                 <article className="prose prose-invert prose-gold max-w-none prose-lg">
                     <h1 className="font-cinzel text-4xl text-gold-500 mb-4">
-                        {meta.title}
+                        {chapterMeta.title}
                     </h1>
                     <p className="lead text-xl text-muted-foreground mb-8">
-                        {meta.description}
+                        {chapterMeta.description}
                     </p>
 
                     {content ? (
@@ -82,7 +79,7 @@ export default async function ChapterPage({ params }: PageProps) {
                     <ChapterNavigation
                         prev={adjacent.prev}
                         next={adjacent.next}
-                        basePath="/codex"
+                        basePath="/advenae"
                     />
                 </article>
 
@@ -90,7 +87,6 @@ export default async function ChapterPage({ params }: PageProps) {
                 <TableOfContents headings={headings} />
             </div>
 
-            {/* Scroll to Top Button */}
             <ScrollToTop />
         </div>
     );

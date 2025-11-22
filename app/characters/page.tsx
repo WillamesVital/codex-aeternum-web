@@ -1,9 +1,12 @@
+"use client";
+
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import { Construction, Sword, Plus } from "lucide-react";
 import Link from "next/link";
 import { SignedIn, SignedOut } from "@clerk/nextjs";
 import { CharacterCard } from "@/components/characters/CharacterCard";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 const MOCK_CHARACTERS = [
     {
@@ -44,6 +47,9 @@ export default function CharactersPage() {
     return (
         <div className="container mx-auto py-24 px-4 text-center">
             <div className="max-w-4xl mx-auto">
+                <div className="flex justify-start mb-8">
+                    <Breadcrumbs items={[{ label: "Personagens" }]} />
+                </div>
                 <Sword className="h-16 w-16 text-gold-500 mx-auto mb-6" />
                 <h1 className="text-4xl font-bold text-gold-500 font-cinzel mb-4">
                     Construtor de Personagens
@@ -70,6 +76,8 @@ export default function CharactersPage() {
                                         characterClass={char.characterClass}
                                         level={char.level}
                                         type={char.type}
+                                        onEdit={() => console.log(`Edit ${char.name}`)}
+                                        onDelete={() => console.log(`Delete ${char.name}`)}
                                     />
                                 ))}
                             </div>

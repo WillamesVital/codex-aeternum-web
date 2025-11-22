@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
-import { ScrollText, Shield, Sword, Search, Book, Palette } from "lucide-react";
+import { ScrollText, Shield, Sword, Search, Book, Palette, Compass } from "lucide-react";
 import { useState } from "react";
 import { SearchModal } from "@/components/SearchModal";
 import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
@@ -35,6 +35,13 @@ export function Navbar() {
                         >
                             <Book className="h-4 w-4" />
                             <span>Grimoire</span>
+                        </Link>
+                        <Link
+                            href="/advenae"
+                            className="flex items-center space-x-1 text-sm font-medium text-muted-foreground hover:text-gold-500 transition-colors"
+                        >
+                            <Compass className="h-4 w-4" />
+                            <span>Advenae</span>
                         </Link>
                         <Link
                             href="/characters"

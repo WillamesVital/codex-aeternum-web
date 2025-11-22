@@ -32,6 +32,15 @@ const config: Config = {
             boxShadow: {
                 "gold-500/20": "0 10px 40px rgba(212, 175, 55, 0.2)",
             },
+            animation: {
+                "fade-in": "fadeIn 1s ease-out forwards",
+            },
+            keyframes: {
+                fadeIn: {
+                    "0%": { opacity: "0", transform: "translateY(10px)" },
+                    "100%": { opacity: "1", transform: "translateY(0)" },
+                },
+            },
         },
     },
     plugins: [require("@tailwindcss/typography")],
