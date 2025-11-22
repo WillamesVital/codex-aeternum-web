@@ -37,6 +37,7 @@ export function ScrollToTop() {
             className={`fixed bottom-8 right-8 z-50 p-3 rounded-full bg-gold-500 text-background shadow-lg hover:bg-gold-400 transition-all duration-300 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-16 pointer-events-none"
                 }`}
             aria-label="Voltar ao topo"
+            data-testid="scroll-to-top"
         >
             <ArrowUp className="h-6 w-6" />
         </button>

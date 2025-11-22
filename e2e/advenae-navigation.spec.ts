@@ -43,7 +43,7 @@ test.describe('Navegação do Liber Advenae', () => {
     test('deve exibir breadcrumbs na página do capítulo', async ({ page }) => {
         await page.goto('/advenae/prologo');
 
-        const advenaeBreadcrumb = page.locator('a:has-text("Liber Advenae")');
+        const advenaeBreadcrumb = page.locator('a:has-text("Liber Advenae")').first();
         await expect(advenaeBreadcrumb).toBeVisible();
     });
 

@@ -49,7 +49,7 @@ export function TableOfContents({ headings }: TableOfContentsProps) {
     if (headings.length === 0) return null;
 
     return (
-        <aside className="hidden lg:block w-full">
+        <aside className="hidden lg:block w-full" data-testid="table-of-contents">
             <div className="sticky top-24 border-l border-gold-500/20 pl-4 max-h-[calc(100vh-8rem)] overflow-y-auto">
                 <h4 className="font-cinzel text-sm font-bold text-gold-500 mb-3">
                     Neste Capítulo
@@ -70,6 +70,7 @@ export function TableOfContents({ headings }: TableOfContentsProps) {
                                             ? "text-gold-500 font-semibold"
                                             : "text-muted-foreground"
                                     )}
+                                    data-testid={`toc-link-${heading.id}`}
                                 >
                                     {heading.text}
                                 </a>

@@ -17,7 +17,10 @@ interface CharacterCardProps {
 
 export function CharacterCard({ name, race, characterClass, level, type, onEdit, onDelete }: CharacterCardProps) {
     return (
-        <Card className="bg-background/50 backdrop-blur-sm border-gold-500/20 hover:border-gold-500/50 transition-colors cursor-pointer group overflow-hidden relative">
+        <Card
+            className="bg-background/50 backdrop-blur-sm border-gold-500/20 hover:border-gold-500/50 transition-colors cursor-pointer group overflow-hidden relative"
+            data-testid={`character-card-${name.toLowerCase().replace(/\s+/g, '-')}`}
+        >
             <div className="absolute top-2 right-2 flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity z-10">
                 <Button
                     variant="ghost"
@@ -28,6 +31,8 @@ export function CharacterCard({ name, race, characterClass, level, type, onEdit,
                         onEdit?.();
                     }}
                     disabled={!onEdit}
+                    aria-label={`Editar ${name}`}
+                    data-testid="character-edit-button"
                 >
                     <Edit2 className="h-4 w-4" />
                 </Button>
@@ -40,6 +45,8 @@ export function CharacterCard({ name, race, characterClass, level, type, onEdit,
                         onDelete?.();
                     }}
                     disabled={!onDelete}
+                    aria-label={`Excluir ${name}`}
+                    data-testid="character-delete-button"
                 >
                     <Trash2 className="h-4 w-4" />
                 </Button>
@@ -50,10 +57,10 @@ export function CharacterCard({ name, race, characterClass, level, type, onEdit,
                         {name}
                     </CardTitle>
                     <div className="flex flex-col items-end gap-1">
-                        <Badge variant="outline" className="border-gold-500/50 text-gold-500">
+                        <Badge variant="outline" className="border-gold-500/50 text-gold-500" data-testid="character-level">
                             Nível {level}
                         </Badge>
-                        <Badge variant="secondary" className="text-xs bg-gold-500/10 text-gold-500 hover:bg-gold-500/20 border-none w-fit">
+                        <Badge variant="secondary" className="text-xs bg-gold-500/10 text-gold-500 hover:bg-gold-500/20 border-none w-fit" data-testid="character-type">
                             {type === "PC" ? "Personagem" : "NPC"}
                         </Badge>
                     </div>
@@ -63,11 +70,11 @@ export function CharacterCard({ name, race, characterClass, level, type, onEdit,
                 <div className="flex flex-col gap-2 text-sm text-muted-foreground">
                     <div className="flex items-center gap-2">
                         <User className="h-4 w-4" />
-                        <span>{race}</span>
+                        <span data-testid="character-race">{race}</span>
                     </div>
                     <div className="flex items-center gap-2">
                         <Shield className="h-4 w-4" />
-                        <span>{characterClass}</span>
+                        <span data-testid="character-class">{characterClass}</span>
                     </div>
                 </div>
             </CardContent>

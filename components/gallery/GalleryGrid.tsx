@@ -38,13 +38,14 @@ export function GalleryGrid() {
     return (
         <div className="space-y-8">
             {/* Filter Buttons */}
-            <div className="flex flex-wrap justify-center gap-4">
+            <div className="flex flex-wrap justify-center gap-4" data-testid="gallery-filters">
                 {GALLERY_CATEGORIES.map((category) => (
                     <Button
                         key={category.id}
                         variant={selectedCategory === category.id ? "primary" : "outline"}
                         onClick={() => setSelectedCategory(category.id)}
                         className="min-w-[100px]"
+                        data-testid={`gallery-filter-${category.id}`}
                     >
                         {category.label}
                     </Button>
@@ -55,6 +56,7 @@ export function GalleryGrid() {
             <motion.div
                 layout
                 className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+                data-testid="gallery-grid"
             >
                 {filteredItems.map((item, index) => (
                     <motion.div
@@ -66,6 +68,7 @@ export function GalleryGrid() {
                         key={item.id}
                         className="group relative aspect-[4/3] cursor-pointer overflow-hidden rounded-lg border border-gold-500/20 bg-black/40"
                         onClick={() => openLightbox(index)}
+                        data-testid={`gallery-item-${item.id}`}
                     >
                         <Image
                             src={item.src}

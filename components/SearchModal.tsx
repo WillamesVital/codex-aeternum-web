@@ -75,10 +75,16 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                         exit={{ opacity: 0 }}
                         onClick={onClose}
                         className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50"
+                        aria-hidden="true"
                     />
 
                     {/* Modal Container */}
-                    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+                    <div
+                        className="fixed inset-0 z-50 flex items-center justify-center p-4"
+                        role="dialog"
+                        aria-modal="true"
+                        data-testid="search-modal"
+                    >
                         <motion.div
                             initial={{ opacity: 0, scale: 0.95 }}
                             animate={{ opacity: 1, scale: 1 }}
@@ -97,18 +103,19 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                                         className="flex-1 bg-transparent border-none outline-none text-lg text-foreground placeholder:text-muted-foreground/50"
                                         value={query}
                                         onChange={(e) => setQuery(e.target.value)}
+                                        data-testid="search-input"
                                     />
                                     {isLoading ? (
                                         <Loader2 className="w-5 h-5 text-gold-500 animate-spin" />
                                     ) : (
-                                        <button onClick={onClose} className="text-muted-foreground hover:text-foreground">
+                                        <button onClick={onClose} className="text-muted-foreground hover:text-foreground" aria-label="Fechar">
                                             <X className="w-5 h-5" />
                                         </button>
                                     )}
                                 </div>
 
                                 {/* Results List */}
-                                <div className="overflow-y-auto p-2">
+                                <div className="overflow-y-auto p-2" data-testid="search-results">
                                     {results.length > 0 ? (
                                         <div className="flex flex-col gap-1">
                                             {results.map((result) => (
@@ -117,6 +124,7 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                                                     href={`/codex/${result.id}`}
                                                     onClick={onClose}
                                                     className="group flex items-start gap-3 p-3 rounded-md hover:bg-gold-500/10 transition-colors"
+                                                    data-testid="search-result-item"
                                                 >
                                                     <BookOpen className="w-5 h-5 text-gold-500 mt-1 shrink-0 opacity-50 group-hover:opacity-100" />
                                                     <div>

@@ -17,10 +17,13 @@ export function ChapterNavigation({ prev, next, basePath }: ChapterNavigationPro
     if (!prev && !next) return null;
 
     return (
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mt-12 pt-8 border-t border-gold-500/20">
+        <div
+            className="flex flex-col sm:flex-row items-center justify-between gap-4 mt-12 pt-8 border-t border-gold-500/20"
+            data-testid="chapter-navigation"
+        >
             <div className="w-full sm:w-auto">
                 {prev ? (
-                    <Link href={`${basePath}/${prev.slug}`} className="block w-full">
+                    <Link href={`${basePath}/${prev.slug}`} className="block w-full" data-testid="prev-chapter">
                         <Button variant="outline" className="w-full sm:w-auto gap-2 h-auto py-4 px-6 border-gold-500/30 hover:border-gold-500 hover:bg-gold-500/10 group text-left justify-start">
                             <ChevronLeft className="h-5 w-5 text-gold-500 group-hover:-translate-x-1 transition-transform" />
                             <div className="flex flex-col items-start">
@@ -36,7 +39,7 @@ export function ChapterNavigation({ prev, next, basePath }: ChapterNavigationPro
 
             <div className="w-full sm:w-auto">
                 {next ? (
-                    <Link href={`${basePath}/${next.slug}`} className="block w-full">
+                    <Link href={`${basePath}/${next.slug}`} className="block w-full" data-testid="next-chapter">
                         <Button variant="outline" className="w-full sm:w-auto gap-2 h-auto py-4 px-6 border-gold-500/30 hover:border-gold-500 hover:bg-gold-500/10 group text-right justify-end">
                             <div className="flex flex-col items-end">
                                 <span className="text-xs text-muted-foreground uppercase tracking-wider">Próximo</span>
