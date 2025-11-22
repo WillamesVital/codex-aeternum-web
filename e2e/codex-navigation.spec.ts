@@ -1,86 +1,104 @@
 import { test, expect } from '@playwright/test';
+import { CodexIndexPage } from './pages/CodexIndexPage';
+import { CodexChapterPage } from './pages/CodexChapterPage';
+
 
 test.describe('Navegação do Codex', () => {
     test('deve exibir página de índice de capítulos', async ({ page }) => {
-        await page.goto('/codex');
 
-        // Verificar título
-        const heading = page.locator('h1:has-text("O Codex Aeternum")');
-        await expect(heading).toBeVisible();
+        const codexIndex = new CodexIndexPage(page);
 
-        // Verificar presença de pelo menos um capítulo
-        const chapterCards = page.locator('a[href^="/codex/"]');
-        await expect(chapterCards.first()).toBeVisible();
+        await codexIndex.goto();
+
+        await codexIndex.validatePageLoaded();
+        const chapterCount = await codexIndex.getChapterCount();
+        expect(chapterCount).toBeGreaterThan(0);
     });
 
     test('deve mostrar "Ler Capítulo" ao passar o mouse no card', async ({ page }) => {
-        await page.goto('/codex');
 
-        const firstChapter = page.locator('a[href^="/codex/"]').first();
-        await firstChapter.hover();
+        const codexIndex = new CodexIndexPage(page);
 
-        // Verificar se o texto aparece
-        const readLink = firstChapter.locator('text=Ler Capítulo');
-        await expect(readLink).toBeVisible();
+        await codexIndex.goto();
+        await codexIndex.hoverChapterCard(0);
+
+        await codexIndex.validateReadChapterTextVisible(0);
     });
 
     test('deve navegar para página do capítulo', async ({ page }) => {
-        await page.goto('/codex');
 
-        const firstChapter = page.locator('a[href^="/codex/"]').first();
-        await firstChapter.click();
+        const codexIndex = new CodexIndexPage(page);
+        const codexChapter = new CodexChapterPage(page);
 
-        // Verificar URL mudou
-        await expect(page).toHaveURL(/\/codex\/.+/);
+        await codexIndex.goto();
+        await codexIndex.clickChapter(0);
 
-        // Verificar breadcrumbs
-        const breadcrumbs = page.locator('nav[aria-label="Breadcrumb"], a:has-text("Codex")');
-        await expect(breadcrumbs.first()).toBeVisible();
+        expect(page.url()).toMatch(/\/codex\/.+/);
+        await codexChapter.validatePageLoaded();
     });
 
     test('deve exibir conteúdo do capítulo', async ({ page }) => {
-        await page.goto('/codex');
 
-        const firstChapter = page.locator('a[href^="/codex/"]').first();
-        await firstChapter.click();
+        const codexIndex = new CodexIndexPage(page);
+        const codexChapter = new CodexChapterPage(page);
 
-        // Verificar presença de conteúdo
-        const content = page.locator('.codex-content, article');
-        await expect(content).toBeVisible();
+        await codexIndex.goto();
+        await codexIndex.clickChapter(0);
+
+        await codexChapter.validateContent();
+        await codexChapter.validateBackButton();
     });
 
     test('deve ter Sumário (Table of Contents) funcional', async ({ page }) => {
-        await page.goto('/codex');
 
-        const firstChapter = page.locator('a[href^="/codex/"]').first();
-        await firstChapter.click();
+        const codexIndex = new CodexIndexPage(page);
+        const codexChapter = new CodexChapterPage(page);
+        await codexChapter.init({ width: 1280, height: 720 });
 
-        // Verificar presença do TOC
-        const toc = page.locator('text=Sumário, nav');
-        const tocLinks = page.locator('a[href^="#"]');
 
-        // Deve ter pelo menos um link
-        expect(await tocLinks.count()).toBeGreaterThan(0);
+        await codexIndex.goto();
+        await codexIndex.clickChapter(0);
+
+        const { tocLinks, linkCount } = await codexChapter.validateTOC();
+        expect(linkCount).toBeGreaterThan(0);
     });
 
     test('deve ter navegação entre capítulos (Anterior/Próximo)', async ({ page }) => {
-        await page.goto('/codex');
 
-        // Clicar no segundo capítulo (para ter anterior e próximo)
-        const chapters = page.locator('a[href^="/codex/"]');
-        const chapterCount = await chapters.count();
+        const codexIndex = new CodexIndexPage(page);
+        const codexChapter = new CodexChapterPage(page);
 
-        if (chapterCount > 1) {
-            await chapters.nth(1).click();
 
-            // Verificar botões de navegação
-            const prevButton = page.locator('a:has-text("Anterior"), a:has-text("Capítulo Anterior")');
-            const nextButton = page.locator('a:has-text("Próximo"), a:has-text("Próximo Capítulo")');
+        await codexIndex.goto();
+        const chapterCount = await codexIndex.getChapterCount();
 
-            // Pelo menos um deve estar visível
-            const hasPrev = await prevButton.count() > 0;
-            const hasNext = await nextButton.count() > 0;
-            expect(hasPrev || hasNext).toBeTruthy();
+
+        if (chapterCount < 2) {
+            test.skip();
         }
+
+        await codexIndex.clickChapter(1);
+
+        const { hasPrev, hasNext } = await codexChapter.validateChapterNavigation();
+        expect(hasPrev || hasNext).toBeTruthy();
+    });
+
+    test('deve permitir clicar em link do TOC e fazer scroll suave', async ({ page }) => {
+
+        const codexIndex = new CodexIndexPage(page);
+        const codexChapter = new CodexChapterPage(page);
+        await codexChapter.init({ width: 1280, height: 720 });
+
+
+        await codexIndex.goto();
+        await codexIndex.clickChapter(0);
+
+
+        const { linkCount } = await codexChapter.validateTOC();
+        if (linkCount === 0) {
+            test.skip();
+        }
+
+        await codexChapter.clickTOCLink(0);
     });
 });
