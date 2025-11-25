@@ -2,13 +2,26 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
-import { ScrollText, Shield, Sword, Search, Book, Palette, Compass } from "lucide-react";
+import { ScrollText, Shield, Sword, Search, Book, Palette, Compass, Crown, User as UserIcon, LogOut } from "lucide-react";
 import { useState } from "react";
 import { SearchModal } from "@/components/SearchModal";
-import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
+import { useAuth } from "@/contexts/AuthContext";
+import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuLabel,
+    DropdownMenuSeparator,
+    DropdownMenuTrigger,
+} from "@/components/ui/DropdownMenu";
 
 export function Navbar() {
     const [isSearchOpen, setIsSearchOpen] = useState(false);
+    const { user, signOut } = useAuth();
+
+    // For now, we consider any logged in user can access "Mestre" area
+    // In future we can check user.user_metadata.role === 'master'
+    const isMaster = !!user;
 
     return (
         <>
@@ -69,6 +82,16 @@ export function Navbar() {
                             <Palette className="h-4 w-4" />
                             <span>Galeria</span>
                         </Link>
+                        {isMaster && (
+                            <Link
+                                href="/campaigns"
+                                className="flex items-center space-x-1 text-sm font-medium text-gold-500 hover:text-gold-400 transition-colors"
+                                data-testid="nav-link-master"
+                            >
+                                <Crown className="h-4 w-4" />
+                                <span>Mestre</span>
+                            </Link>
+                        )}
                     </div>
 
                     <div className="flex items-center space-x-4">
@@ -83,25 +106,52 @@ export function Navbar() {
                             <Search className="h-5 w-5" />
                         </Button>
                         <div className="hidden sm:flex space-x-4 items-center">
-                            <SignedOut>
-                                <Link href="/sign-in" data-testid="nav-signin">
-                                    <Button variant="outline" size="sm">
-                                        Entrar
-                                    </Button>
-                                </Link>
-                                <Link href="/sign-up" data-testid="nav-signup">
-                                    <Button size="sm">Cadastrar</Button>
-                                </Link>
-                            </SignedOut>
-                            <SignedIn>
-                                <UserButton
-                                    appearance={{
-                                        elements: {
-                                            avatarBox: "w-9 h-9"
-                                        }
-                                    }}
-                                />
-                            </SignedIn>
+                            {!user ? (
+                                <>
+                                    <Link href="/login" data-testid="nav-signin">
+                                        <Button variant="outline" size="sm">
+                                            Entrar
+                                        </Button>
+                                    </Link>
+                                    <Link href="/signup" data-testid="nav-signup">
+                                        <Button size="sm">Cadastrar</Button>
+                                    </Link>
+                                </>
+                            ) : (
+                                <DropdownMenu>
+                                    <DropdownMenuTrigger asChild>
+                                        <Button variant="ghost" size="icon" className="rounded-full border border-gold-500/20 overflow-hidden">
+                                            {user.user_metadata?.full_name ? (
+                                                <span className="font-cinzel font-bold text-gold-500">
+                                                    {user.user_metadata.full_name
+                                                        .split(" ")
+                                                        .map((n: string) => n[0])
+                                                        .slice(0, 2)
+                                                        .join("")
+                                                        .toUpperCase()}
+                                                </span>
+                                            ) : (
+                                                <UserIcon className="h-5 w-5 text-gold-500" />
+                                            )}
+                                        </Button>
+                                    </DropdownMenuTrigger>
+                                    <DropdownMenuContent align="end" className="w-56 bg-black/90 border-gold-500/20 text-gold-100">
+                                        <DropdownMenuLabel>
+                                            {user.user_metadata?.full_name || "Minha Conta"}
+                                        </DropdownMenuLabel>
+                                        <DropdownMenuSeparator className="bg-gold-500/20" />
+                                        <DropdownMenuItem className="focus:bg-gold-500/10 focus:text-gold-500 cursor-pointer">
+                                            <UserIcon className="mr-2 h-4 w-4" />
+                                            <span>{user.email}</span>
+                                        </DropdownMenuItem>
+                                        <DropdownMenuSeparator className="bg-gold-500/20" />
+                                        <DropdownMenuItem onClick={signOut} className="focus:bg-red-500/10 focus:text-red-500 cursor-pointer">
+                                            <LogOut className="mr-2 h-4 w-4" />
+                                            <span>Sair</span>
+                                        </DropdownMenuItem>
+                                    </DropdownMenuContent>
+                                </DropdownMenu>
+                            )}
                         </div>
                     </div>
                 </div>

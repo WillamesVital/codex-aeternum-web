@@ -59,4 +59,16 @@ const CardContent = React.forwardRef<HTMLDivElement, CardProps>(
 );
 CardContent.displayName = "CardContent";
 
-export { Card, CardHeader, CardTitle, CardContent };
+const CardFooter = React.forwardRef<HTMLDivElement, CardProps>(
+    ({ className, "data-testid": testId, ...props }, ref) => (
+        <div
+            ref={ref}
+            data-testid={testId}
+            className={cn("flex items-center p-6 pt-0", className)}
+            {...props}
+        />
+    )
+);
+CardFooter.displayName = "CardFooter";
+
+export { Card, CardHeader, CardTitle, CardContent, CardFooter };

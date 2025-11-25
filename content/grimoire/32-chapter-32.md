@@ -1,360 +1,287 @@
 ---
-title: "Capítulo 32 - Apêndice de Referência Cruzada do Codex Aeternum"
+title: "Capítulo 32 - Guia do Custódio: Como Criar Sua Campanha em Aeternum"
 slug: "chapter-32"
 order: 32
-description: "Toda luz precisa de espelho; toda sabedoria precisa de ordem."
+description: "Um guia prático para o Mestre estruturar e conduzir suas campanhas."
 ---
 
-*Consultas Rápidas por Tema, Capítulo e Função Masterial*
+# Guia do Custódio: Como Criar Sua Campanha em Aeternum
 
-> "Toda luz precisa de espelho;  
-> toda sabedoria precisa de ordem."  
-> *Códice dos Cartógrafos da Alma, Verso XV  
+> "O mestre não cria o mundo, ele o revela aos jogadores."
 
-# Prólogo - Este Apêndice é o Mapa entre os Livros
+# **Capítulo 32 — Guia do Custódio: Como Criar sua Campanha em Aeternum**
 
-O *Codex Aeternum* é a **teologia, a cosmologia e a história do
-mundo**.  
-O *Grimoire Magistrum* é a **aplicação prática para o mestre criar
-campanhas**.
+### *Da Semente ao Firmamentum · Do Véu ao Juízo*
 
-O Apêndice final une ambos.
+> “O Custódio não cria mundos —
+> apenas abre caminhos para que eles sejam reencontrados.”
+> — *Códice dos Vigilantes, Verso XII*
 
-A partir deste capítulo, o mestre pode:
+---
 
-- localizar rapidamente conceitos fundamentais,
+## **32.1 — O Fundamento Espiritual da Campanha**
 
-- encontrar capítulos correlatos entre os dois livros,
+Criar uma campanha em Aeternum **não começa com mapas, vilões ou tesouros** — começa com **discernimento**.
 
-- evitar contradições,
+O mestre precisa responder **três perguntas**, inspiradas diretamente no *Codex*:
 
-- navegar pela Lore com precisão,
+---
 
-- conectar teologia �  narrativa �  jogabilidade.
+### **1. Em que Vigília minha história nascerá?**
 
-# Parte I - Referência Cruzada por Temas Centrais
+*(Referência: **Codex Aeternum — Capítulo VI, pp. 63–74**)*
 
-A seguir estão listados os temas mais importantes da criação do mundo e
-suas correspondências diretas entre o Codex e o Grimoire.
+Cada Vigília define:
 
-## 1. Criação, Firmamentum e Altíssimo
+* tom
+* nível de corrupção
+* presença da Luz
+* esperança ou desespero
+* tipo de inimigos ativos
+* papel do Firmamentum
 
-### Onde está no *Codex Aeternum*:
+**A Vigília do Véu** (era atual) é a mais recomendada para campanhas longas.
 
-- **Capítulo I - O Livro da Origem  
-  **
+---
 
-- **Capítulo II - O Livro do Desígnio  
-  **
+### **2. Qual será a verdade espiritual que a campanha deseja explorar?**
 
-- **Capítulo III - Os Primeiros Povos  
-  **
+Toda história em Aeternum ecoa um tema do Codex:
 
-### Onde está no *Grimoire Magistrum*:
+* A corrupção nasce do orgulho (*Cap. II*)
+* A esperança persiste mesmo em cinzas (*Cap. VI*)
+* As vocações são caminhos de restauração (*Cap. VIII*)
+* As Fendas rasgam, mas não vencem (*Cap. VII*)
 
-- **Capítulo 1 - O Papel do Mestre na Criação  
-  **
+Escolha **um tema central** para reger toda a campanha.
 
-- **Capítulo 3 - Estrutura do Mundo e da Alma  
-  **
+---
 
-- **Capítulo 8 - As Eras e a História do Mundo  
-  **
+### **3. Como essa verdade se manifesta no mundo?**
 
-### Para o Mestre usar quando:
+Três vetores:
 
-- quiser reforçar o tom teológico do cenário,
+* **Ambiente:** cidades cinzentas, templos quebrados, reinos exaustos
+* **Povos:** Elenai distantes, Ankarim isolados, Vayren inquietos, Humanos quebrados
+* **Sinais espirituais:** sonhos, visões, silêncio, corrupção
 
-- iniciar campanhas de origem,
+---
 
-- explicar o mundo para novos jogadores.
+## **32.2 — Os 7 Passos para Criar sua Campanha**
 
-## 2. A Queda, Lethariel e o Inferis
+Este é o método oficial.
+Clássico, simples, profundo e prático.
 
-### Codex:
+---
 
-- **Capítulo II - A Queda do Luz Primeva  
-  **
+### **PASSO 1 — Escolher a Vigília**
 
-- **Capítulo VII - As Fendas e as Sombras  
-  **
+Use a tabela rápida:
 
-### Grimoire:
+#### **VIGÍLIA DO VÉU — era atual**
 
-- **Capítulo 5 - Tentação e Queda  
-  **
+Corrupção crescente, Fendas se multiplicando, Ordens pressionadas.
+*(Referência: Codex Aeternum – Cap. VI)*
 
-- **Capítulo 12 - Criando Cultos e Heresias  
-  **
+#### **VIGÍLIA DO FOGO — esperança frágil**
 
-- **Capítulo 29 - Vilões e Servos da Sombra  
-  **
+Igrejas crescendo, cidades renascendo, mas sombras ainda presentes.
 
-### Use quando:
+#### **VIGÍLIA DA CINZA — desespero e ruína**
 
-- vilões estiverem envolvidos,
+Perfeita para histórias sobre sobrevivência e perda.
 
-- sonhos sombrios surgirem,
+#### **VIGÍLIA DA QUEDA — épica e trágica**
 
-- a campanha tocar corrupção, fendas ou Caídos.
+Somente para campanhas especiais.
 
-## 3. Os Povos da Criação
+#### **VIGÍLIA DA CRIAÇÃO — mítica**
 
-### Codex:
+Apenas para prelúdios, flashbacks e histórias lendárias.
 
-- **Capítulo III - Os Elenai, Ankarim e Vayren  
-  **
+---
 
-### Grimoire:
+### **PASSO 2 — Definir o Foco da História**
 
-- **Capítulo 14 - Culturas Humanas  
-  **
+Existem apenas **três Estruturas Primárias**
+*(Cap. 8 do Livro do Mestre):*
 
-- **Capítulo 26 - Tradições Não-Humanas  
-  **
+#### **Restauração**
 
-### Use quando:
+A Luz precisa reacender algo perdido.
 
-- quiser introduzir culturas, ritos e regiões,
+#### **Resistência**
 
-- explorar conflitos entre povos,
+As Sombras avançam — e precisam ser contidas.
 
-- estruturar reinos.
+#### **Revelação**
 
-## 4. Relíquias, Artefatos e Objetos Profanos
+Algo oculto, esquecido ou proibido precisa ser descoberto.
 
-### Codex:
+---
 
-- **Capítulo VII - As Relíquias Perdidas  
-  **
+### **PASSO 3 — Criar a Ameaça Central**
 
-- **Capítulo XII - Sinais e Presságios  
-  **
+Toda campanha precisa de uma **raiz espiritual** — nada de “vilão genérico”.
 
-### Grimoire:
+Use as **Três Raízes da Corrupção** (Capítulo 9 do LM):
 
-- **Capítulo 10 - Relíquias e Artefatos  
-  **
+1. **O Orgulho de Lethariel**
+   Vilões que seduzem, manipulam, engrandecem a si mesmos.
 
-- **Capítulo 27 - Criaturas Corrompidas  
-  **
+2. **As Sombras Terrenas**
+   Corrupção humana, bestial ou emocional.
 
-- **Capítulo 31 - Ferramentas e Geradores  
-  **
+3. **As Fendas do Lamento**
+   Horrores vivos, distorções, ecos do Inferis.
 
-### Use quando:
+Escolha:
 
-- jogadores encontrarem itens importantes,
+* **UMA raiz primária**
+* **UMA raiz secundária** (para nuance)
 
-- precisar criar artefatos rapidamente,
+---
 
-- quiser adicionar tensão espiritual.
+### **PASSO 4 — Criar os 3 Locais de Foco**
 
-## 5. Criaturas, Bestas e Caídos
+A campanha precisa de **três lugares que carregam significado espiritual**:
 
-### Codex:
+1. **A CIDADE**
+   Onde a corrupção se esconde atrás de rostos humanos.
 
-- **Capítulo III - Os Caídos Terrenos  
-  **
+2. **O SANTUÁRIO**
+   Local luminoso, sagrado — ou profanado.
+   *(Referência: Cap. 18 – Locais de Poder)*
 
-- **Capítulo VII - Sombras e Fendas  
-  **
+3. **A FENDA**
+   O coração do perigo.
+   *(Referência: Cap. 22 – Fendas do Mundo)*
 
-### Grimoire:
+Com isso, você já tem:
 
-- **Capítulo 27 - Bestiários Spirituosae  
-  **
+* política
+* fé
+* ameaça
+* geografia
+* ritmo
 
-- **Capítulo 28 - Vilões e Antagonistas  
-  **
+---
 
-### Use quando:
+### **PASSO 5 — Criar 1 a 3 Objetos Espirituais Catalisadores**
 
-- planejar encontros,
+Esses objetos NÃO são relíquias completas (Cap. 10 do LM).
+São elementos de narrativa:
 
-- criar monstros únicos,
+* artefatos consagrados
+* itens cinzentos
+* objetos profanos leves
+* marcas antigas
+* símbolos da Vigília
 
-- lidar com corrupção ambiental.
+Exemplos:
 
-## 6. Sonhos, Profecias e Sinais
+* **O Sino de Aurion** — toca sozinho quando a Sombra cresce
+* **A Pluma de Lethariel** — fragmento corrompido que induz orgulho
+* **O Cálice do Fogo Branco** — usado na purificação de Thalvorn
 
-### Codex:
+---
 
-- **Capítulo VIII - A Profecia dos Povos  
-  **
+### **PASSO 6 — Entrelaçar a Jornada Espiritual dos Personagens**
 
-- **Capítulo XII - O Livro dos Sinais  
-  **
+Use:
 
-### Grimoire:
+* **Virtude Brilhante** (Cap. 10 do Codex)
+* **Pecado Dominante** (Cap. 10 do Codex)
+* **Vocações** (Cap. 7 do Jogador)
+* **Dons Menores** (Cap. 8 do Jogador)
 
-- **Capítulo 29 - Sonhos e Presságios  
-  **
+Cada personagem deve ter:
 
-- **Capítulo 30 - Arco Profético e Fim da Vigília  
-  **
+* Um pecado que a campanha testará
+* Uma virtude que fortalecerá
+* Uma fenda pessoal (metafórica)
+* Um eco do passado a resolver
 
-### Use quando:
+---
 
-- quiser guiar jogadores com espiritualidade,
+### **PASSO 7 — Construir o Primeiro Arco (3–5 Sessões)**
 
-- adicionar visão profética sem railroading,
+Todo arco inicial segue a liturgia:
 
-- reforçar tom místico da campanha.
+1. **Sussurro** — algo estranho, fora do lugar
+2. **Sinal** — aviso, sonho, visão, presságio
+3. **Corrupção** — primeira revelação da ameaça
+4. **Escolha** — dilema moral claro
+5. **Juízo Parcial** — consequência espiritual imediata
+   *(Referência: Capítulo 7 — O Juízo das Almas)*
 
-## 7. Virtudes, Pecados e Teologia Moral
+---
 
-### Codex:
+## **32.3 — Esqueleto Oficial da Campanha (Template Pronto)**
 
-- **Capítulo X - O Livro das Virtudes e Pecados  
-  **
+### **NOME DA CAMPANHA**
 
-### Grimoire:
+**TEMA ESPIRITUAL:**
+**VIGÍLIA:**
+**FOCO (Restauração / Resistência / Revelação):**
+**RAIZ DA CORRUPÇÃO (Primária/Secundária):**
 
-- **Capítulo 4 - Dilemas Morais e Provações  
-  **
+### **LOCAIS PRINCIPAIS**
 
-- **Capítulo 29 - Sonhos Tentadores  
-  **
+**Cidade:**
+**Santuário:**
+**Fenda:**
 
-### Use quando:
+### **OBJETOS CATALISADORES**
 
-- construir dilemas éticos,
+### **NPCs FUNDAMENTAIS**
 
-- lidar com tentações,
+**Aliado**
+**Oponente**
+**Neutro/Enigmático**
 
-- justificar consequências espirituais.
+### **ARCO INICIAL (Sessões 1–5)**
 
-## 8. Escatologia e o Novo Aeternum
+**Sussurro:**
+**Sinal:**
+**Corrupção:**
+**Escolha:**
+**Juízo Parcial:**
 
-### Codex:
+---
 
-- **Capítulo XIII - O Novo Aeternum  
-  **
+## **32.4 — Erros Comuns do Mestre e Como Evitá-los**
 
-### Grimoire:
+1. **Vilões sem raiz espiritual**
+   Use as três raízes (Cap. 9).
 
-- **Capítulo 30 - Grande Arco Profético  
-  **
+2. **Demasiada clareza ou profecia óbvia**
+   O Firmamentum nunca fala com precisão absoluta.
 
-- **Capítulo 8 - Vigília do Véu  
-  **
+3. **Excesso de poder nas mãos dos jogadores**
+   Relíquias verdadeiras são raríssimas.
 
-### Use quando:
+4. **Falta de consequências/moralidade**
+   Use *Juízos Parciais* sempre que um pecado dominar a cena.
 
-- campanhas forem de longa duração,
+5. **Horror sem esperança**
+   Sempre inclua uma centelha de Lumen.
 
-- der sinais do fim,
+---
 
-- quiser dar tom apocalíptico.
+## **32.5 — Checklist Final do Custódio**
 
-# Parte II - Referência Cruzada Rápida (Índice por Temas Específicos)
+* Escolhi a Vigília
+* Escolhi o tema espiritual
+* Determinei o foco da campanha
+* Criei a ameaça principal
+* Criei os 3 locais centrais
+* Determinei 1 a 3 objetos fundamentais
+* Conectei virtudes/pecados dos jogadores
+* Preparei o arco inicial (5 sessões)
+* Planejei sussurros, sinais e juízos
+* Determinei o tom narrativo
+* Determinei o tom teológico
+* Estou pronto para iniciar a sessão 0
 
-### Use esta seção como "atalhos" internos:
-
-### Corrupção e Sombra
-
-- Codex: Cap. II, VII
-
-- Grimoire: Cap. 12, 27, 28, 29
-
-### Luz e Lumen
-
-- Codex: Cap. I, III
-
-- Grimoire: Cap. 1, 3, 29
-
-### Magia (Cinza, Lumen, Sombra)
-
-- Codex: Cap. VII
-
-- Grimoire: Cap. 27
-
-### Ordens e Facções
-
-- Codex: Cap. XI
-
-- Grimoire: Cap. 19
-
-### Cidades e Reinos
-
-- Codex: Cap. III, IV
-
-- Grimoire: Cap. 18
-
-### Rituais e Liturgias
-
-- Codex: Cap. III, VI
-
-- Grimoire: Cap. 14, 26
-
-### Bestas e Mutantes
-
-- Codex: Cap. VII
-
-- Grimoire: Cap. 27
-
-### Profecia e Destino Final
-
-- Codex: Cap. VIII, XIII
-
-- Grimoire: Cap. 29, 30
-
-# Parte III - Tabela de Conexões Diretas (Consulta Relâmpago)
-
-### Quando o mestre pensar em...
-
-**Fendas** �  Leia:
-
-- *Codex*: Cap. VII
-
-- *Grimoire*: Cap. 12, Cap. 27
-
-**Relíquias** �  Leia:
-
-- *Codex*: Cap. VII
-
-- *Grimoire*: Cap. 10, Cap. 31
-
-**Caídos** �  Leia:
-
-- *Codex*: Cap. II, Cap. III
-
-- *Grimoire*: Cap. 28
-
-**Cultos** �  Leia:
-
-- *Codex*: Cap. VI, Cap. VII
-
-- *Grimoire*: Cap. 12, Cap. 19
-
-**Sonhos** �  Leia:
-
-- *Codex*: Cap. XII
-
-- *Grimoire*: Cap. 29
-
-**Fim dos Tempos** �  Leia:
-
-- *Codex*: Cap. XIII
-
-- *Grimoire*: Cap. 30
-
-# Epílogo - O Mestre: Guardião das Páginas Invisíveis
-
-> "O mundo é maior que seus capítulos;  
-> mas cada capítulo é uma chave."  
-> *Códice da Esperança, Verso XXXVI*
-
-Com este apêndice, o mestre pode navegar pelo vasto oceano espiritual de
-Aeternum com rapidez, precisão e reverência.
-
-A função deste capítulo é simples:
-
-- **facilitar consulta**,
-
-- **evitar contradições**,
-
-- **unir teologia e jogo**,
-
-- **servir como mapa do tesouro do Grimoire**.
+---

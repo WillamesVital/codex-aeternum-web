@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import { Construction, Sword, Plus } from "lucide-react";
 import Link from "next/link";
-import { SignedIn, SignedOut } from "@clerk/nextjs";
+import { useAuth } from "@/contexts/AuthContext";
 import { CharacterCard } from "@/components/characters/CharacterCard";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
@@ -44,6 +44,7 @@ const MOCK_CHARACTERS = [
 ];
 
 export default function CharactersPage() {
+    const { user } = useAuth();
     return (
         <div className="container mx-auto py-24 px-4 text-center">
             <div className="max-w-4xl mx-auto">
@@ -55,7 +56,7 @@ export default function CharactersPage() {
                     Construtor de Personagens
                 </h1>
 
-                <SignedIn>
+                {user ? (
                     <div className="mb-12">
                         <div className="flex items-center justify-between mb-6">
                             <h2 className="text-2xl font-cinzel text-gold-500">Meus Personagens</h2>
@@ -98,28 +99,28 @@ export default function CharactersPage() {
                             </Card>
                         )}
                     </div>
-                </SignedIn>
+                ) : (
+                    <>
+                        <p className="text-xl text-muted-foreground mb-8">
+                            A forja está fria no momento. Nossos ferreiros estão trabalhando incansavelmente para trazer
+                            as ferramentas para você criar suas lendas.
+                        </p>
 
-                <SignedOut>
-                    <p className="text-xl text-muted-foreground mb-8">
-                        A forja está fria no momento. Nossos ferreiros estão trabalhando incansavelmente para trazer
-                        as ferramentas para você criar suas lendas.
-                    </p>
-
-                    <Card className="bg-background/50 backdrop-blur-sm border-gold-500/20 mb-8">
-                        <CardHeader>
-                            <CardTitle className="flex items-center justify-center gap-2">
-                                <Construction className="h-5 w-5" />
-                                <span>Em Construção</span>
-                            </CardTitle>
-                        </CardHeader>
-                        <CardContent>
-                            <p className="text-muted-foreground">
-                                Volte em breve para criar Humanos, Elenai, Ankarim e mais.
-                            </p>
-                        </CardContent>
-                    </Card>
-                </SignedOut>
+                        <Card className="bg-background/50 backdrop-blur-sm border-gold-500/20 mb-8">
+                            <CardHeader>
+                                <CardTitle className="flex items-center justify-center gap-2">
+                                    <Construction className="h-5 w-5" />
+                                    <span>Em Construção</span>
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                <p className="text-muted-foreground">
+                                    Volte em breve para criar Humanos, Elenai, Ankarim e mais.
+                                </p>
+                            </CardContent>
+                        </Card>
+                    </>
+                )}
 
                 <Link href="/">
                     <Button variant="outline">Voltar ao Início</Button>

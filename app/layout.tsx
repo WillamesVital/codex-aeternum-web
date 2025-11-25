@@ -19,7 +19,8 @@ export const metadata: Metadata = {
 
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { ClerkProvider } from '@clerk/nextjs';
+import { AuthProvider } from "@/contexts/AuthContext";
+import { CampaignProvider } from "@/contexts/CampaignContext";
 
 // ... imports
 
@@ -29,16 +30,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider>
+    <AuthProvider>
       <html lang="pt-BR">
         <body
           className={`${cinzel.variable} ${inter.variable} antialiased min-h-screen flex flex-col`}
         >
-          <Navbar />
-          <main className="flex-1">{children}</main>
-          <Footer />
+          <CampaignProvider>
+            <Navbar />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </CampaignProvider>
         </body>
       </html>
-    </ClerkProvider>
+    </AuthProvider>
   );
 }
