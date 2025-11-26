@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
-import { ScrollText, Shield, Sword, Search, Book, Palette, Compass, Crown, User as UserIcon, LogOut } from "lucide-react";
+import { ScrollText, Shield, Sword, Search, Book, Palette, Compass, Crown, User as UserIcon, LogOut, ChevronDown } from "lucide-react";
 import { useState } from "react";
 import { SearchModal } from "@/components/SearchModal";
 import { useAuth } from "@/contexts/AuthContext";
@@ -83,14 +83,31 @@ export function Navbar() {
                             <span>Galeria</span>
                         </Link>
                         {isMaster && (
-                            <Link
-                                href="/campaigns"
-                                className="flex items-center space-x-1 text-sm font-medium text-gold-500 hover:text-gold-400 transition-colors"
-                                data-testid="nav-link-master"
-                            >
-                                <Crown className="h-4 w-4" />
-                                <span>Mestre</span>
-                            </Link>
+                            <DropdownMenu>
+                                <DropdownMenuTrigger asChild>
+                                    <Button
+                                        variant="ghost"
+                                        className="flex items-center space-x-1 text-sm font-medium text-gold-500 hover:text-gold-400 transition-colors data-[state=open]:bg-gold-500/10"
+                                        data-testid="nav-link-master"
+                                    >
+                                        <Crown className="h-4 w-4" />
+                                        <span>Mestre</span>
+                                        <ChevronDown className="h-3 w-3 ml-1" />
+                                    </Button>
+                                </DropdownMenuTrigger>
+                                <DropdownMenuContent align="end" className="bg-black/90 border-gold-500/20">
+                                    <DropdownMenuItem asChild>
+                                        <Link href="/campaigns" className="cursor-pointer text-gold-100 focus:text-gold-500 focus:bg-gold-500/10">
+                                            Minhas Campanhas
+                                        </Link>
+                                    </DropdownMenuItem>
+                                    <DropdownMenuItem asChild>
+                                        <Link href="/npcs" className="cursor-pointer text-gold-100 focus:text-gold-500 focus:bg-gold-500/10">
+                                            Dramatis Personae
+                                        </Link>
+                                    </DropdownMenuItem>
+                                </DropdownMenuContent>
+                            </DropdownMenu>
                         )}
                     </div>
 

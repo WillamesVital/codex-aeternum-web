@@ -6,6 +6,7 @@ import { createClient } from "@/lib/supabase";
 
 export interface Campaign {
     id: string;
+    user_id: string;
     title: string;
     synopsis: string;
     spiritualTheme: string;
@@ -127,6 +128,7 @@ export function CampaignProvider({ children }: { children: React.ReactNode }) {
                 // Ensure dates are Date objects
                 const mapped: Campaign[] = (data as unknown as CampaignRow[]).map((item) => ({
                     ...item,
+                    user_id: item.user_id,
                     status: item.status as Campaign["status"],
                     createdAt: new Date(item.created_at),
                     synopsis: item.data?.synopsis || "",
@@ -208,6 +210,7 @@ export function CampaignProvider({ children }: { children: React.ReactNode }) {
         if (inserted) {
             const mapped: Campaign = {
                 id: inserted.id,
+                user_id: inserted.user_id,
                 title: inserted.title,
                 status: inserted.status as Campaign["status"],
                 createdAt: new Date(inserted.created_at),

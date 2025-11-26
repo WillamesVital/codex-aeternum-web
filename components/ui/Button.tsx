@@ -2,7 +2,7 @@ import * as React from "react";
 import { cn } from "@/lib/utils";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-    variant?: "primary" | "secondary" | "ghost" | "outline";
+    variant?: "primary" | "secondary" | "ghost" | "outline" | "link";
     size?: "sm" | "md" | "lg" | "icon";
     "data-testid"?: string;
 }
@@ -28,6 +28,8 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
                             variant === "outline",
                         "text-gold-500 hover:text-gold-400 hover:bg-gold-500/10":
                             variant === "ghost",
+                        "text-gold-500 underline-offset-4 hover:underline":
+                            variant === "link",
                     },
                     // Sizes
                     {

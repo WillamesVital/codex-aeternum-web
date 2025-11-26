@@ -11,8 +11,9 @@ import {
     DropdownMenuItem,
     DropdownMenuTrigger,
 } from "@/components/ui/DropdownMenu";
-import { ArrowLeft, ScrollText, MapPin, Skull, Shield, Sword, Eye, ChevronDown } from "lucide-react";
+import { ArrowLeft, ScrollText, MapPin, Skull, Shield, Sword, Eye, ChevronDown, Users } from "lucide-react";
 import Link from "next/link";
+import { NpcList } from "@/components/campaigns/npcs/NpcList";
 
 export default function CampaignDetailsPage() {
     const { id } = useParams();
@@ -273,7 +274,22 @@ export default function CampaignDetailsPage() {
                         </CardContent>
                     </Card>
                 </div>
+
+
+                {/* Expanded NPC Manager */}
+                <div className="lg:col-span-3">
+                    <Card className="bg-black/40 border-gold-500/20">
+                        <CardHeader>
+                            <CardTitle className="text-xl font-cinzel text-gold-500 flex items-center gap-2">
+                                <Users className="h-5 w-5" /> Galeria de Personagens & NPCs
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <NpcList campaignId={campaign.id} allowCreation={false} allowEdit={false} allowDelete={false} userId={campaign.user_id} />
+                        </CardContent>
+                    </Card>
+                </div>
             </div>
-        </div>
+        </div >
     );
 }
