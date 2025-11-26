@@ -38,6 +38,18 @@ export interface Campaign {
         choice: string;
         judgment: string;
     };
+    players: string[];
+    sessions: Session[];
+}
+
+export interface Session {
+    id: string;
+    date: string; // ISO string
+    title: string;
+    summary: string;
+    gmNotes?: string;
+    nextSessionDate?: string; // ISO string
+
 }
 
 interface CampaignContextType {
@@ -78,6 +90,8 @@ interface CampaignRow {
             choice: string;
             judgment: string;
         };
+        players?: string[];
+        sessions?: Session[];
         // Legacy fields support
         corruptionRoots_legacy?: any;
         locations_legacy?: any;
@@ -138,9 +152,11 @@ export function CampaignProvider({ children }: { children: React.ReactNode }) {
                     locations: item.data?.locations || item.locations,
                     npcs: item.data?.npcs || item.npcs,
                     catalysts: item.data?.catalysts || item.catalysts,
-                    initialArc: item.data?.initialArc || item.initialArc,
+                    initialArc: item.data?.initialArc || item.initialArc || { whisper: "", signal: "", corruption: "", choice: "", judgment: "" },
                     vigil: item.data?.vigil || item.vigil,
                     focus: item.data?.focus || item.focus,
+                    players: item.data?.players || [],
+                    sessions: item.data?.sessions || [],
                 }));
                 setCampaigns(mapped);
             }
@@ -193,6 +209,8 @@ export function CampaignProvider({ children }: { children: React.ReactNode }) {
                 npcs: data.npcs,
                 catalysts: data.catalysts,
                 initialArc: data.initialArc,
+                players: data.players || [],
+                sessions: [],
             }
         };
 
@@ -223,6 +241,8 @@ export function CampaignProvider({ children }: { children: React.ReactNode }) {
                 npcs: inserted.data.npcs,
                 catalysts: inserted.data.catalysts,
                 initialArc: inserted.data.initialArc,
+                players: inserted.data.players || [],
+                sessions: inserted.data.sessions || [],
             };
             setCampaigns((prev) => [mapped, ...prev]);
         }
@@ -252,6 +272,8 @@ export function CampaignProvider({ children }: { children: React.ReactNode }) {
                 npcs: updatedFull.npcs,
                 catalysts: updatedFull.catalysts,
                 initialArc: updatedFull.initialArc,
+                players: updatedFull.players,
+                sessions: updatedFull.sessions,
             }
         };
 

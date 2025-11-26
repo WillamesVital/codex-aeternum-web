@@ -43,6 +43,8 @@ const INITIAL_DATA: CampaignFormData = {
         choice: "",
         judgment: "",
     },
+    players: [],
+    sessions: [],
 };
 
 export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateCampaignModalProps) {
@@ -60,6 +62,7 @@ export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateC
                     locations: { ...INITIAL_DATA.locations, ...campaignToEdit.locations },
                     npcs: { ...INITIAL_DATA.npcs, ...campaignToEdit.npcs },
                     initialArc: { ...INITIAL_DATA.initialArc, ...campaignToEdit.initialArc },
+                    players: campaignToEdit.players || [],
                 });
             } else {
                 setFormData(INITIAL_DATA);
@@ -181,6 +184,54 @@ export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateC
                                         onChange={(e) => updateField("synopsis", "", e.target.value)}
                                         placeholder="Breve descrição do cenário..."
                                     />
+                                </div>
+                                <div className="space-y-2 col-span-2">
+                                    <Label>Jogadores (E-mails)</Label>
+                                    <div className="flex gap-2 mb-2">
+                                        <Input
+                                            id="new-player-email"
+                                            placeholder="email@exemplo.com"
+                                            onKeyDown={(e) => {
+                                                if (e.key === 'Enter') {
+                                                    e.preventDefault();
+                                                    const input = e.currentTarget as HTMLInputElement;
+                                                    const email = input.value.trim();
+                                                    if (email && !formData.players.includes(email)) {
+                                                        updateField("players", "", [...formData.players, email]);
+                                                        input.value = "";
+                                                    }
+                                                }
+                                            }}
+                                        />
+                                        <Button
+                                            type="button"
+                                            onClick={() => {
+                                                const input = document.getElementById('new-player-email') as HTMLInputElement;
+                                                const email = input.value.trim();
+                                                if (email && !formData.players.includes(email)) {
+                                                    updateField("players", "", [...formData.players, email]);
+                                                    input.value = "";
+                                                }
+                                            }}
+                                            className="bg-gold-600 text-black hover:bg-gold-700"
+                                        >
+                                            Adicionar
+                                        </Button>
+                                    </div>
+                                    <div className="flex flex-wrap gap-2">
+                                        {formData.players.map((email) => (
+                                            <div key={email} className="bg-gold-500/10 border border-gold-500/20 rounded px-2 py-1 text-sm flex items-center gap-2">
+                                                <span>{email}</span>
+                                                <button
+                                                    type="button"
+                                                    onClick={() => updateField("players", "", formData.players.filter(p => p !== email))}
+                                                    className="text-muted-foreground hover:text-red-500"
+                                                >
+                                                    &times;
+                                                </button>
+                                            </div>
+                                        ))}
+                                    </div>
                                 </div>
                             </div>
                         </div>
