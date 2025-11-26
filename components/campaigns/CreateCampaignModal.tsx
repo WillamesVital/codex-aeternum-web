@@ -13,7 +13,7 @@ interface CreateCampaignModalProps {
     campaignToEdit?: Campaign | null;
 }
 
-type CampaignFormData = Omit<Campaign, "id" | "createdAt" | "status">;
+type CampaignFormData = Omit<Campaign, "id" | "createdAt" | "status" | "user_id">;
 
 const INITIAL_DATA: CampaignFormData = {
     title: "",

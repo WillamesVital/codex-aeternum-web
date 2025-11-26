@@ -42,7 +42,7 @@ export interface Campaign {
 
 interface CampaignContextType {
     campaigns: Campaign[];
-    addCampaign: (campaign: Omit<Campaign, "id" | "createdAt" | "status">) => void;
+    addCampaign: (campaign: Omit<Campaign, "id" | "createdAt" | "status" | "user_id">) => void;
     updateCampaign: (id: string, updates: Partial<Campaign>) => void;
     deleteCampaign: (id: string) => void;
     isLoading: boolean;
@@ -150,7 +150,7 @@ export function CampaignProvider({ children }: { children: React.ReactNode }) {
         fetchCampaigns();
     }, [user]);
 
-    const addCampaign = async (data: Omit<Campaign, "id" | "createdAt" | "status">) => {
+    const addCampaign = async (data: Omit<Campaign, "id" | "createdAt" | "status" | "user_id">) => {
         if (!user) return;
 
         const newCampaign = {
