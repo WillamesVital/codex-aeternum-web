@@ -4,19 +4,15 @@ order: 1
 description: "O chamado para os Advenae."
 ---
 
-# **LIBER ADVENAE — O LIVRO DO JOGADOR**
-
 ## **Aeternum — O Caminho dos Despertos**
 
 ---
 
-## **Prólogo — A Porta que se Abre**
+> Aeternum chama aqueles que despertam,
+> não os que dormem.
+>
+> — **Códice da Vigília, Verso I**
 
-> “Aeternum chama aqueles que despertam,
-> não os que dormem.”
-> — *Códice da Vigília, Verso I*
-
-*(ilustração sugerida: uma silhueta humana diante de um imenso portão de luz e sombra, entreaberto)*
 
 Tu que abres este livro não és mero leitor.
 És **Advenae** — recém-chegado à grande guerra espiritual do mundo.
@@ -144,9 +140,10 @@ Sim — até a morte e o pós-vida têm regras.
 
 ## **Tua Jornada Começa Aqui**
 
-> “Nem toda alma será lembrada.
-> Mas toda alma deixará eco.”
-> — *Livro dos Caminhantes, Verso V*
+> Nem toda alma será lembrada.
+> Mas toda alma deixará eco.
+>
+> — **Livro dos Caminhantes, Verso V**
 
 Aeternum está à tua espera.
 As sombras observam.

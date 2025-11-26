@@ -16,6 +16,7 @@ import Link from "next/link";
 import { NpcList } from "@/components/campaigns/npcs/NpcList";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/Tabs";
 import { SessionList } from "@/components/campaigns/sessions/SessionList";
+import { DMScreen } from "@/components/campaigns/dm-screen/DMScreen";
 
 export default function CampaignDetailsPage() {
     const { id } = useParams();
@@ -91,9 +92,10 @@ export default function CampaignDetailsPage() {
             </div>
 
             <Tabs defaultValue="overview" className="w-full">
-                <TabsList className="grid w-full grid-cols-2 lg:w-[400px] bg-black/40 border border-gold-500/20">
+                <TabsList className="grid w-full grid-cols-3 lg:w-[600px] bg-black/40 border border-gold-500/20">
                     <TabsTrigger value="overview" className="data-[state=active]:bg-gold-500 data-[state=active]:text-black font-cinzel">Visão Geral</TabsTrigger>
                     <TabsTrigger value="sessions" className="data-[state=active]:bg-gold-500 data-[state=active]:text-black font-cinzel">Diário de Sessões</TabsTrigger>
+                    <TabsTrigger value="dm-screen" className="data-[state=active]:bg-gold-500 data-[state=active]:text-black font-cinzel">Escudo do Mestre</TabsTrigger>
                 </TabsList>
 
                 <TabsContent value="overview" className="mt-6">
@@ -302,6 +304,10 @@ export default function CampaignDetailsPage() {
 
                 <TabsContent value="sessions" className="mt-6">
                     <SessionList campaign={campaign} />
+                </TabsContent>
+
+                <TabsContent value="dm-screen" className="mt-6">
+                    <DMScreen />
                 </TabsContent>
             </Tabs>
         </div >

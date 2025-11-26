@@ -27,7 +27,7 @@ export default function AdvenaePage() {
                             <CardHeader className="pb-2">
                                 <div className="flex items-center justify-between mb-2">
                                     <span className="text-xs font-medium text-gold-500/70 uppercase tracking-wider">
-                                        Capítulo {chapter.order}
+                                        {chapter.order === 1 ? "PRÓLOGO" : `CAPÍTULO ${chapter.order - 1}`}
                                     </span>
                                     <Compass className="h-5 w-5 text-gold-500/50 group-hover:text-gold-500 transition-colors" />
                                 </div>
