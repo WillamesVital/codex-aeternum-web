@@ -13,7 +13,7 @@ export default defineConfig({
     reporter: 'html',
 
     use: {
-        baseURL: 'http://localhost:3000',
+        baseURL: process.env.BASE_URL || 'http://localhost:3000',
         trace: 'on-first-retry',
         screenshot: 'only-on-failure',
         video: 'retain-on-failure',
@@ -26,7 +26,8 @@ export default defineConfig({
         }
     ],
 
-    webServer: {
+    // Only start web server if we are NOT testing against a remote URL
+    webServer: process.env.BASE_URL ? undefined : {
         command: 'npm run dev',
         url: 'http://localhost:3000',
         reuseExistingServer: !process.env.CI,

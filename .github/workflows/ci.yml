@@ -5,6 +5,13 @@ on:
     branches: [master, develop]
   pull_request:
     branches: [master]
+  workflow_dispatch:
+    inputs:
+      environment_url:
+        description: 'URL to run tests against (e.g. https://production.com)'
+        required: false
+        default: 'https://codex-aeternumcom.vercel.app/'
+        type: string
 
 jobs:
   test:
@@ -32,6 +39,7 @@ jobs:
         run: npm run test:e2e
         env:
           CI: true
+          BASE_URL: ${{ inputs.environment_url }}
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
           NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
       
