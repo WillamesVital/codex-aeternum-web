@@ -36,7 +36,7 @@ export default function CampaignsPage() {
 
     if (!isLoaded || isLoading) {
         return (
-            <div className="min-h-screen bg-black text-gold-500 flex items-center justify-center font-cinzel">
+            <div className="min-h-screen bg-background text-gold-500 flex items-center justify-center font-cinzel">
                 Carregando o Grimório...
             </div>
         );
@@ -47,7 +47,7 @@ export default function CampaignsPage() {
     }
 
     return (
-        <div className="min-h-screen bg-black text-foreground p-8">
+        <div className="min-h-screen bg-background text-foreground p-8">
             <div className="max-w-7xl mx-auto space-y-8">
                 <div className="flex justify-between items-center border-b border-gold-500/20 pb-6">
                     <div>
@@ -66,7 +66,7 @@ export default function CampaignsPage() {
                 </div>
 
                 {campaigns.length === 0 ? (
-                    <div className="flex flex-col items-center justify-center py-16 border border-dashed border-gold-500/20 rounded-lg bg-black/20">
+                    <div className="flex flex-col items-center justify-center py-16 border border-dashed border-gold-500/20 rounded-lg bg-gold-500/5">
                         <h3 className="text-xl font-cinzel text-gold-400 mb-2">O Grimório está vazio</h3>
                         <p className="text-muted-foreground mb-6 text-center max-w-md">
                             Nenhuma história foi escrita ainda. O destino de Aeternum aguarda sua pena.

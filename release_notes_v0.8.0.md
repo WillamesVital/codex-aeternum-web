@@ -36,6 +36,12 @@
 - **Configuração Aprimorada do Tailwind**: Ajustes na configuração do Tailwind (`tailwind.config.ts`) para suportar novos temas e estilos.
 - **Responsividade**: Melhorias gerais na responsividade da aplicação.
 
+### Sistema de Temas e Personalização
+- **Novo Tema "Pergaminho"**: Implementação de um modo claro (Light Mode) com paleta de cores inspirada em documentos antigos.
+- **Theme Switcher**: Novo componente na barra de navegação para alternar instantaneamente entre os temas Codex (Escuro) e Pergaminho (Claro).
+- **Variáveis Semânticas**: Refatoração do CSS global para usar variáveis inteligentes (`--color-muted-foreground`) que garantem contraste e legibilidade em qualquer tema.
+- **Persistência**: O tema escolhido é salvo localmente e lembrado nas próximas visitas.
+
 ## 🛠️ Correções de Bugs
 - **Navegação do Advenae**: Corrigido problema de renderização na página principal do Advenae (`app/advenae/page.tsx`).
 - **Páginas de Campanha**: Correções de bugs relacionados à exibição e navegação em páginas de campanha individual.

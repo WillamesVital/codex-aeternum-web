@@ -14,6 +14,7 @@ import {
     DropdownMenuSeparator,
     DropdownMenuTrigger,
 } from "@/components/ui/DropdownMenu";
+import { ThemeSwitcher } from "@/components/ThemeSwitcher";
 
 export function Navbar() {
     const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -95,14 +96,14 @@ export function Navbar() {
                                         <ChevronDown className="h-3 w-3 ml-1" />
                                     </Button>
                                 </DropdownMenuTrigger>
-                                <DropdownMenuContent align="end" className="bg-black/90 border-gold-500/20">
+                                <DropdownMenuContent align="end" className="bg-background/95 backdrop-blur-sm border-gold-500/20">
                                     <DropdownMenuItem asChild>
-                                        <Link href="/campaigns" className="cursor-pointer text-gold-100 focus:text-gold-500 focus:bg-gold-500/10">
+                                        <Link href="/campaigns" className="cursor-pointer text-foreground focus:text-gold-500 focus:bg-gold-500/10">
                                             Minhas Campanhas
                                         </Link>
                                     </DropdownMenuItem>
                                     <DropdownMenuItem asChild>
-                                        <Link href="/npcs" className="cursor-pointer text-gold-100 focus:text-gold-500 focus:bg-gold-500/10">
+                                        <Link href="/npcs" className="cursor-pointer text-foreground focus:text-gold-500 focus:bg-gold-500/10">
                                             Dramatis Personae
                                         </Link>
                                     </DropdownMenuItem>
@@ -112,6 +113,7 @@ export function Navbar() {
                     </div>
 
                     <div className="flex items-center space-x-4">
+                        <ThemeSwitcher />
                         <Button
                             variant="ghost"
                             size="icon"
@@ -152,7 +154,7 @@ export function Navbar() {
                                             )}
                                         </Button>
                                     </DropdownMenuTrigger>
-                                    <DropdownMenuContent align="end" className="w-56 bg-black/90 border-gold-500/20 text-gold-100">
+                                    <DropdownMenuContent align="end" className="w-56 bg-background/95 backdrop-blur-sm border-gold-500/20 text-foreground">
                                         <DropdownMenuLabel>
                                             {user.user_metadata?.full_name || "Minha Conta"}
                                         </DropdownMenuLabel>

@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 :root {
+  /* Default Theme (Dark) */
   --color-background: #0F172A;
   --color-foreground: #F5F5DC;
 
@@ -14,8 +15,30 @@
   --color-parchment-200: #F5F5DC;
   --color-parchment-300: #E8DCC0;
 
+  --color-muted-foreground: var(--color-parchment-200);
+
   --font-cinzel: var(--font-cinzel);
   --font-inter: var(--font-inter);
+}
+
+[data-theme="parchment"] {
+  /* Parchment Theme (Light) */
+  --color-background: #F5F5DC;
+  --color-foreground: #2C1810;
+
+  /* Gold becomes Leather/Copper/Ink tones */
+  --color-gold-400: #A0522D;
+  /* Sienna */
+  --color-gold-500: #8B4513;
+  /* SaddleBrown */
+  --color-gold-600: #5D4037;
+  /* Dark Brown */
+
+  --color-parchment-100: #FFF8DC;
+  --color-parchment-200: #FAEBD7;
+  --color-parchment-300: #DEB887;
+
+  --color-muted-foreground: var(--color-gold-600);
 }
 
 body {
@@ -63,7 +86,7 @@ h6 {
 .prose blockquote {
   position: relative;
   border-left: 3px solid var(--color-gold-500);
-  color: var(--color-parchment-200);
+  color: var(--color-muted-foreground);
   font-style: italic;
   font-size: 1.1em;
   background: linear-gradient(90deg, rgba(212, 175, 55, 0.15) 0%, rgba(212, 175, 55, 0.05) 100%);

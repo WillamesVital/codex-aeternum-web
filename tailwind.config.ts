@@ -22,7 +22,7 @@ const config: Config = {
                     300: "var(--color-parchment-300)",
                 },
                 muted: {
-                    foreground: "var(--color-parchment-200)",
+                    foreground: "var(--color-muted-foreground)",
                 },
             },
             fontFamily: {

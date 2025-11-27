@@ -21,6 +21,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { AuthProvider } from "@/contexts/AuthContext";
 import { CampaignProvider } from "@/contexts/CampaignContext";
+import { ThemeProvider } from "@/contexts/ThemeContext";
 
 // ... imports
 
@@ -31,17 +32,19 @@ export default function RootLayout({
 }>) {
   return (
     <AuthProvider>
-      <html lang="pt-BR">
-        <body
-          className={`${cinzel.variable} ${inter.variable} antialiased min-h-screen flex flex-col`}
-        >
-          <CampaignProvider>
-            <Navbar />
-            <main className="flex-1">{children}</main>
-            <Footer />
-          </CampaignProvider>
-        </body>
-      </html>
+      <ThemeProvider>
+        <html lang="pt-BR">
+          <body
+            className={`${cinzel.variable} ${inter.variable} antialiased min-h-screen flex flex-col`}
+          >
+            <CampaignProvider>
+              <Navbar />
+              <main className="flex-1">{children}</main>
+              <Footer />
+            </CampaignProvider>
+          </body>
+        </html>
+      </ThemeProvider>
     </AuthProvider>
   );
 }
