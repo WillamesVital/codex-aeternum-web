@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
-import { ScrollText, Shield, Sword, Search, Book, Palette, Compass, Crown, User as UserIcon, LogOut, ChevronDown } from "lucide-react";
+import { ScrollText, Shield, Sword, Search, Book, Palette, Compass, Crown, User as UserIcon, LogOut, ChevronDown, Sparkles } from "lucide-react";
 import { useState } from "react";
 import { SearchModal } from "@/components/SearchModal";
 import { useAuth } from "@/contexts/AuthContext";
@@ -66,6 +66,14 @@ export function Navbar() {
                         >
                             <Compass className="h-4 w-4" />
                             <span>Advenae</span>
+                        </Link>
+                        <Link
+                            href="/oracle"
+                            className="flex items-center space-x-1 text-sm font-medium text-muted-foreground hover:text-gold-500 transition-colors"
+                            data-testid="nav-link-oracle"
+                        >
+                            <Sparkles className="h-4 w-4" />
+                            <span>Oráculo</span>
                         </Link>
                         <Link
                             href="/characters"
