@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       environment_url:
-        description: 'URL to run tests against (e.g. https://production.com)'
+        description: 'URL to run tests against in production'
         required: false
         default: 'https://codex-aeternumcom.vercel.app/'
         type: string
@@ -50,5 +50,13 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 7
+
+      - name: Send Test Report
+        if: always()
+        run: npx tsx scripts/send-test-report.ts ${{ job.status }}
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
