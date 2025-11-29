@@ -305,9 +305,9 @@ export function DMTools() {
     const [selectedGen, setSelectedGen] = useState<Generator>(GENERAL_GENERATORS[0]);
 
     const GeneratorView = ({ generators }: { generators: Generator[] }) => (
-        <div className="flex flex-1 overflow-hidden h-full">
+        <div className="flex flex-col md:flex-row flex-1 overflow-hidden h-full">
             {/* Sidebar List */}
-            <div className="w-1/3 border-r border-gold-500/10 bg-black/20 overflow-y-auto scrollbar-thin scrollbar-thumb-gold-500/20">
+            <div className="w-full md:w-1/3 border-b md:border-b-0 md:border-r border-gold-500/10 bg-black/20 overflow-y-auto scrollbar-thin scrollbar-thumb-gold-500/20 max-h-[120px] md:max-h-none shrink-0">
                 {generators.map((gen) => (
                     <button
                         key={gen.id}
@@ -370,8 +370,8 @@ export function DMTools() {
             </CardHeader>
             <CardContent className="flex-1 overflow-hidden p-0 flex flex-col">
                 <Tabs defaultValue="general" className="flex-1 flex flex-col">
-                    <div className="px-3 pt-2 pb-0 border-b border-gold-500/10 bg-black/20">
-                        <TabsList className="w-full bg-transparent p-0 h-auto justify-start gap-4">
+                    <div className="px-3 pt-2 pb-0 border-b border-gold-500/10 bg-black/20 overflow-x-auto">
+                        <TabsList className="w-full bg-transparent p-0 h-auto justify-start gap-4 min-w-max">
                             <TabsTrigger
                                 value="general"
                                 onClick={() => setSelectedGen(GENERAL_GENERATORS[0])}

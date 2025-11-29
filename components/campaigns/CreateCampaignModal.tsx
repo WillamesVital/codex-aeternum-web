@@ -136,8 +136,8 @@ export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateC
                             <h3 className="text-lg font-cinzel text-gold-400 border-b border-gold-500/20 pb-2">
                                 1. A Semente Espiritual
                             </h3>
-                            <div className="grid grid-cols-2 gap-4">
-                                <div className="space-y-2 col-span-2">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div className="space-y-2 md:col-span-2">
                                     <Label>Nome da Campanha</Label>
                                     <Input
                                         value={formData.title}
@@ -169,7 +169,7 @@ export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateC
                                         <option value="Revelation">Revelação</option>
                                     </select>
                                 </div>
-                                <div className="space-y-2 col-span-2">
+                                <div className="space-y-2 md:col-span-2">
                                     <Label>Tema Espiritual</Label>
                                     <Input
                                         value={formData.spiritualTheme}
@@ -177,7 +177,7 @@ export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateC
                                         placeholder="Ex: Orgulho vs. Arrependimento"
                                     />
                                 </div>
-                                <div className="space-y-2 col-span-2">
+                                <div className="space-y-2 md:col-span-2">
                                     <Label>Sinopse</Label>
                                     <Textarea
                                         value={formData.synopsis}
@@ -185,7 +185,7 @@ export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateC
                                         placeholder="Breve descrição do cenário..."
                                     />
                                 </div>
-                                <div className="space-y-2 col-span-2">
+                                <div className="space-y-2 md:col-span-2">
                                     <Label>Jogadores (E-mails)</Label>
                                     <div className="flex gap-2 mb-2">
                                         <Input
@@ -244,7 +244,7 @@ export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateC
                                 2. A Sombra e o Cenário
                             </h3>
 
-                            <div className="grid grid-cols-2 gap-4">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <div className="space-y-2">
                                     <Label>Raiz Primária da Corrupção</Label>
                                     <Input
@@ -267,13 +267,13 @@ export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateC
                                 <h4 className="font-medium text-gold-500">A Tríade de Locais</h4>
 
                                 {/* City */}
-                                <div className="grid grid-cols-3 gap-2 p-3 bg-black/20 rounded border border-gold-500/10">
-                                    <div className="col-span-3 font-cinzel text-sm text-muted-foreground">A Cidade</div>
+                                <div className="grid grid-cols-1 md:grid-cols-3 gap-2 p-3 bg-black/20 rounded border border-gold-500/10">
+                                    <div className="md:col-span-3 font-cinzel text-sm text-muted-foreground">A Cidade</div>
                                     <Input placeholder="Nome" value={formData.locations.city.name} onChange={(e) => updateNestedField("locations", "city", "name", e.target.value)} />
                                     <Input placeholder="Pecado Dominante" value={formData.locations.city.sin} onChange={(e) => updateNestedField("locations", "city", "sin", e.target.value)} />
                                     <Input placeholder="Virtude Rara" value={formData.locations.city.virtue} onChange={(e) => updateNestedField("locations", "city", "virtue", e.target.value)} />
                                     <Textarea
-                                        className="col-span-3 mt-2"
+                                        className="md:col-span-3 mt-2"
                                         placeholder="Informações extras sobre a cidade..."
                                         value={formData.locations.city.description}
                                         onChange={(e) => updateNestedField("locations", "city", "description", e.target.value)}
@@ -281,8 +281,8 @@ export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateC
                                 </div>
 
                                 {/* Sanctuary */}
-                                <div className="grid grid-cols-3 gap-2 p-3 bg-black/20 rounded border border-gold-500/10">
-                                    <div className="col-span-3 font-cinzel text-sm text-muted-foreground">O Santuário</div>
+                                <div className="grid grid-cols-1 md:grid-cols-3 gap-2 p-3 bg-black/20 rounded border border-gold-500/10">
+                                    <div className="md:col-span-3 font-cinzel text-sm text-muted-foreground">O Santuário</div>
                                     <Input placeholder="Nome" value={formData.locations.sanctuary.name} onChange={(e) => updateNestedField("locations", "sanctuary", "name", e.target.value)} />
                                     <select
                                         className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
@@ -295,7 +295,7 @@ export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateC
                                     </select>
                                     <Input placeholder="Esperança Guardada" value={formData.locations.sanctuary.hope} onChange={(e) => updateNestedField("locations", "sanctuary", "hope", e.target.value)} />
                                     <Textarea
-                                        className="col-span-3 mt-2"
+                                        className="md:col-span-3 mt-2"
                                         placeholder="Informações extras sobre o santuário..."
                                         value={formData.locations.sanctuary.description}
                                         onChange={(e) => updateNestedField("locations", "sanctuary", "description", e.target.value)}
@@ -303,8 +303,8 @@ export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateC
                                 </div>
 
                                 {/* Rift */}
-                                <div className="grid grid-cols-3 gap-2 p-3 bg-black/20 rounded border border-gold-500/10">
-                                    <div className="col-span-3 font-cinzel text-sm text-muted-foreground">A Fenda</div>
+                                <div className="grid grid-cols-1 md:grid-cols-3 gap-2 p-3 bg-black/20 rounded border border-gold-500/10">
+                                    <div className="md:col-span-3 font-cinzel text-sm text-muted-foreground">A Fenda</div>
                                     <Input placeholder="Localização" value={formData.locations.rift.location} onChange={(e) => updateNestedField("locations", "rift", "location", e.target.value)} />
                                     <select
                                         className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
@@ -317,7 +317,7 @@ export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateC
                                     </select>
                                     <Input placeholder="O que ela deseja?" value={formData.locations.rift.desire} onChange={(e) => updateNestedField("locations", "rift", "desire", e.target.value)} />
                                     <Textarea
-                                        className="col-span-3 mt-2"
+                                        className="md:col-span-3 mt-2"
                                         placeholder="Informações extras sobre a fenda..."
                                         value={formData.locations.rift.description}
                                         onChange={(e) => updateNestedField("locations", "rift", "description", e.target.value)}
@@ -337,7 +337,7 @@ export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateC
                             <div className="space-y-4">
                                 <h4 className="font-medium text-gold-500">Objetos Catalisadores</h4>
                                 {formData.catalysts.map((cat, idx) => (
-                                    <div key={idx} className="grid grid-cols-3 gap-2">
+                                    <div key={idx} className="grid grid-cols-1 md:grid-cols-3 gap-2">
                                         <Input placeholder="Nome do Objeto" value={cat.name} onChange={(e) => updateCatalyst(idx, "name", e.target.value)} />
                                         <select
                                             className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
@@ -359,7 +359,7 @@ export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateC
 
                                 <div className="p-3 bg-black/20 rounded border border-gold-500/10 space-y-2">
                                     <Label className="text-gold-400">Aliado (A Luz Imperfeita)</Label>
-                                    <div className="grid grid-cols-3 gap-2">
+                                    <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
                                         <Input placeholder="Nome" value={formData.npcs.ally.name} onChange={(e) => updateNestedField("npcs", "ally", "name", e.target.value)} />
                                         <Input placeholder="Virtude" value={formData.npcs.ally.virtue} onChange={(e) => updateNestedField("npcs", "ally", "virtue", e.target.value)} />
                                         <Input placeholder="Pecado Latente" value={formData.npcs.ally.sin} onChange={(e) => updateNestedField("npcs", "ally", "sin", e.target.value)} />
@@ -368,7 +368,7 @@ export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateC
 
                                 <div className="p-3 bg-black/20 rounded border border-gold-500/10 space-y-2">
                                     <Label className="text-red-400">Oponente (A Sombra Ativa)</Label>
-                                    <div className="grid grid-cols-3 gap-2">
+                                    <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
                                         <Input placeholder="Nome" value={formData.npcs.opponent.name} onChange={(e) => updateNestedField("npcs", "opponent", "name", e.target.value)} />
                                         <Input placeholder="Raiz da Corrupção" value={formData.npcs.opponent.root} onChange={(e) => updateNestedField("npcs", "opponent", "root", e.target.value)} />
                                         <Input placeholder="Objetivo" value={formData.npcs.opponent.goal} onChange={(e) => updateNestedField("npcs", "opponent", "goal", e.target.value)} />
@@ -377,7 +377,7 @@ export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateC
 
                                 <div className="p-3 bg-black/20 rounded border border-gold-500/10 space-y-2">
                                     <Label className="text-gray-400">Neutro (A Voz da Cinza)</Label>
-                                    <div className="grid grid-cols-3 gap-2">
+                                    <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
                                         <Input placeholder="Nome" value={formData.npcs.neutral.name} onChange={(e) => updateNestedField("npcs", "neutral", "name", e.target.value)} />
                                         <Input placeholder="Segredo" value={formData.npcs.neutral.secret} onChange={(e) => updateNestedField("npcs", "neutral", "secret", e.target.value)} />
                                         <Input placeholder="Risco" value={formData.npcs.neutral.risk} onChange={(e) => updateNestedField("npcs", "neutral", "risk", e.target.value)} />
@@ -420,7 +420,7 @@ export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateC
                     )}
                 </div>
 
-                <DialogFooter className="flex justify-between sm:justify-between">
+                <DialogFooter className="flex flex-col-reverse sm:flex-row justify-between gap-4 sm:gap-0">
                     <Button
                         variant="ghost"
                         onClick={step === 1 ? onClose : prevStep}
@@ -442,6 +442,6 @@ export function CreateCampaignModal({ isOpen, onClose, campaignToEdit }: CreateC
                     </div>
                 </DialogFooter>
             </DialogContent>
-        </Dialog>
+        </Dialog >
     );
 }

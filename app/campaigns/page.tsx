@@ -49,7 +49,7 @@ export default function CampaignsPage() {
     return (
         <div className="min-h-screen bg-background text-foreground p-8">
             <div className="max-w-7xl mx-auto space-y-8">
-                <div className="flex justify-between items-center border-b border-gold-500/20 pb-6">
+                <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-gold-500/20 pb-6">
                     <div>
                         <h1 className="text-4xl font-cinzel text-gold-500 mb-2">Minhas Campanhas</h1>
                         <p className="text-muted-foreground font-sans">
@@ -58,7 +58,7 @@ export default function CampaignsPage() {
                     </div>
                     <Button
                         onClick={handleCreate}
-                        className="bg-gold-600 hover:bg-gold-700 text-black font-medium"
+                        className="w-full md:w-auto bg-gold-600 hover:bg-gold-700 text-black font-medium"
                     >
                         <Plus className="h-4 w-4 mr-2" />
                         Nova Campanha

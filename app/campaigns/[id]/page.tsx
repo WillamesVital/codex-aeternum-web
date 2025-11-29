@@ -92,7 +92,7 @@ export default function CampaignDetailsPage() {
             </div>
 
             <Tabs defaultValue="overview" className="w-full">
-                <TabsList className="grid w-full grid-cols-3 lg:w-[600px] bg-black/40 border border-gold-500/20">
+                <TabsList className="flex flex-col h-auto items-stretch w-full md:grid md:grid-cols-3 md:items-center md:h-auto lg:w-[600px] bg-black/40 border border-gold-500/20">
                     <TabsTrigger value="overview" className="data-[state=active]:bg-gold-500 data-[state=active]:text-black font-cinzel">Visão Geral</TabsTrigger>
                     <TabsTrigger value="sessions" className="data-[state=active]:bg-gold-500 data-[state=active]:text-black font-cinzel">Diário de Sessões</TabsTrigger>
                     <TabsTrigger value="dm-screen" className="data-[state=active]:bg-gold-500 data-[state=active]:text-black font-cinzel">Escudo do Mestre</TabsTrigger>

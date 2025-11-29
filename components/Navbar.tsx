@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
-import { ScrollText, Shield, Sword, Search, Book, Palette, Compass, Crown, User as UserIcon, LogOut, ChevronDown, Sparkles } from "lucide-react";
+import { ScrollText, Shield, Sword, Search, Book, Palette, Compass, Crown, User as UserIcon, LogOut, ChevronDown, Sparkles, Menu } from "lucide-react";
+import { MobileMenu } from "@/components/MobileMenu";
 import { useState } from "react";
 import { SearchModal } from "@/components/SearchModal";
 import { useAuth } from "@/contexts/AuthContext";
@@ -18,6 +19,7 @@ import { ThemeSwitcher } from "@/components/ThemeSwitcher";
 
 export function Navbar() {
     const [isSearchOpen, setIsSearchOpen] = useState(false);
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const { user, signOut } = useAuth();
 
     // For now, we consider any logged in user can access "Mestre" area
@@ -31,16 +33,29 @@ export function Navbar() {
                 className="sticky top-0 z-50 w-full border-b border-gold-500/20 bg-background/80 backdrop-blur-md"
             >
                 <div className="container mx-auto flex h-16 items-center justify-between px-4">
-                    <Link
-                        href="/"
-                        className="flex items-center space-x-2"
-                        data-testid="nav-logo"
-                    >
-                        <Shield className="h-8 w-8 text-gold-500" />
-                        <span className="font-cinzel text-xl font-bold text-gold-500">
-                            Codex Aeternum
-                        </span>
-                    </Link>
+                    <div className="flex items-center gap-4">
+                        {/* Mobile Menu Button */}
+                        <Button
+                            variant="ghost"
+                            size="icon"
+                            className="md:hidden text-gold-500 hover:text-gold-400 hover:bg-gold-500/10"
+                            onClick={() => setIsMobileMenuOpen(true)}
+                            aria-label="Menu"
+                        >
+                            <Menu className="h-6 w-6" />
+                        </Button>
+
+                        <Link
+                            href="/"
+                            className="flex items-center space-x-2"
+                            data-testid="nav-logo"
+                        >
+                            <Shield className="h-8 w-8 text-gold-500" />
+                            <span className="font-cinzel text-xl font-bold text-gold-500">
+                                Codex Aeternum
+                            </span>
+                        </Link>
+                    </div>
 
                     <div className="hidden md:flex items-center space-x-6">
                         <Link
@@ -121,7 +136,9 @@ export function Navbar() {
                     </div>
 
                     <div className="flex items-center space-x-4">
-                        <ThemeSwitcher />
+                        <div className="hidden md:block">
+                            <ThemeSwitcher />
+                        </div>
                         <Button
                             variant="ghost"
                             size="icon"
@@ -132,7 +149,7 @@ export function Navbar() {
                         >
                             <Search className="h-5 w-5" />
                         </Button>
-                        <div className="hidden sm:flex space-x-4 items-center">
+                        <div className="hidden md:flex space-x-4 items-center">
                             {!user ? (
                                 <>
                                     <Link href="/login" data-testid="nav-signin">
@@ -183,6 +200,7 @@ export function Navbar() {
                     </div>
                 </div>
             </nav>
+            <MobileMenu isOpen={isMobileMenuOpen} onClose={() => setIsMobileMenuOpen(false)} />
             <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
         </>
     );

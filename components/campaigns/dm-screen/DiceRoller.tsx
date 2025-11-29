@@ -83,9 +83,9 @@ export function DiceRoller() {
             </CardHeader>
             <CardContent className="space-y-4 flex-1 flex flex-col min-h-0">
                 {/* Top Section: Last Roll & Buttons */}
-                <div className="flex gap-4 shrink-0">
+                <div className="flex flex-col sm:flex-row gap-4 shrink-0">
                     {/* Last Roll Display */}
-                    <div className="flex-1 flex flex-col items-center justify-center py-2 bg-black/20 rounded-lg border border-gold-500/10 min-h-[80px]">
+                    <div className="flex-1 flex flex-col items-center justify-center py-2 bg-black/20 rounded-lg border border-gold-500/10 min-h-[80px] w-full sm:w-auto">
                         {lastRoll ? (
                             <div className={cn(
                                 "text-center",
@@ -107,7 +107,7 @@ export function DiceRoller() {
                     </div>
 
                     {/* Dice Buttons Grid */}
-                    <div className="grid grid-cols-4 gap-1.5 w-[180px]">
+                    <div className="grid grid-cols-3 sm:grid-cols-4 gap-1.5 w-full sm:w-[180px]">
                         {DICE_TYPES.map((die) => {
                             const Icon = die.icon;
                             return (
