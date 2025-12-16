@@ -8,43 +8,57 @@ import { useAuth } from "@/contexts/AuthContext";
 import { CharacterCard } from "@/components/characters/CharacterCard";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
-const MOCK_CHARACTERS = [
-    {
-        id: 1,
-        name: "Aelthas",
-        race: "Elenai",
-        characterClass: "Mago",
-        level: 5,
-        type: "PC" as const
-    },
-    {
-        id: 2,
-        name: "Garren",
-        race: "Humano",
-        characterClass: "Guerreiro",
-        level: 3,
-        type: "PC" as const
-    },
-    {
-        id: 3,
-        name: "Lyra",
-        race: "Ankarim",
-        characterClass: "Ladina",
-        level: 8,
-        type: "PC" as const
-    },
-    {
-        id: 4,
-        name: "Eldrin",
-        race: "Elenai",
-        characterClass: "Sábio",
-        level: 12,
-        type: "NPC" as const
-    }
-];
+import { useEffect, useState } from "react";
+import { createClient } from "@/lib/supabase";
+import { Character } from "@/types/character";
+import { Loader2 } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 export default function CharactersPage() {
     const { user } = useAuth();
+    const router = useRouter();
+    const [characters, setCharacters] = useState<Character[]>([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        async function fetchCharacters() {
+            if (!user) {
+                setLoading(false);
+                return;
+            }
+
+            const supabase = createClient();
+            const { data, error } = await supabase
+                .from('characters')
+                .select('*')
+                .eq('user_id', user.id)
+                .order('created_at', { ascending: false });
+
+            if (error) {
+                console.error("Error fetching characters:", error);
+            } else {
+                setCharacters(data || []);
+            }
+            setLoading(false);
+        }
+
+        fetchCharacters();
+    }, [user]);
+
+    const handleDelete = async (id: string) => {
+        if (!confirm("Tem certeza que deseja excluir este personagem?")) return;
+
+        const supabase = createClient();
+        const { error } = await supabase.from('characters').delete().eq('id', id);
+
+        if (error) {
+            console.error("Error deleting character:", error);
+            alert("Erro ao excluir personagem");
+        } else {
+            setCharacters(prev => prev.filter(c => c.id !== id));
+        }
+    };
+
     return (
         <div className="container mx-auto py-24 px-4 text-center">
             <div className="max-w-4xl mx-auto">
@@ -67,18 +81,21 @@ export default function CharactersPage() {
                                 </Button>
                             </Link>
                         </div>
-                        {MOCK_CHARACTERS.length > 0 ? (
+
+                        {loading ? (
+                            <div className="flex justify-center py-12">
+                                <Loader2 className="h-8 w-8 animate-spin text-gold-500" />
+                            </div>
+                        ) : characters.length > 0 ? (
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                                {MOCK_CHARACTERS.map((char) => (
+                                {characters.map((char) => (
                                     <CharacterCard
                                         key={char.id}
                                         name={char.name}
-                                        race={char.race}
-                                        characterClass={char.characterClass}
-                                        level={char.level}
-                                        type={char.type}
-                                        onEdit={() => console.log(`Edit ${char.name}`)}
-                                        onDelete={() => console.log(`Delete ${char.name}`)}
+                                        lineage={char.lineage}
+                                        vocation={char.vocation}
+                                        onEdit={() => router.push(`/characters/${char.id}/edit`)}
+                                        onDelete={() => char.id && handleDelete(char.id)}
                                     />
                                 ))}
                             </div>
