@@ -2,11 +2,16 @@ import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 import * as ics from 'ics';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend(process.env.RESEND_API_KEY || 're_123');
 
 export async function POST(request: Request) {
     try {
         const { session, campaignTitle, players } = await request.json();
+
+        if (!process.env.RESEND_API_KEY) {
+            console.error('RESEND_API_KEY is missing');
+            return NextResponse.json({ error: 'Email service not configured' }, { status: 500 });
+        }
 
         if (!players || players.length === 0) {
             return NextResponse.json({ message: 'No players to notify' });
